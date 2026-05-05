@@ -1,0 +1,11 @@
+{
+  "initial_capital": 10000.0,
+  "cash": 10000.0,
+  "holdings": [],
+  "trade_history": [],
+  "cooldown_until": null,
+  "consecutive_stop_losses": 0,
+  "peak_capital": 10000.0,
+  "pause_until": null,
+  "last_update": "2026-05-05 21:01:56"
+}
