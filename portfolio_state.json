@@ -1,11 +1,82 @@
 {
   "initial_capital": 10000.0,
-  "cash": 10000.0,
-  "holdings": [],
-  "trade_history": [],
+  "cash": 1062.0595099999994,
+  "holdings": [
+    {
+      "code": "159667",
+      "name": "国泰中证机床ETF",
+      "shares": 1700,
+      "buy_price": 2.05,
+      "buy_date": "2026-05-06",
+      "stop_loss": 1.901,
+      "initial_stop_loss": 1.901,
+      "atr_multiplier": 2.5,
+      "highest_close": 2.086
+    },
+    {
+      "code": "512480",
+      "name": "国联安半导体ETF",
+      "shares": 1800,
+      "buy_price": 1.93,
+      "buy_date": "2026-05-06",
+      "stop_loss": 1.694,
+      "initial_stop_loss": 1.694,
+      "atr_multiplier": 2.5,
+      "highest_close": 1.965
+    },
+    {
+      "code": "159755",
+      "name": "广发国证新能源车电池ETF",
+      "shares": 1600,
+      "buy_price": 1.236,
+      "buy_date": "2026-05-06",
+      "stop_loss": 1.162,
+      "initial_stop_loss": 1.162,
+      "atr_multiplier": 2.5,
+      "highest_close": 1.252
+    }
+  ],
+  "trade_history": [
+    {
+      "date": "2026-05-06",
+      "code": "159667",
+      "name": "国泰中证机床ETF",
+      "action": "BUY",
+      "shares": 1700,
+      "price": 2.05,
+      "amount": 3485.52,
+      "reason": "总分14.2/RPS93/周线6.0/止损距6.6%",
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "date": "2026-05-06",
+      "code": "512480",
+      "name": "国联安半导体ETF",
+      "action": "BUY",
+      "shares": 1800,
+      "price": 1.93,
+      "amount": 3474.52,
+      "reason": "总分14.5/RPS87/周线6.0/止损距6.8%",
+      "pnl": 0,
+      "pnl_pct": 0
+    },
+    {
+      "date": "2026-05-06",
+      "code": "159755",
+      "name": "广发国证新能源车电池ETF",
+      "action": "BUY",
+      "shares": 1600,
+      "price": 1.236,
+      "amount": 1977.9,
+      "reason": "总分14.2/RPS77/周线6.0/止损距5.6%",
+      "pnl": 0,
+      "pnl_pct": 0
+    }
+  ],
   "cooldown_until": null,
   "consecutive_stop_losses": 0,
-  "peak_capital": 10000.0,
+  "peak_capital": 10148.459509999999,
   "pause_until": null,
-  "last_update": "2026-05-05 21:49:03"
+  "last_update": "2026-05-06 10:17:36"
 }
