@@ -11,7 +11,7 @@
       "stop_loss": 1.901,
       "initial_stop_loss": 1.901,
       "atr_multiplier": 2.5,
-      "highest_close": 2.086
+      "highest_close": 2.087
     },
     {
       "code": "512480",
@@ -33,7 +33,7 @@
       "stop_loss": 1.162,
       "initial_stop_loss": 1.162,
       "atr_multiplier": 2.5,
-      "highest_close": 1.252
+      "highest_close": 1.267
     }
   ],
   "trade_history": [
@@ -78,5 +78,5 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10148.459509999999,
   "pause_until": null,
-  "last_update": "2026-05-06 10:17:36"
+  "last_update": "2026-05-06 14:30:20"
 }
