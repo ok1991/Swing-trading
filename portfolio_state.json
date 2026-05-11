@@ -8,10 +8,10 @@
       "shares": 1200,
       "buy_price": 2.05,
       "buy_date": "2026-05-06",
-      "stop_loss": 2.1887999999999996,
+      "stop_loss": 2.18975,
       "initial_stop_loss": 1.901,
       "atr_multiplier": 2.5,
-      "highest_close": 2.304,
+      "highest_close": 2.305,
       "profit_taken_tiers": [
         1
       ],
@@ -29,10 +29,10 @@
       "shares": 1800,
       "buy_price": 1.93,
       "buy_date": "2026-05-06",
-      "stop_loss": 1.9094999999999998,
+      "stop_loss": 1.91425,
       "initial_stop_loss": 1.694,
       "atr_multiplier": 2.5,
-      "highest_close": 2.01,
+      "highest_close": 2.015,
       "profit_taken_tiers": [],
       "score_history": [
         {
@@ -114,9 +114,9 @@
   ],
   "cooldown_until": null,
   "consecutive_stop_losses": 0,
-  "peak_capital": 10555.259509999998,
+  "peak_capital": 10571.686709999998,
   "pause_until": null,
-  "last_update": "2026-05-11 13:50:19",
+  "last_update": "2026-05-11 14:50:18",
   "breadth_history": [],
   "stale_signal_count": 0
 }
