@@ -36,6 +36,10 @@ body{font-family:"PingFang SC","Microsoft YaHei",-apple-system,sans-serif;backgr
 .bm-bull{background:#dc2626}.bm-neutral{background:#94a3b8}.bm-bear{background:#16a34a}
 .breadth-text{font-size:.78rem;white-space:nowrap;color:var(--muted)}
 .breadth-accel{font-size:.72rem;font-weight:700;padding:1px 6px;border-radius:4px;background:#f1f5f9;margin-left:6px}
+/* [v2.3] 极端市场警告 */
+.extreme-warning{margin-top:10px;padding:8px 12px;background:#fef2f2;border:2px solid #dc2626;border-radius:8px;font-size:.82rem;font-weight:700;color:#dc2626;text-align:center;animation:pulse-warning 2s infinite}
+@keyframes pulse-warning{0%,100%{opacity:1}50%{opacity:.7}}
+.extreme-alert{background:#fef2f2!important;border-color:#dc2626!important;font-weight:700!important}
 .card{background:var(--card);border-radius:14px;padding:16px 18px;box-shadow:0 2px 8px rgba(0,0,0,.06);border:1px solid var(--border)}
 .card-title{font-size:1rem;font-weight:800;color:var(--navy-mid);margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--border)}
 .empty-text{color:var(--muted);font-size:.85rem;text-align:center;padding:20px 0}
@@ -73,7 +77,7 @@ tr:hover{background:#f8fafc}
 .act-half{background:#fef9c3;color:#854d0e}
 .act-partial{background:#dbeafe;color:#1e40af}
 .reason-cell{font-size:.72rem;color:var(--muted);max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.risk-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.risk-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
 .risk-item{background:#f8fafc;border-radius:8px;padding:10px;text-align:center}
 .risk-label{font-size:.72rem;color:var(--muted);font-weight:700}
 .risk-val{font-size:1.1rem;font-weight:900;font-family:monospace;margin:4px 0}
@@ -101,11 +105,11 @@ table tbody tr td:first-child::before{display:none}.reason-cell{max-width:100%;w
 
 <header class="hero">
   <div class="hero-inner">
-    <div class="hero-badge">v2.2</div>
+    <div class="hero-badge">v2.3</div>
     <h1>💼 行业ETF波段量化交易系统</h1>
     <p class="hero-sub">波动率归一化 · 5%跟踪止损 · 金字塔止盈(8/15/25%) · T+1</p>
     <p class="hero-sub2">风险预算2%/笔 · 最大仓位80% · 手续费万1</p>
-    <p class="hero-time">📅 2026-05-11 14:50:21</p>
+    <p class="hero-time">📅 2026-05-12 14:50:18</p>
   </div>
   <div class="hero-gold-line"></div>
 </header>
@@ -113,50 +117,51 @@ table tbody tr td:first-child::before{display:none}.reason-cell{max-width:100%;w
   <div class="env-strip"></div>
   <div class="env-body">
     <div class="env-header">
-      <div><h3>✅ 大盘: <span class="env-status">偏多</span></h3>
+      <div><h3>🚀 大盘: <span class="env-status">强多头</span></h3>
         <span class="env-sub">沪深300ETF (510300)</span></div>
-      <div class="env-score" style="color:#dc2626">+4.2</div>
+      <div class="env-score" style="color:#dc2626">+6.4</div>
     </div>
-    <p class="env-desc">仓位上限 <strong>85%</strong> · ATR止损 <strong>2.3x</strong> · ATR百分位 <strong>1%</strong></p>
+    <p class="env-desc">仓位上限 <strong>91%</strong> · ATR止损 <strong>2.5x</strong> · ATR百分位 <strong>8%</strong></p>
     
     <div class="breadth-row">
       <div class="breadth-bar-mini">
-        <span class="bm-bull" style="width:59%"></span>
-        <span class="bm-neutral" style="width:14%"></span>
-        <span class="bm-bear" style="width:28%"></span>
+        <span class="bm-bull" style="width:64%"></span>
+        <span class="bm-neutral" style="width:18%"></span>
+        <span class="bm-bear" style="width:18%"></span>
       </div>
-      <span class="breadth-text">多空比 <strong style="color:#dc2626">2.12</strong> → 偏多 </span>
+      <span class="breadth-text">多空比 <strong style="color:#dc2626">3.50</strong> → 极度乐观 </span>
     </div>
+    
   </div>
-</div><section class="stats-grid"><div class="stat-card stat-red"><div class="stat-icon">💰</div><div class="stat-info"><div class="stat-val">10,572</div><div class="stat-label">总资产(元)</div></div></div><div class="stat-card stat-blue"><div class="stat-icon">💵</div><div class="stat-info"><div class="stat-val">2,214</div><div class="stat-label">可用现金(元)</div></div></div><div class="stat-card stat-purple"><div class="stat-icon">📊</div><div class="stat-info"><div class="stat-val">8,358</div><div class="stat-label">持仓市值(元)</div></div></div><div class="stat-card stat-orange"><div class="stat-icon">📈</div><div class="stat-info"><div class="stat-val"><span style='color:#dc2626'>+572</span></div><div class="stat-label">总盈亏(元)</div></div></div><div class="stat-card stat-green"><div class="stat-icon">📉</div><div class="stat-info"><div class="stat-val"><span style='color:#64748b'>0.0%</span></div><div class="stat-label">当前回撤</div></div></div><div class="stat-card stat-blue"><div class="stat-icon">🏔️</div><div class="stat-info"><div class="stat-val">10,572</div><div class="stat-label">资产峰值(元)</div></div></div></section>
-<section class="card"><div class="card-title">📋 今日交易指令</div><div class="order-list"><div class="order-alert">🚫 持仓已满: 3/3</div><div class="order-alert">ℹ️ 今日已有交易记录, 跳过执行</div></div></section><section class="table-section">
+</div><section class="stats-grid"><div class="stat-card stat-red"><div class="stat-icon">💰</div><div class="stat-info"><div class="stat-val">10,531</div><div class="stat-label">总资产(元)</div></div></div><div class="stat-card stat-blue"><div class="stat-icon">💵</div><div class="stat-info"><div class="stat-val">2,214</div><div class="stat-label">可用现金(元)</div></div></div><div class="stat-card stat-purple"><div class="stat-icon">📊</div><div class="stat-info"><div class="stat-val">8,317</div><div class="stat-label">持仓市值(元)</div></div></div><div class="stat-card stat-orange"><div class="stat-icon">📈</div><div class="stat-info"><div class="stat-val"><span style='color:#dc2626'>+531</span></div><div class="stat-label">总盈亏(元)</div></div></div><div class="stat-card stat-green"><div class="stat-icon">📉</div><div class="stat-info"><div class="stat-val"><span style='color:#64748b'>-0.4%</span></div><div class="stat-label">当前回撤</div></div></div><div class="stat-card stat-blue"><div class="stat-icon">🏔️</div><div class="stat-info"><div class="stat-val">10,572</div><div class="stat-label">资产峰值(元)</div></div></div></section>
+<section class="card"><div class="card-title">📋 今日交易指令</div><div class="order-list"><div class="order-alert">🚫 持仓已满: 3/3</div></div></section><section class="table-section">
   <div class="table-header-bar"><h2>🏦 当前持仓</h2><span class="table-hint">止损距&lt;3%危险 | T标记=已部分止盈 | 💎=T1锁仓</span></div>
   <div class="table-card"><table><thead><tr>
     <th>标的</th><th>持仓</th><th>成本</th><th>现价</th><th>市值</th><th>盈亏</th><th>止损线</th><th>持仓天数</th>
   </tr></thead><tbody><tr style="border-left:4px solid #dc2626">
   <td data-label="标的"><div class="code-title"><span class="code-name">国泰中证机床ETF</span><span class="code-num">159667</span></div></td>
-  <td data-label="持仓">1200份 <span class="tier-badge">T1✓</span></td>
-  <td data-label="成本">2.050</td><td data-label="现价">2.305</td>
-  <td data-label="市值">2,766</td>
-  <td data-label="盈亏" style="color:#dc2626">+306(+12.4%)</td>
-  <td data-label="止损">2.190 <span style="color:#dc2626">🛡️5.0%</span></td>
-  <td data-label="天数" style="color:#64748b">5/35天</td>
+  <td data-label="持仓">1200份 <span class="tier-badge">T1✓</span> <span style="color:#16a34a;font-size:.72rem">评分↓</span></td>
+  <td data-label="成本">2.050</td><td data-label="现价">2.284</td>
+  <td data-label="市值">2,741</td>
+  <td data-label="盈亏" style="color:#dc2626">+281(+11.4%)</td>
+  <td data-label="止损">2.190 <span style="color:#dc2626">🛡️4.1%</span></td>
+  <td data-label="天数" style="color:#64748b">6/35天</td>
 </tr><tr style="border-left:4px solid #dc2626">
   <td data-label="标的"><div class="code-title"><span class="code-name">国联安半导体ETF</span><span class="code-num">512480</span></div></td>
-  <td data-label="持仓">1800份</td>
-  <td data-label="成本">1.930</td><td data-label="现价">2.015</td>
-  <td data-label="市值">3,627</td>
-  <td data-label="盈亏" style="color:#dc2626">+153(+4.4%)</td>
-  <td data-label="止损">1.914 <span style="color:#dc2626">🛡️5.0%</span></td>
-  <td data-label="天数" style="color:#64748b">5/35天</td>
+  <td data-label="持仓">1800份 <span style="color:#16a34a;font-size:.72rem">评分↓</span></td>
+  <td data-label="成本">1.930</td><td data-label="现价">2.025</td>
+  <td data-label="市值">3,645</td>
+  <td data-label="盈亏" style="color:#dc2626">+171(+4.9%)</td>
+  <td data-label="止损">1.924 <span style="color:#dc2626">🛡️5.0%</span></td>
+  <td data-label="天数" style="color:#64748b">6/35天</td>
 </tr><tr style="border-left:4px solid #16a34a">
   <td data-label="标的"><div class="code-title"><span class="code-name">广发国证新能源车电池ETF</span><span class="code-num">159755</span></div></td>
-  <td data-label="持仓">1600份</td>
-  <td data-label="成本">1.236</td><td data-label="现价">1.228</td>
-  <td data-label="市值">1,965</td>
-  <td data-label="盈亏" style="color:#16a34a">-13(-0.6%)</td>
-  <td data-label="止损">1.206 <span style="color:#ca8a04">⚠️1.8%</span></td>
-  <td data-label="天数" style="color:#64748b">5/35天</td>
+  <td data-label="持仓">1600份 <span style="color:#dc2626;font-size:.72rem">评分↑</span></td>
+  <td data-label="成本">1.236</td><td data-label="现价">1.207</td>
+  <td data-label="市值">1,931</td>
+  <td data-label="盈亏" style="color:#16a34a">-46(-2.3%)</td>
+  <td data-label="止损">1.206 <span style="color:#ca8a04">⚠️0.0%</span></td>
+  <td data-label="天数" style="color:#64748b">6/35天</td>
 </tr></tbody></table></div></section>
 <section class="table-section">
   <div class="table-header-bar"><h2>📜 交易历史(近30笔)</h2></div>
@@ -190,12 +195,12 @@ table tbody tr td:first-child::before{display:none}.reason-cell{max-width:100%;w
   <td data-label="数量">1700份</td><td data-label="价格">2.050</td>
   <td data-label="盈亏"></td>
   <td data-label="原因" class="reason-cell">总分14.2/RPS93/周线6.0/止损距6.6%</td>
-</tr></tbody></table></div></section><section class="card"><div class="card-title">🛡️ 风控状态</div><div class="risk-grid"><div class="risk-item"><div class="risk-label">回撤</div><div class="risk-val" style="color:#16a34a">0.0%</div><div class="risk-note">低</div></div><div class="risk-item"><div class="risk-label">连续止损</div><div class="risk-val" style="color:#64748b">0次</div><div class="risk-note">≤3</div></div><div class="risk-item"><div class="risk-label">冷静期</div><div class="risk-val" style="color:#64748b">无</div><div class="risk-note">渐进1→3天</div></div><div class="risk-item"><div class="risk-label">过期信号</div><div class="risk-val" style="color:#64748b">0个</div><div class="risk-note">数据>7天</div></div></div></section>
+</tr></tbody></table></div></section><section class="card"><div class="card-title">🛡️ 风控状态</div><div class="risk-grid"><div class="risk-item"><div class="risk-label">回撤</div><div class="risk-val" style="color:#16a34a">-0.4%</div><div class="risk-note">低</div></div><div class="risk-item"><div class="risk-label">连续止损</div><div class="risk-val" style="color:#64748b">0次</div><div class="risk-note">≤3</div></div><div class="risk-item"><div class="risk-label">冷静期</div><div class="risk-val" style="color:#64748b">无</div><div class="risk-note">渐进1→3天</div></div><div class="risk-item"><div class="risk-label">过期信号</div><div class="risk-val" style="color:#64748b">0个</div><div class="risk-note">数据>7天</div></div><div class="risk-item"><div class="risk-label">极端市场</div><div class="risk-val" style="color:#16a34a">未触发</div><div class="risk-note">保护机制待命</div></div></div></section>
 <footer class="footer">
   <div class="footer-accent"></div>
   <p>💡 行业ETF专用: 跟踪止损5% · 利润层级8/15/25% · 金字塔止盈 · 风险预算2%/笔</p>
   <p>💡 三重门控入场 · 硬止损 + 跟踪止损 + 时间止盈(45天) · 渐进式冷静期</p>
-  <p>📊 v2.2: 多日评分趋势 · 动态止损距 · 信号时间衰减 · 宽度二阶导数 · T1锁仓再投资</p>
+  <p>📊 v2.3: 极端市场应对 · T1锁仓止损收紧 · 多日评分趋势 · 动态止损距 · 信号时间衰减 · 宽度二阶导数</p>
   <p class="footer-disclaimer">⚠️ 量化辅助工具，TG推送后手动下单。不构成投资建议。</p>
 </footer>
 </div>
