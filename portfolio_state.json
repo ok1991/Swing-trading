@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 2213.8867099999993,
+  "cash": 4138.3979899999995,
   "holdings": [
     {
       "code": "159667",
@@ -8,10 +8,10 @@
       "shares": 1200,
       "buy_price": 2.05,
       "buy_date": "2026-05-06",
-      "stop_loss": 2.18975,
+      "stop_loss": 2.2192,
       "initial_stop_loss": 1.901,
       "atr_multiplier": 2.5,
-      "highest_close": 2.305,
+      "highest_close": 2.336,
       "profit_taken_tiers": [
         1
       ],
@@ -23,6 +23,10 @@
         {
           "date": "2026-05-12",
           "score": 16.4
+        },
+        {
+          "date": "2026-05-13",
+          "score": 16.4
         }
       ],
       "t1_locked": false
@@ -33,10 +37,10 @@
       "shares": 1800,
       "buy_price": 1.93,
       "buy_date": "2026-05-06",
-      "stop_loss": 1.9237499999999998,
+      "stop_loss": 1.9740999999999997,
       "initial_stop_loss": 1.694,
       "atr_multiplier": 2.5,
-      "highest_close": 2.025,
+      "highest_close": 2.078,
       "profit_taken_tiers": [],
       "score_history": [
         {
@@ -46,29 +50,10 @@
         {
           "date": "2026-05-12",
           "score": 14.5
-        }
-      ],
-      "t1_locked": false
-    },
-    {
-      "code": "159755",
-      "name": "广发国证新能源车电池ETF",
-      "shares": 1600,
-      "buy_price": 1.236,
-      "buy_date": "2026-05-06",
-      "stop_loss": 1.2065,
-      "initial_stop_loss": 1.162,
-      "atr_multiplier": 2.5,
-      "highest_close": 1.27,
-      "profit_taken_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-05-11",
-          "score": 13.1
         },
         {
-          "date": "2026-05-12",
-          "score": 13.2
+          "date": "2026-05-13",
+          "score": 14.5
         }
       ],
       "t1_locked": false
@@ -122,13 +107,27 @@
       "reason": "金字塔止盈T1: 浮盈12.4%≥8%",
       "pnl": 126.83,
       "pnl_pct": 12.37
+    },
+    {
+      "date": "2026-05-13",
+      "code": "159755",
+      "name": "广发国证新能源车电池ETF",
+      "action": "SELL",
+      "shares": 1600,
+      "price": 1.203,
+      "amount": 1924.51,
+      "reason": "破位止损: 现1.203≤止损1.206",
+      "pnl": -53.09,
+      "pnl_pct": -2.68,
+      "timestamp": "2026-05-13 14:06:47",
+      "buy_date": "2026-05-06"
     }
   ],
-  "cooldown_until": null,
-  "consecutive_stop_losses": 0,
-  "peak_capital": 10571.686709999998,
+  "cooldown_until": "2026-05-14",
+  "consecutive_stop_losses": 1,
+  "peak_capital": 10682.286709999998,
   "pause_until": null,
-  "last_update": "2026-05-12 14:50:18",
+  "last_update": "2026-05-13 14:06:47",
   "breadth_history": [],
   "stale_signal_count": 0,
   "extreme_market_count": 0,
