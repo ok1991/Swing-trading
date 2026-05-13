@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4138.3979899999995,
+  "cash": 5389.8102499999995,
   "holdings": [
     {
       "code": "159667",
@@ -34,14 +34,16 @@
     {
       "code": "512480",
       "name": "国联安半导体ETF",
-      "shares": 1800,
+      "shares": 1200,
       "buy_price": 1.93,
       "buy_date": "2026-05-06",
-      "stop_loss": 1.9740999999999997,
+      "stop_loss": 1.9816999999999998,
       "initial_stop_loss": 1.694,
       "atr_multiplier": 2.5,
-      "highest_close": 2.078,
-      "profit_taken_tiers": [],
+      "highest_close": 2.086,
+      "profit_taken_tiers": [
+        1
+      ],
       "score_history": [
         {
           "date": "2026-05-11",
@@ -121,13 +123,27 @@
       "pnl_pct": -2.68,
       "timestamp": "2026-05-13 14:06:47",
       "buy_date": "2026-05-06"
+    },
+    {
+      "date": "2026-05-13",
+      "code": "512480",
+      "name": "国联安半导体ETF",
+      "action": "SELL_PARTIAL",
+      "shares": 600,
+      "price": 2.086,
+      "amount": 1251.41,
+      "reason": "金字塔止盈T1: 浮盈8.1%≥8%",
+      "pnl": 93.41,
+      "pnl_pct": 8.07,
+      "timestamp": "2026-05-13 14:50:21",
+      "buy_date": "2026-05-06"
     }
   ],
   "cooldown_until": "2026-05-14",
-  "consecutive_stop_losses": 1,
-  "peak_capital": 10682.286709999998,
+  "consecutive_stop_losses": 0,
+  "peak_capital": 10696.39799,
   "pause_until": null,
-  "last_update": "2026-05-13 14:06:47",
+  "last_update": "2026-05-13 14:50:21",
   "breadth_history": [],
   "stale_signal_count": 0,
   "extreme_market_count": 0,
