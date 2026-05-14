@@ -8,18 +8,14 @@
       "shares": 1200,
       "buy_price": 2.05,
       "buy_date": "2026-05-06",
-      "stop_loss": 2.2192,
+      "stop_loss": 2.2211,
       "initial_stop_loss": 1.901,
       "atr_multiplier": 2.5,
-      "highest_close": 2.336,
+      "highest_close": 2.338,
       "profit_taken_tiers": [
         1
       ],
       "score_history": [
-        {
-          "date": "2026-05-11",
-          "score": 19.5
-        },
         {
           "date": "2026-05-12",
           "score": 16.4
@@ -27,9 +23,14 @@
         {
           "date": "2026-05-13",
           "score": 16.4
+        },
+        {
+          "date": "2026-05-14",
+          "score": 19.6
         }
       ],
-      "t1_locked": false
+      "t1_locked": false,
+      "t1_locked_date": ""
     },
     {
       "code": "512480",
@@ -37,18 +38,14 @@
       "shares": 1200,
       "buy_price": 1.93,
       "buy_date": "2026-05-06",
-      "stop_loss": 1.9816999999999998,
+      "stop_loss": 1.9930999999999999,
       "initial_stop_loss": 1.694,
       "atr_multiplier": 2.5,
-      "highest_close": 2.086,
+      "highest_close": 2.098,
       "profit_taken_tiers": [
         1
       ],
       "score_history": [
-        {
-          "date": "2026-05-11",
-          "score": 15.9
-        },
         {
           "date": "2026-05-12",
           "score": 14.5
@@ -56,9 +53,14 @@
         {
           "date": "2026-05-13",
           "score": 14.5
+        },
+        {
+          "date": "2026-05-14",
+          "score": 15.7
         }
       ],
-      "t1_locked": false
+      "t1_locked": false,
+      "t1_locked_date": ""
     }
   ],
   "trade_history": [
@@ -141,9 +143,9 @@
   ],
   "cooldown_until": "2026-05-14",
   "consecutive_stop_losses": 0,
-  "peak_capital": 10696.39799,
+  "peak_capital": 10713.01025,
   "pause_until": null,
-  "last_update": "2026-05-13 14:50:21",
+  "last_update": "2026-05-14 09:50:23",
   "breadth_history": [],
   "stale_signal_count": 0,
   "extreme_market_count": 0,
