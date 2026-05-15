@@ -17,16 +17,16 @@
       ],
       "score_history": [
         {
-          "date": "2026-05-12",
-          "score": 16.4
-        },
-        {
           "date": "2026-05-13",
           "score": 16.4
         },
         {
           "date": "2026-05-14",
           "score": 19.6
+        },
+        {
+          "date": "2026-05-15",
+          "score": 15.9
         }
       ],
       "t1_locked": false,
@@ -47,16 +47,16 @@
       ],
       "score_history": [
         {
-          "date": "2026-05-12",
-          "score": 14.5
-        },
-        {
           "date": "2026-05-13",
           "score": 14.5
         },
         {
           "date": "2026-05-14",
           "score": 15.7
+        },
+        {
+          "date": "2026-05-15",
+          "score": 15.9
         }
       ],
       "t1_locked": false,
@@ -145,7 +145,7 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10713.01025,
   "pause_until": null,
-  "last_update": "2026-05-14 14:50:17",
+  "last_update": "2026-05-15 14:30:25",
   "breadth_history": [],
   "stale_signal_count": 0,
   "extreme_market_count": 0,
