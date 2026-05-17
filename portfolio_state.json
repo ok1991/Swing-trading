@@ -26,11 +26,21 @@
         },
         {
           "date": "2026-05-15",
-          "score": 15.9
+          "score": 16.5
         }
       ],
       "t1_locked": false,
-      "t1_locked_date": ""
+      "t1_locked_date": "",
+      "forward_rr": {
+        "rr_ratio": 2.74,
+        "target": 2.4753749999999997,
+        "upside_pct": 8.14,
+        "downside_pct": 2.97,
+        "action": "WATCH_ONLY",
+        "reason": "R/R正常2.74",
+        "signal_quality": 0.77
+      },
+      "extreme_protected": false
     },
     {
       "code": "512480",
@@ -56,11 +66,21 @@
         },
         {
           "date": "2026-05-15",
-          "score": 15.9
+          "score": 15.8
         }
       ],
       "t1_locked": false,
-      "t1_locked_date": ""
+      "t1_locked_date": "",
+      "forward_rr": {
+        "rr_ratio": 7.05,
+        "target": 2.330475,
+        "upside_pct": 14.52,
+        "downside_pct": 2.06,
+        "action": "WATCH_ONLY",
+        "reason": "R/R正常7.05",
+        "signal_quality": 0.74
+      },
+      "extreme_protected": false
     }
   ],
   "trade_history": [
@@ -145,8 +165,13 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10713.01025,
   "pause_until": null,
-  "last_update": "2026-05-15 14:50:17",
-  "breadth_history": [],
+  "last_update": "2026-05-17 22:37:15",
+  "breadth_history": [
+    {
+      "date": "2026-05-15",
+      "bull_pct": 39.3
+    }
+  ],
   "stale_signal_count": 0,
   "extreme_market_count": 0,
   "last_extreme_date": ""
