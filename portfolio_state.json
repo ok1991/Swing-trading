@@ -32,12 +32,12 @@
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": {
-        "rr_ratio": 1.27,
+        "rr_ratio": 1.5,
         "target": 2.4753749999999997,
-        "upside_pct": 6.1,
-        "downside_pct": 4.8,
+        "upside_pct": 6.56,
+        "downside_pct": 4.39,
         "action": "WATCH_ONLY",
-        "reason": "R/R正常1.27",
+        "reason": "R/R正常1.50",
         "signal_quality": 0.77
       },
       "extreme_protected": false
@@ -72,12 +72,12 @@
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": {
-        "rr_ratio": 2.21,
+        "rr_ratio": 4.91,
         "target": 2.330475,
-        "upside_pct": 11.03,
-        "downside_pct": 5.0,
+        "upside_pct": 13.63,
+        "downside_pct": 2.78,
         "action": "WATCH_ONLY",
-        "reason": "R/R正常2.21",
+        "reason": "R/R正常4.91",
         "signal_quality": 0.74
       },
       "extreme_protected": false
@@ -165,7 +165,7 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10713.01025,
   "pause_until": null,
-  "last_update": "2026-05-18 09:50:17",
+  "last_update": "2026-05-18 14:30:17",
   "breadth_history": [
     {
       "date": "2026-05-15",
