@@ -8,10 +8,10 @@
       "shares": 1200,
       "buy_price": 2.05,
       "buy_date": "2026-05-06",
-      "stop_loss": 2.22965,
+      "stop_loss": 2.23345,
       "initial_stop_loss": 1.901,
       "atr_multiplier": 2.5,
-      "highest_close": 2.347,
+      "highest_close": 2.351,
       "profit_taken_tiers": [
         1
       ],
@@ -32,12 +32,12 @@
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": {
-        "rr_ratio": 1.09,
+        "rr_ratio": 1.06,
         "target": 2.4753749999999997,
-        "upside_pct": 5.47,
+        "upside_pct": 5.29,
         "downside_pct": 5.0,
         "action": "WATCH_ONLY",
-        "reason": "R/R正常1.09",
+        "reason": "R/R正常1.06",
         "signal_quality": 0.75
       },
       "extreme_protected": false
@@ -48,10 +48,10 @@
       "shares": 1200,
       "buy_price": 1.93,
       "buy_date": "2026-05-06",
-      "stop_loss": 1.99405,
+      "stop_loss": 2.0216,
       "initial_stop_loss": 1.694,
       "atr_multiplier": 2.5,
-      "highest_close": 2.099,
+      "highest_close": 2.128,
       "profit_taken_tiers": [
         1
       ],
@@ -72,12 +72,12 @@
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": {
-        "rr_ratio": 2.24,
+        "rr_ratio": 1.9,
         "target": 2.330475,
-        "upside_pct": 11.08,
-        "downside_pct": 4.95,
+        "upside_pct": 9.51,
+        "downside_pct": 5.0,
         "action": "WATCH_ONLY",
-        "reason": "R/R正常2.24",
+        "reason": "R/R正常1.90",
         "signal_quality": 0.74
       },
       "extreme_protected": false
@@ -163,9 +163,9 @@
   ],
   "cooldown_until": "2026-05-14",
   "consecutive_stop_losses": 0,
-  "peak_capital": 10723.810249999999,
+  "peak_capital": 10764.61025,
   "pause_until": null,
-  "last_update": "2026-05-19 14:05:19",
+  "last_update": "2026-05-19 14:55:17",
   "breadth_history": [
     {
       "date": "2026-05-15",
