@@ -1,85 +1,39 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5389.8102499999995,
+  "cash": 5427.784309999999,
   "holdings": [
     {
-      "code": "159667",
-      "name": "国泰中证机床ETF",
-      "shares": 1200,
-      "buy_price": 2.05,
-      "buy_date": "2026-05-06",
-      "stop_loss": 2.23345,
-      "initial_stop_loss": 1.901,
-      "atr_multiplier": 2.5,
-      "highest_close": 2.351,
-      "profit_taken_tiers": [
-        1
-      ],
-      "score_history": [
-        {
-          "date": "2026-05-13",
-          "score": 16.4
-        },
-        {
-          "date": "2026-05-14",
-          "score": 19.6
-        },
-        {
-          "date": "2026-05-15",
-          "score": 16.6
-        }
-      ],
+      "code": "588170",
+      "name": "华夏上证科创板半导体材料设备主题ETF",
+      "shares": 500,
+      "buy_price": 2.687,
+      "buy_date": "2026-05-15",
+      "stop_loss": 2.282,
+      "initial_stop_loss": 2.282,
+      "atr_multiplier": 2.1,
+      "highest_close": 2.687,
+      "profit_taken_tiers": [],
+      "score_history": [],
       "t1_locked": false,
       "t1_locked_date": "",
-      "forward_rr": {
-        "rr_ratio": 1.08,
-        "target": 2.4753749999999997,
-        "upside_pct": 5.34,
-        "downside_pct": 4.96,
-        "action": "WATCH_ONLY",
-        "reason": "R/R正常1.08",
-        "signal_quality": 0.75
-      },
+      "forward_rr": null,
       "extreme_protected": false
     },
     {
-      "code": "512480",
-      "name": "国联安半导体ETF",
-      "shares": 1200,
-      "buy_price": 1.93,
-      "buy_date": "2026-05-06",
-      "stop_loss": 2.02445,
-      "initial_stop_loss": 1.694,
-      "atr_multiplier": 2.5,
-      "highest_close": 2.131,
-      "profit_taken_tiers": [
-        1
-      ],
-      "score_history": [
-        {
-          "date": "2026-05-13",
-          "score": 14.5
-        },
-        {
-          "date": "2026-05-14",
-          "score": 15.7
-        },
-        {
-          "date": "2026-05-15",
-          "score": 15.8
-        }
-      ],
+      "code": "159611",
+      "name": "广发中证全指电力ETF",
+      "shares": 3500,
+      "buy_price": 1.159,
+      "buy_date": "2026-05-15",
+      "stop_loss": 1.161,
+      "initial_stop_loss": 1.161,
+      "atr_multiplier": 2.1,
+      "highest_close": 1.159,
+      "profit_taken_tiers": [],
+      "score_history": [],
       "t1_locked": false,
       "t1_locked_date": "",
-      "forward_rr": {
-        "rr_ratio": 1.87,
-        "target": 2.330475,
-        "upside_pct": 9.36,
-        "downside_pct": 5.0,
-        "action": "WATCH_ONLY",
-        "reason": "R/R正常1.87",
-        "signal_quality": 0.74
-      },
+      "forward_rr": null,
       "extreme_protected": false
     }
   ],
@@ -159,17 +113,69 @@
       "pnl_pct": 8.07,
       "timestamp": "2026-05-13 14:50:21",
       "buy_date": "2026-05-06"
+    },
+    {
+      "date": "2026-05-15",
+      "code": "159667",
+      "name": "国泰中证机床ETF",
+      "action": "SELL",
+      "shares": 1200,
+      "price": 2.359,
+      "amount": 2830.38,
+      "reason": "信号恶化+R/R极差(0.1)",
+      "pnl": 370.38,
+      "pnl_pct": 15.06,
+      "timestamp": "2026-05-20 09:50:21"
+    },
+    {
+      "date": "2026-05-15",
+      "code": "512480",
+      "name": "国联安半导体ETF",
+      "action": "SELL",
+      "shares": 1200,
+      "price": 2.174,
+      "amount": 2608.41,
+      "reason": "信号恶化+R/R极差(0.1)",
+      "pnl": 292.41,
+      "pnl_pct": 12.63,
+      "timestamp": "2026-05-20 09:50:21"
+    },
+    {
+      "date": "2026-05-15",
+      "code": "588170",
+      "name": "华夏上证科创板半导体材料设备主题ETF",
+      "action": "BUY",
+      "shares": 500,
+      "price": 2.687,
+      "amount": 1343.7,
+      "reason": "总分19.1/RPS100/优先0.71",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "timestamp": "2026-05-20 13:29:18"
+    },
+    {
+      "date": "2026-05-15",
+      "code": "159611",
+      "name": "广发中证全指电力ETF",
+      "action": "BUY",
+      "shares": 3500,
+      "price": 1.159,
+      "amount": 4057.11,
+      "reason": "总分18.4/RPS76/优先0.66",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "timestamp": "2026-05-20 13:29:18"
     }
   ],
   "cooldown_until": "2026-05-14",
   "consecutive_stop_losses": 0,
-  "peak_capital": 10767.01025,
+  "peak_capital": 10829.41025,
   "pause_until": null,
-  "last_update": "2026-05-19 20:47:17",
+  "last_update": "2026-05-20 13:29:18",
   "breadth_history": [
     {
       "date": "2026-05-15",
-      "bull_pct": 35.7
+      "bull_pct": 45.7
     }
   ],
   "stale_signal_count": 0,
