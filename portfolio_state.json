@@ -1,17 +1,17 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9489.39346,
+  "cash": 9488.893385,
   "holdings": [
     {
       "code": "588170",
       "name": "华夏上证科创板半导体材料设备主题ETF",
       "shares": 500,
-      "buy_price": 2.678,
+      "buy_price": 2.679,
       "buy_date": "2026-05-15",
       "stop_loss": 2.282,
       "initial_stop_loss": 2.282,
       "atr_multiplier": 2.1,
-      "highest_close": 2.678,
+      "highest_close": 2.679,
       "profit_taken_tiers": [],
       "score_history": [],
       "t1_locked": false,
@@ -129,19 +129,19 @@
       "name": "华夏上证科创板半导体材料设备主题ETF",
       "action": "BUY",
       "shares": 500,
-      "price": 2.678,
-      "amount": 1339.2,
+      "price": 2.679,
+      "amount": 1339.7,
       "reason": "总分19.1/RPS100/优先0.71",
       "pnl": 0,
       "pnl_pct": 0,
-      "timestamp": "2026-05-20 14:11:09"
+      "timestamp": "2026-05-20 14:29:21"
     }
   ],
   "cooldown_until": "2026-05-14",
   "consecutive_stop_losses": 0,
   "peak_capital": 10829.41025,
   "pause_until": null,
-  "last_update": "2026-05-20 14:11:09",
+  "last_update": "2026-05-20 14:29:21",
   "breadth_history": [
     {
       "date": "2026-05-15",
