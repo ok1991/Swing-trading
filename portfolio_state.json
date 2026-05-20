@@ -11,7 +11,7 @@
       "stop_loss": 2.282,
       "initial_stop_loss": 2.282,
       "atr_multiplier": 2.1,
-      "highest_close": 2.711,
+      "highest_close": 2.719,
       "profit_taken_tiers": [],
       "score_history": [
         {
@@ -144,9 +144,9 @@
   ],
   "cooldown_until": "2026-05-14",
   "consecutive_stop_losses": 0,
-  "peak_capital": 10838.392485,
+  "peak_capital": 10842.392485,
   "pause_until": null,
-  "last_update": "2026-05-20 14:55:20",
+  "last_update": "2026-05-20 20:33:22",
   "breadth_history": [
     {
       "date": "2026-05-15",
@@ -154,7 +154,7 @@
     },
     {
       "date": "2026-05-20",
-      "bull_pct": 45.7
+      "bull_pct": 42.9
     }
   ],
   "stale_signal_count": 0,
