@@ -136,7 +136,7 @@
   "consecutive_stop_losses": 1,
   "peak_capital": 10842.392485,
   "pause_until": null,
-  "last_update": "2026-05-22 09:45:19",
+  "last_update": "2026-05-22 13:15:56",
   "breadth_history": [
     {
       "date": "2026-05-15",
@@ -157,5 +157,6 @@
   ],
   "stale_signal_count": 0,
   "extreme_market_count": 0,
-  "last_extreme_date": ""
+  "last_extreme_date": "",
+  "max_drawdown": -0.005644028758842697
 }
