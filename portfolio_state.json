@@ -136,7 +136,7 @@
   "consecutive_stop_losses": 1,
   "peak_capital": 10842.392485,
   "pause_until": null,
-  "last_update": "2026-05-22 14:55:17",
+  "last_update": "2026-05-23 18:51:12",
   "breadth_history": [
     {
       "date": "2026-05-15",
@@ -152,7 +152,7 @@
     },
     {
       "date": "2026-05-22",
-      "bull_pct": 33.3
+      "bull_pct": 44.4
     }
   ],
   "stale_signal_count": 0,
