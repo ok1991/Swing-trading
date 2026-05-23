@@ -3,361 +3,1048 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>ETF Intelligence · Quant Portfolio Report</title>
+<title>ETF Intelligence · Quant Trading Report</title>
 <style>
-:root{--primary:#0052ff;--primary-active:#003ecc;--primary-disabled:#a8b8cc;--canvas:#fff;--surface-soft:#f7f7f7;--surface-strong:#eef0f3;--surface-dark:#0a0b0d;--surface-dark-elevated:#16181c;--hairline:#dee1e6;--hairline-soft:#eef0f3;--ink:#0a0b0d;--body:#5b616e;--body-strong:#0a0b0d;--muted:#7c828a;--muted-soft:#a8acb3;--on-primary:#fff;--on-dark:#fff;--on-dark-soft:#a8acb3;--semantic-up:#05b169;--semantic-down:#cf202f;--radius-xl:24px;--radius-lg:16px;--radius-md:12px;--radius-pill:100px;--radius-full:9999px;--shadow-soft:0 4px 12px rgba(0,0,0,.04);--display:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif;--sans:-apple-system,BlinkMacSystemFont,"Inter","Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Microsoft YaHei",sans-serif;--mono:"JetBrains Mono","Geist Mono","SFMono-Regular",Consolas,"Liberation Mono",monospace}
+:root{
+  --kraken-purple:#7132f5;
+  --kraken-purple-dark:#5741d8;
+  --kraken-purple-deep:#5b1ecf;
+  --kraken-purple-subtle:rgba(133,91,251,.16);
+
+  --text:#101114;
+  --muted:#686b82;
+  --muted-2:#9497a9;
+  --border:#dedee5;
+
+  --bg:#ffffff;
+  --surface:#ffffff;
+  --surface-soft:#fbfbfd;
+
+  --success:#149e61;
+  --success-bg:rgba(20,158,97,.16);
+  --success-text:#026b3f;
+
+  --warning:#a36b00;
+  --warning-bg:rgba(163,107,0,.12);
+
+  --danger:#cf202f;
+  --danger-bg:rgba(207,32,47,.12);
+
+  --shadow:0 4px 24px rgba(0,0,0,.03);
+  --shadow-micro:0 1px 4px rgba(16,24,40,.04);
+
+  --r-btn:12px;
+  --r-card:16px;
+  --r-badge:8px;
+
+  --display:"Kraken-Brand","IBM Plex Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --ui:"Kraken-Product","IBM Plex Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  --mono:"JetBrains Mono","SFMono-Regular",Consolas,"Liberation Mono",monospace;
+}
+
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:var(--sans);background:var(--canvas);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased}
-a{color:inherit;text-decoration:none}
-main{background:var(--canvas)}
-.container{width:min(1200px,calc(100% - 40px));margin:0 auto}
-.number{font-family:var(--mono);font-variant-numeric:tabular-nums}
-.is-up{color:var(--semantic-up)!important}
-.is-down{color:var(--semantic-down)!important}
-.is-muted,.muted{color:var(--muted)!important}
+body{
+  font-family:var(--ui);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.38;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+main{padding-bottom:48px}
+section[id]{scroll-margin-top:92px}
 
-.hero-band-dark{background:var(--surface-dark);color:var(--on-dark);overflow:hidden}
-.top-nav{height:64px;width:min(1200px,calc(100% - 40px));margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
-.top-nav-on-dark{background:var(--surface-dark);color:var(--on-dark)}
-.brand{display:flex;align-items:center;gap:10px;font-weight:600;color:var(--primary);letter-spacing:-.2px}
-.brand-dot{width:28px;height:28px;border-radius:var(--radius-full);background:var(--primary);display:inline-block;position:relative}
-.brand-dot:after{content:"";position:absolute;inset:8px;border-radius:var(--radius-full);border:2px solid #fff}
-.nav-links{display:flex;align-items:center;gap:28px;color:var(--on-dark-soft);font-size:14px;font-weight:500}
-.nav-links a:hover{color:var(--on-dark)}
-.nav-actions{display:flex;align-items:center;gap:12px}
-.search-pill{height:44px;padding:0 18px;display:inline-flex;align-items:center;border-radius:var(--radius-pill);background:var(--surface-dark-elevated);color:var(--on-dark-soft);font-size:13px;font-family:var(--mono)}
-.button-primary,.button-pill-cta{display:inline-flex;align-items:center;justify-content:center;border-radius:var(--radius-pill);background:var(--primary);color:var(--on-primary);font-weight:600;line-height:1.15;white-space:nowrap}
-.button-primary{height:44px;padding:0 20px;font-size:16px}
-.button-pill-cta{height:56px;padding:0 32px;font-size:16px}
-.button-primary:active,.button-pill-cta:active{background:var(--primary-active)}
-.button-secondary-dark{height:56px;padding:0 28px;display:inline-flex;align-items:center;justify-content:center;border-radius:var(--radius-pill);background:var(--surface-dark-elevated);color:var(--on-dark);font-weight:600}
-.hero-inner{width:min(1200px,calc(100% - 40px));margin:0 auto;padding:96px 0 112px;display:grid;grid-template-columns:minmax(0,1fr) minmax(420px,520px);gap:72px;align-items:center}
-.hero-copy h1{margin-top:20px;font-family:var(--display);font-size:clamp(44px,7vw,80px);line-height:1;letter-spacing:-2px;font-weight:400;max-width:780px}
-.hero-copy p{margin-top:24px;color:var(--on-dark-soft);font-size:16px;max-width:600px}
-.hero-cta-row{margin-top:36px;display:flex;flex-wrap:wrap;gap:16px}
-.hero-meta{margin-top:28px;display:flex;flex-wrap:wrap;gap:18px;color:var(--on-dark-soft);font-size:13px}
-.badge-pill{display:inline-flex;align-items:center;min-height:32px;padding:6px 14px;border-radius:var(--radius-pill);background:var(--surface-strong);color:var(--ink);font-size:12px;font-weight:600;letter-spacing:.02em}
-.badge-pill.dark{background:var(--surface-dark-elevated);color:var(--on-dark)}
+.container{
+  width:min(1240px,calc(100% - 40px));
+  margin:0 auto;
+}
 
-.mock-stack{position:relative;min-height:520px}
-.product-ui-card-dark{background:var(--surface-dark-elevated);color:var(--on-dark);border-radius:var(--radius-xl);padding:32px;box-shadow:0 24px 80px rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.06)}
-.mock-main{position:absolute;top:0;right:20px;width:440px}
-.mock-overlap{position:absolute;left:0;bottom:20px;width:360px;transform:rotate(-3deg)}
-.mock-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:24px}
-.mock-card-head.compact{align-items:center}
-.mock-label{display:block;color:var(--on-dark-soft);font-size:13px;margin-bottom:8px}
-.mock-value{font-size:36px;line-height:1.1;letter-spacing:-.8px;font-weight:500}
-.status-dot{width:12px;height:12px;border-radius:var(--radius-full);background:var(--semantic-up);box-shadow:0 0 0 6px rgba(5,177,105,.12);margin-top:8px}
-.mock-metrics{margin-top:32px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.mock-metrics div,.risk-mini-grid div{background:rgba(255,255,255,.04);border-radius:16px;padding:14px}
-.mock-metrics span,.risk-mini-grid span{display:block;color:var(--on-dark-soft);font-size:12px;margin-bottom:6px}
-.mock-chart{margin-top:36px;height:148px;display:flex;align-items:end;gap:12px;padding:18px;border-radius:20px;background:rgba(255,255,255,.035)}
-.mock-chart span{flex:1;border-radius:var(--radius-pill);background:linear-gradient(180deg,rgba(0,82,255,.95),rgba(0,82,255,.18))}
-.mock-foot{margin-top:24px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;color:var(--on-dark-soft)}
-.risk-mini-grid{margin-top:20px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
-.mock-list{margin-top:18px;display:flex;flex-direction:column;gap:10px}
-.mock-asset-row,.mock-empty{height:44px;display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid rgba(255,255,255,.08)}
-.mock-asset-name{display:flex;align-items:center;gap:10px;min-width:0}
-.mock-asset-name span:last-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.number{
+  font-family:var(--mono);
+  font-variant-numeric:tabular-nums;
+  letter-spacing:-.02em;
+}
+.is-up{color:var(--success)!important}
+.is-down{color:var(--danger)!important}
+.muted{color:var(--muted)!important}
 
-.section{padding:96px 0}
-.section-soft{background:var(--surface-soft)}
-.section-heading{margin-bottom:32px}
-.section-heading h2,.risk-header h2{margin-top:16px;font-family:var(--display);font-size:clamp(36px,5vw,52px);line-height:1;letter-spacing:-1.3px;font-weight:400}
-.section-heading.split{display:flex;align-items:end;justify-content:space-between;gap:32px}
-.section-note{color:var(--muted);max-width:420px}
-.large-number{font-size:64px;line-height:1;letter-spacing:-1.6px}
+.hero{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(180deg,#ffffff 0%,#fbfaff 100%);
+  border-bottom:1px solid var(--border);
+}
+.hero:before{
+  content:"";
+  position:absolute;
+  right:-120px;
+  top:-140px;
+  width:420px;
+  height:420px;
+  background:radial-gradient(circle,rgba(113,50,245,.16),transparent 65%);
+  pointer-events:none;
+}
+.nav{
+  position:sticky;
+  top:0;
+  z-index:20;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:24px;
+  padding:18px 0;
+  background:rgba(255,255,255,.88);
+  backdrop-filter:blur(14px);
+}
+.brand{display:flex;align-items:center;gap:12px}
+.brand-mark{
+  width:40px;height:40px;
+  border-radius:var(--r-btn);
+  background:var(--kraken-purple);
+  color:#fff;
+  display:grid;
+  place-items:center;
+  font-weight:700;
+  box-shadow:var(--shadow-micro);
+}
+.brand-text strong{
+  display:block;
+  font-size:16px;
+  font-weight:700;
+  line-height:1.1;
+}
+.brand-text small{
+  display:block;
+  color:var(--muted);
+  font-size:12px;
+  margin-top:2px;
+}
+.nav-links{
+  display:flex;
+  gap:18px;
+  color:var(--muted);
+  font-size:14px;
+}
+.nav-links a:hover{color:var(--kraken-purple)}
+.nav-actions{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  flex-wrap:wrap;
+}
 
-.kpi-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:16px}
-.kpi-card{background:var(--canvas);border:1px solid var(--hairline);border-radius:var(--radius-xl);padding:28px;min-height:150px}
-.kpi-label{display:block;color:var(--muted);font-size:14px;margin-bottom:18px}
-.kpi-value{display:block;color:var(--ink);font-size:28px;line-height:1.12;font-weight:500;letter-spacing:-.5px}
-.kpi-sub{display:block;margin-top:12px;color:var(--muted);font-size:13px}
+.chip{
+  display:inline-flex;
+  align-items:center;
+  min-height:28px;
+  padding:6px 10px;
+  border-radius:var(--r-badge);
+  font-size:12px;
+  font-weight:600;
+  line-height:1;
+  border:1px solid transparent;
+}
+.chip-neutral{
+  background:rgba(148,151,169,.08);
+  color:var(--text);
+  border-color:rgba(148,151,169,.12);
+}
+.chip-purple{
+  background:var(--kraken-purple-subtle);
+  color:var(--kraken-purple-dark);
+  border-color:rgba(113,50,245,.12);
+}
+.chip-success{
+  background:var(--success-bg);
+  color:var(--success-text);
+  border-color:rgba(20,158,97,.12);
+}
+.chip-warning{
+  background:var(--warning-bg);
+  color:var(--warning);
+  border-color:rgba(163,107,0,.12);
+}
+.chip-danger{
+  background:var(--danger-bg);
+  color:var(--danger);
+  border-color:rgba(207,32,47,.12);
+}
 
-.info-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
-.info-card,.empty-card,.order-card,.alerts-card,.table-card{background:var(--canvas);border:1px solid var(--hairline);border-radius:var(--radius-xl)}
-.info-card{padding:32px}
-.info-label{display:block;color:var(--muted);font-size:13px;margin-bottom:14px}
-.info-value{display:block;font-size:28px;font-weight:500;line-height:1.15;letter-spacing:-.4px}
-.info-card p{margin-top:12px;color:var(--body);font-size:14px}
-.notice{margin-bottom:24px;padding:18px 22px;border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:space-between;gap:20px;border:1px solid var(--hairline);background:var(--canvas)}
-.notice-danger strong{color:var(--semantic-down)}
-.empty-card{padding:48px}
-.empty-card.compact{padding:32px}
-.empty-card h3{font-size:24px;font-weight:500;letter-spacing:-.4px}
-.empty-card p{margin-top:10px;color:var(--muted)}
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:44px;
+  padding:13px 16px;
+  border-radius:var(--r-btn);
+  font-size:16px;
+  font-weight:600;
+  line-height:1.38;
+  transition:transform .15s ease,box-shadow .15s ease,background .15s ease,border-color .15s ease,color .15s ease;
+}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary{
+  background:var(--kraken-purple);
+  color:#fff;
+  box-shadow:var(--shadow-micro);
+}
+.btn-primary:hover{background:var(--kraken-purple-dark)}
+.btn-outline{
+  background:#fff;
+  color:var(--kraken-purple-dark);
+  border:1px solid var(--kraken-purple-dark);
+}
+.btn-outline:hover{background:rgba(113,50,245,.04)}
 
-.orders-layout{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:24px;align-items:start}
-.orders-list{display:flex;flex-direction:column;gap:16px}
-.order-card{padding:28px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px 24px;transition:box-shadow .2s ease}
-.order-card:hover{box-shadow:var(--shadow-soft)}
-.order-card p{grid-column:1/-1;color:var(--body);font-size:14px}
-.order-buy{border-color:rgba(0,82,255,.28)}
-.order-type{display:inline-flex;height:30px;align-items:center;padding:0 12px;margin-bottom:12px;border-radius:var(--radius-pill);background:var(--surface-strong);font-size:12px;font-weight:600}
-.order-buy .order-type{background:rgba(0,82,255,.1);color:var(--primary)}
-.order-card h3{font-size:18px;font-weight:600}
-.order-card h3 span{color:var(--muted);font-family:var(--mono);font-weight:500}
-.order-side{text-align:right;display:flex;flex-direction:column;gap:4px}
-.order-side strong{font-size:20px}
-.order-side span{color:var(--muted);font-size:13px}
-.alerts-card{padding:28px;position:sticky;top:24px}
-.alerts-card h3{font-size:18px;font-weight:600;margin-bottom:16px}
-.alerts-card ul{display:flex;flex-direction:column;gap:12px;list-style:none}
-.alerts-card li{color:var(--body);font-size:14px;padding-bottom:12px;border-bottom:1px solid var(--hairline-soft)}
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.1fr) minmax(360px,.9fr);
+  gap:32px;
+  align-items:center;
+  padding:72px 0 64px;
+  position:relative;
+  z-index:1;
+}
+.hero-copy .chip{margin-bottom:18px}
+.hero-copy h1{
+  font-family:var(--display);
+  font-size:clamp(44px,5.8vw,70px);
+  font-weight:700;
+  line-height:1.17;
+  letter-spacing:-1px;
+  max-width:760px;
+}
+.hero-copy p{
+  margin-top:18px;
+  font-size:16px;
+  color:var(--muted);
+  max-width:640px;
+}
+.hero-actions{
+  margin-top:28px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+.hero-meta{
+  margin-top:24px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+}
+.meta-box{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--r-card);
+  padding:14px 16px;
+  box-shadow:var(--shadow-micro);
+}
+.meta-box span{
+  display:block;
+  color:var(--muted);
+  font-size:12px;
+  margin-bottom:6px;
+}
+.meta-box strong{
+  display:block;
+  font-size:15px;
+  font-weight:600;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
 
-.table-card{overflow:hidden}
-table{width:100%;border-collapse:collapse}
-th{background:var(--surface-soft);color:var(--muted);text-align:left;font-size:13px;font-weight:600;padding:16px 20px;border-bottom:1px solid var(--hairline);white-space:nowrap}
-td{padding:18px 20px;border-bottom:1px solid var(--hairline-soft);vertical-align:middle;font-size:14px}
-tr:last-child td{border-bottom:none}
-tr:hover td{background:#fbfbfb}
-.asset-cell{display:flex;align-items:center;gap:12px}
-.asset-cell strong{display:block;font-size:15px;font-weight:600}
-.asset-cell span:not(.asset-icon){display:block;color:var(--muted);font-family:var(--mono);font-size:12px;margin-top:2px}
-.asset-icon{width:32px;height:32px;border-radius:var(--radius-full);background:var(--surface-strong);display:inline-flex;align-items:center;justify-content:center;color:var(--ink);font-weight:600;flex:0 0 auto}
-.badge-line{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}
+.hero-panel{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:24px;
+  box-shadow:var(--shadow);
+  padding:24px;
+  position:relative;
+}
+.panel-top{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  align-items:flex-start;
+}
+.panel-title{
+  font-size:14px;
+  color:var(--muted);
+  margin-bottom:8px;
+}
+.panel-value{
+  font-family:var(--display);
+  font-size:34px;
+  font-weight:700;
+  line-height:1.05;
+  letter-spacing:-1px;
+}
+.panel-badge{
+  display:inline-flex;
+  align-items:center;
+  min-height:28px;
+  padding:6px 10px;
+  border-radius:var(--r-badge);
+  background:var(--success-bg);
+  color:var(--success-text);
+  font-size:12px;
+  font-weight:700;
+}
+.metric-grid{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+}
+.metric-card{
+  background:var(--surface-soft);
+  border:1px solid var(--border);
+  border-radius:var(--r-card);
+  padding:14px;
+}
+.metric-card span{
+  display:block;
+  color:var(--muted);
+  font-size:12px;
+  margin-bottom:4px;
+}
+.metric-card strong{
+  display:block;
+  font-size:18px;
+  font-weight:700;
+  line-height:1.2;
+}
+.meter{
+  margin-top:18px;
+  height:10px;
+  border-radius:9999px;
+  background:#ececf5;
+  overflow:hidden;
+}
+.meter b{
+  display:block;
+  height:100%;
+  border-radius:inherit;
+  background:linear-gradient(90deg,var(--kraken-purple),var(--kraken-purple-deep));
+}
+.panel-note{
+  margin-top:14px;
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.5;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px 12px;
+}
+.panel-note strong{color:var(--text)}
 
-.mini-badge{display:inline-flex;align-items:center;min-height:24px;padding:3px 9px;border-radius:var(--radius-pill);background:var(--surface-strong);color:var(--ink);font-size:12px;font-weight:600}
-.mini-badge.danger{color:var(--semantic-down)}
+.section{
+  padding:56px 0;
+}
+.section-soft{
+  background:var(--surface-soft);
+}
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:end;
+  gap:20px;
+  margin-bottom:20px;
+}
+.section-head h2{
+  font-family:var(--display);
+  font-size:clamp(28px,3vw,40px);
+  font-weight:700;
+  line-height:1.22;
+  letter-spacing:-.5px;
+  margin-top:14px;
+}
+.section-head p{
+  color:var(--muted);
+  max-width:520px;
+  font-size:15px;
+}
+.section-head.split{align-items:flex-end}
+.section-head-chips{display:flex;gap:8px;flex-wrap:wrap}
+.large-number{
+  font-family:var(--display);
+  font-size:64px;
+  line-height:1;
+  letter-spacing:-1.6px;
+}
 
-.action-tag{display:inline-flex;align-items:center;justify-content:center;min-width:64px;height:26px;padding:0 10px;border-radius:var(--radius-pill);font-size:12px;font-weight:600;line-height:1;border:1px solid transparent;white-space:nowrap}
-.act-buy{background:rgba(5,177,105,.12);color:var(--semantic-up);border-color:rgba(5,177,105,.18)}
-.act-sell{background:rgba(207,32,47,.12);color:var(--semantic-down);border-color:rgba(207,32,47,.18)}
-.act-partial{background:rgba(0,82,255,.10);color:var(--primary);border-color:rgba(0,82,255,.16)}
-.act-neutral{background:var(--surface-strong);color:var(--body);border-color:var(--hairline)}
+.kpi-grid{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:14px;
+}
+.kpi-card{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--r-card);
+  padding:20px;
+  box-shadow:var(--shadow-micro);
+}
+.kpi-card .label{
+  display:block;
+  color:var(--muted);
+  font-size:13px;
+  margin-bottom:14px;
+}
+.kpi-card .value{
+  display:block;
+  font-size:24px;
+  font-weight:700;
+  line-height:1.15;
+  letter-spacing:-.4px;
+}
+.kpi-card .sub{
+  display:block;
+  margin-top:10px;
+  color:var(--muted-2);
+  font-size:12px;
+}
+.kpi-foot{
+  margin-top:14px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+.kpi-foot-card{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--r-card);
+  padding:18px 20px;
+  box-shadow:var(--shadow-micro);
+}
+.kpi-foot-card span{
+  display:block;
+  color:var(--muted);
+  font-size:12px;
+  margin-bottom:6px;
+}
+.kpi-foot-card strong{
+  display:block;
+  font-size:20px;
+  font-weight:700;
+}
 
-.hold-progress{min-width:112px}
-.hold-progress span{display:block;margin-bottom:8px}
-.hold-progress i{display:block;height:8px;width:100%;background:var(--surface-strong);border-radius:var(--radius-pill);overflow:hidden}
-.hold-progress b{display:block;height:100%;background:var(--primary);border-radius:var(--radius-pill)}
-.reason-cell{max-width:420px;color:var(--body);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.market-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:14px;
+}
+.info-card,
+.empty-card,
+.order-card,
+.alerts-card,
+.table-card,
+.risk-note{
+  background:#fff;
+  border:1px solid var(--border);
+  border-radius:var(--r-card);
+  box-shadow:var(--shadow-micro);
+}
+.info-card{
+  padding:24px;
+}
+.info-label{
+  display:block;
+  color:var(--muted);
+  font-size:13px;
+  margin-bottom:14px;
+}
+.info-value{
+  display:block;
+  font-size:28px;
+  font-weight:700;
+  line-height:1.15;
+  letter-spacing:-.4px;
+}
+.info-card p{
+  margin-top:12px;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.5;
+}
+.notice{
+  margin-bottom:16px;
+  padding:16px 18px;
+  border-radius:var(--r-card);
+  border:1px solid var(--border);
+  background:#fff;
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:flex-start;
+}
+.notice strong{display:block}
+.notice span{display:block;color:var(--muted);margin-top:4px;font-size:14px}
+.notice-danger strong{color:var(--danger)}
 
-.cta-band-dark{padding:96px 0;background:var(--surface-dark);color:var(--on-dark)}
-.risk-header{max-width:780px;margin-bottom:40px}
-.risk-header p{margin-top:18px;color:var(--on-dark-soft)}
-.risk-dark-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.risk-tile{background:var(--surface-dark-elevated);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius-xl);padding:28px}
-.risk-tile span{display:block;color:var(--on-dark-soft);font-size:13px;margin-bottom:14px}
-.risk-tile strong{display:block;font-size:28px;line-height:1.15;font-weight:500}
+.empty-card{
+  padding:32px;
+}
+.empty-card.compact{
+  padding:22px;
+}
+.empty-card h2,
+.empty-card h3{
+  font-family:var(--display);
+  font-size:24px;
+  font-weight:700;
+  letter-spacing:-.4px;
+  line-height:1.22;
+}
+.empty-card p{
+  margin-top:10px;
+  color:var(--muted);
+}
 
-.footer-light{background:var(--canvas);color:var(--body);border-top:1px solid var(--hairline)}
-.footer-inner{padding:48px 0;display:flex;justify-content:space-between;gap:32px}
-.footer-inner strong{display:block;color:var(--primary);font-weight:600;margin-bottom:8px}
-.footer-inner p{color:var(--muted);font-size:14px}
-.legal{max-width:520px;text-align:right}
+.orders-layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 320px;
+  gap:16px;
+  align-items:start;
+}
+.orders-columns{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:16px;
+}
+.orders-column{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+.column-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:4px;
+}
+.column-head h3{
+  font-family:var(--display);
+  font-size:20px;
+  line-height:1.2;
+  letter-spacing:-.3px;
+}
+.order-card{
+  padding:20px;
+  transition:box-shadow .2s ease,transform .2s ease;
+}
+.order-card:hover{
+  box-shadow:var(--shadow);
+  transform:translateY(-1px);
+}
+.order-card.buy{border-left:3px solid var(--kraken-purple)}
+.order-card.sell{border-left:3px solid var(--danger)}
+.order-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:16px;
+}
+.order-top h3{
+  font-size:18px;
+  font-weight:700;
+  line-height:1.2;
+}
+.order-top h3 span{
+  color:var(--muted);
+  font-family:var(--mono);
+  font-weight:500;
+  font-size:12px;
+}
+.order-top p{
+  margin-top:4px;
+  color:var(--muted);
+  font-size:13px;
+}
+.order-side{
+  text-align:right;
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+}
+.order-side strong{
+  font-size:20px;
+  font-weight:700;
+}
+.order-side span{
+  color:var(--muted);
+  font-size:13px;
+}
+.order-reason{
+  margin-top:14px;
+  color:var(--text);
+  font-size:14px;
+  line-height:1.55;
+}
+.alerts-card{
+  padding:22px;
+  position:sticky;
+  top:24px;
+}
+.alerts-card h3{
+  font-family:var(--display);
+  font-size:20px;
+  line-height:1.2;
+  margin-bottom:16px;
+}
+.alerts-card ul{
+  list-style:none;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.alerts-card li{
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.55;
+  padding-bottom:10px;
+  border-bottom:1px solid var(--border);
+}
+.alerts-card li:last-child{border-bottom:none;padding-bottom:0}
 
-@media(max-width:1100px){
-  .hero-inner{grid-template-columns:1fr;gap:56px}
-  .mock-stack{min-height:480px}
-  .mock-main{right:0}
+.table-card{
+  overflow:hidden;
+}
+.report-table{
+  width:100%;
+  border-collapse:collapse;
+}
+.report-table th{
+  background:#f7f7fb;
+  color:var(--muted);
+  text-align:left;
+  font-size:13px;
+  font-weight:700;
+  padding:16px 18px;
+  border-bottom:1px solid var(--border);
+  white-space:nowrap;
+}
+.report-table td{
+  padding:16px 18px;
+  border-bottom:1px solid #ececf5;
+  vertical-align:middle;
+  font-size:14px;
+}
+.report-table tr:last-child td{border-bottom:none}
+.report-table tr:hover td{background:#fcfcfe}
+
+.asset-cell{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.asset-cell strong{
+  display:block;
+  font-size:15px;
+  font-weight:700;
+}
+.asset-cell span:not(.asset-icon){
+  display:block;
+  color:var(--muted);
+  font-family:var(--mono);
+  font-size:12px;
+  margin-top:2px;
+}
+.asset-icon{
+  width:32px;
+  height:32px;
+  border-radius:var(--r-btn);
+  background:var(--kraken-purple-subtle);
+  color:var(--kraken-purple-dark);
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  flex:0 0 auto;
+}
+.badge-line{
+  margin-top:8px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+.mini-badge{
+  display:inline-flex;
+  align-items:center;
+  min-height:24px;
+  padding:3px 8px;
+  border-radius:var(--r-badge);
+  background:rgba(148,151,169,.08);
+  color:var(--text);
+  font-size:12px;
+  font-weight:600;
+  border:1px solid rgba(148,151,169,.12);
+}
+.mini-badge.danger{
+  color:var(--danger);
+  background:var(--danger-bg);
+  border-color:rgba(207,32,47,.12);
+}
+
+.action-tag{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:64px;
+  height:26px;
+  padding:0 10px;
+  border-radius:var(--r-badge);
+  font-size:12px;
+  font-weight:700;
+  line-height:1;
+  border:1px solid transparent;
+  white-space:nowrap;
+}
+.act-buy{
+  background:var(--success-bg);
+  color:var(--success-text);
+  border-color:rgba(20,158,97,.12);
+}
+.act-sell{
+  background:var(--danger-bg);
+  color:var(--danger);
+  border-color:rgba(207,32,47,.12);
+}
+.act-partial{
+  background:var(--kraken-purple-subtle);
+  color:var(--kraken-purple-dark);
+  border-color:rgba(113,50,245,.12);
+}
+.act-neutral{
+  background:rgba(148,151,169,.08);
+  color:var(--text);
+  border-color:rgba(148,151,169,.12);
+}
+
+.hold-progress{
+  min-width:112px;
+}
+.hold-progress span{
+  display:block;
+  margin-bottom:8px;
+  color:var(--text);
+}
+.hold-progress i{
+  display:block;
+  height:8px;
+  width:100%;
+  background:#ececf5;
+  border-radius:9999px;
+  overflow:hidden;
+}
+.hold-progress b{
+  display:block;
+  height:100%;
+  background:linear-gradient(90deg,var(--kraken-purple),var(--kraken-purple-deep));
+  border-radius:9999px;
+}
+.reason-cell{
+  max-width:420px;
+  color:var(--text);
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.risk-layout{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 320px;
+  gap:16px;
+  align-items:start;
+}
+.risk-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:14px;
+}
+.risk-tile{
+  padding:22px;
+}
+.risk-tile span{
+  display:block;
+  color:var(--muted);
+  font-size:13px;
+  margin-bottom:12px;
+}
+.risk-tile strong{
+  display:block;
+  font-family:var(--display);
+  font-size:28px;
+  font-weight:700;
+  line-height:1.15;
+  letter-spacing:-.4px;
+}
+.risk-note{
+  padding:22px;
+}
+.risk-note h3{
+  font-family:var(--display);
+  font-size:20px;
+  line-height:1.2;
+  margin-bottom:14px;
+}
+.risk-note ul{
+  padding-left:18px;
+  color:var(--muted);
+}
+.risk-note li{
+  margin-bottom:10px;
+  line-height:1.55;
+}
+.risk-note li:last-child{margin-bottom:0}
+
+.footer{
+  background:#fff;
+  border-top:1px solid var(--border);
+}
+.footer-inner{
+  padding:36px 0;
+  display:flex;
+  justify-content:space-between;
+  gap:24px;
+  align-items:flex-start;
+}
+.footer-inner strong{
+  display:block;
+  color:var(--kraken-purple);
+  font-weight:700;
+  margin-bottom:8px;
+}
+.footer-inner p{
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.6;
+}
+.legal{
+  max-width:520px;
+  text-align:right;
+}
+
+@media(max-width:1280px){
   .kpi-grid{grid-template-columns:repeat(3,1fr)}
-  .info-grid{grid-template-columns:repeat(2,1fr)}
+  .market-grid{grid-template-columns:repeat(2,1fr)}
+  .risk-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:1024px){
+  .hero-grid{grid-template-columns:1fr;gap:24px}
   .orders-layout{grid-template-columns:1fr}
   .alerts-card{position:static}
-  .risk-dark-grid{grid-template-columns:repeat(2,1fr)}
+  .risk-layout{grid-template-columns:1fr}
+  .hero-meta{grid-template-columns:1fr}
 }
-
 @media(max-width:768px){
-  .container,.top-nav,.hero-inner{width:min(100% - 28px,1200px)}
-  .nav-links,.search-pill{display:none}
-  .top-nav{gap:12px}
-  .brand span:last-child{display:none}
-  .button-primary{height:40px;padding:0 16px;font-size:14px}
-  .hero-inner{padding:64px 0 80px}
+  .container,.nav,.hero-grid{width:min(100% - 28px,1240px)}
+  .nav-links{display:none}
   .hero-copy h1{font-size:44px;letter-spacing:-1px}
-  .hero-cta-row{flex-direction:column;align-items:stretch}
-  .button-pill-cta,.button-secondary-dark{width:100%}
-  .mock-stack{min-height:auto}
-  .mock-main,.mock-overlap{position:relative;width:100%;top:auto;left:auto;right:auto;bottom:auto;transform:none}
-  .mock-overlap{margin-top:16px}
-  .section,.cta-band-dark{padding:64px 0}
-  .section-heading.split{display:block}
-  .large-number{margin-top:20px;font-size:44px}
-  .kpi-grid,.info-grid,.risk-dark-grid{grid-template-columns:1fr}
-  .order-card{grid-template-columns:1fr}
-  .order-side{text-align:left}
+  .hero-actions{flex-direction:column;align-items:stretch}
+  .btn{width:100%}
+  .kpi-grid,.market-grid,.risk-grid{grid-template-columns:1fr}
+  .orders-columns{grid-template-columns:1fr}
+  .footer-inner{display:block}
+  .legal{text-align:left;margin-top:20px}
   table thead{display:none}
   table,tbody,tr,td{display:block;width:100%}
-  tr{border-bottom:1px solid var(--hairline);padding:14px 0}
+  tr{border-bottom:1px solid var(--border);padding:14px 0}
   tr:last-child{border-bottom:none}
-  td{display:flex;justify-content:space-between;gap:18px;padding:10px 18px;border-bottom:none;text-align:right}
-  td:before{content:attr(data-label);color:var(--muted);font-weight:600;text-align:left;flex:0 0 110px}
+  td{
+    display:flex;
+    justify-content:space-between;
+    gap:18px;
+    padding:10px 18px;
+    border-bottom:none;
+    text-align:right;
+  }
+  td:before{
+    content:attr(data-label);
+    color:var(--muted);
+    font-weight:700;
+    text-align:left;
+    flex:0 0 110px;
+  }
   .asset-cell{justify-content:flex-end;text-align:left}
   .reason-cell{max-width:none;white-space:normal}
-  .footer-inner{display:block}
-  .legal{margin-top:24px;text-align:left}
+  .hero-panel{padding:20px}
 }
-
 @media(max-width:480px){
-  .mock-metrics,.risk-mini-grid{grid-template-columns:1fr}
-  .product-ui-card-dark,.info-card,.order-card,.alerts-card,.empty-card,.kpi-card,.risk-tile{padding:24px}
+  .panel-note{grid-template-columns:1fr}
+  .metric-grid{grid-template-columns:1fr}
+  .meta-box{padding:12px 14px}
+  .info-card,.order-card,.alerts-card,.risk-note,.kpi-card,.kpi-foot-card,.risk-tile,.empty-card{padding:18px}
   td{flex-direction:column;align-items:flex-start;text-align:left}
   td:before{flex:auto}
 }
 </style>
 </head>
 <body>
+<a id="top"></a>
 
-<header class="hero-band-dark">
-  <nav class="top-nav top-nav-on-dark">
-    <a class="brand" href="#">
-      <span class="brand-dot"></span>
-      <span>ETF Intelligence</span>
-    </a>
+<header class="hero">
+  <div class="container">
+    <nav class="nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">K</span>
+        <span class="brand-text">
+          <strong>ETF Intelligence</strong>
+          <small>Quant Trading Report</small>
+        </span>
+      </a>
 
-    <div class="nav-links">
-      <a href="#market">Market</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#orders">Orders</a>
-      <a href="#risk">Risk</a>
-    </div>
-
-    <div class="nav-actions">
-      <span class="search-pill">RUN 2026-05-22</span>
-      <a class="button-primary" href="#orders">View Signals</a>
-    </div>
-  </nav>
-
-  <section class="hero-inner">
-    <div class="hero-copy">
-      <span class="badge-pill">QUANT PORTFOLIO REPORT · v4.1.0</span>
-      <h1>机构级 ETF 波段交易状态页</h1>
-      <p>
-        以冷静期、连续止损、市场宽度、SCI 拥挤度和前瞻盈亏比为核心，
-        为每日行业 ETF 组合生成一页式风控与交易视图。
-      </p>
-
-      <div class="hero-cta-row">
-        <a class="button-pill-cta" href="#portfolio">查看持仓</a>
-        <a class="button-secondary-dark" href="#risk">风控闭环</a>
+      <div class="nav-links">
+        <a href="#market">Market</a>
+        <a href="#orders">Orders</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#risk">Risk</a>
       </div>
 
-      <div class="hero-meta">
-        <span>生成时间：2026-05-23 19:49:50</span>
-        <span>宽度 44% · 多空比 1.14</span>
+      <div class="nav-actions">
+        <span class="chip chip-neutral">RUN 2026-05-22</span>
+        <a class="btn btn-primary" href="#orders">查看信号</a>
       </div>
-    </div>
+    </nav>
 
-    <div class="mock-stack">
-      <div class="product-ui-card-dark mock-main">
-        <div class="mock-card-head">
-          <div>
-            <span class="mock-label">Total Assets</span>
-            <div class="mock-value number">¥10,781</div>
-          </div>
-          <span class="status-dot"></span>
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="chip chip-purple">行业 ETF 波段量化交易 · v4.1.0</span>
+        <h1>用一页看懂仓位、风控与交易意向</h1>
+        <p>
+          以冷静期、连续止损、市场宽度、SCI 拥挤度与前瞻盈亏比为核心，
+          将每日行业 ETF 组合状态整理成机构级可读仪表盘。
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#portfolio">查看持仓</a>
+          <a class="btn btn-outline" href="#risk">风控闭环</a>
         </div>
 
-        <div class="mock-metrics">
+        <div class="hero-meta">
+          <div class="meta-box">
+            <span>生成时间</span>
+            <strong>2026-05-23 20:10:00</strong>
+          </div>
+          <div class="meta-box">
+            <span>市场宽度</span>
+            <strong>市场宽度 44% · 多空比 1.14</strong>
+          </div>
+          <div class="meta-box">
+            <span>系统状态</span>
+            <strong>chip-success&quot;&gt;系统状态正常</strong>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-panel">
+        <div class="panel-top">
           <div>
+            <div class="panel-title">Total Assets</div>
+            <div class="panel-value number">¥10,781</div>
+          </div>
+          <div class="panel-badge">健康</div>
+        </div>
+
+        <div class="metric-grid">
+          <div class="metric-card">
             <span>现金</span>
             <strong class="number">¥10,781</strong>
           </div>
-          <div>
+          <div class="metric-card">
             <span>市值</span>
             <strong class="number">¥0</strong>
           </div>
-          <div>
+          <div class="metric-card">
             <span>盈亏</span>
             <strong class="number is-up">+781</strong>
           </div>
         </div>
 
-        <div class="mock-chart">
-          <span style="height:38%"></span>
-          <span style="height:64%"></span>
-          <span style="height:46%"></span>
-          <span style="height:78%"></span>
-          <span style="height:58%"></span>
-          <span style="height:86%"></span>
-          <span style="height:69%"></span>
+        <div class="meter" aria-hidden="true">
+          <b style="width:82%"></b>
         </div>
 
-        <div class="mock-foot">
-          <span>累计收益</span>
-          <strong class="number is-up">+7.81%</strong>
+        <div class="panel-note">
+          <div>系统健康度：<strong class="number">82%</strong></div>
+          <div>SCI 拥挤度：<strong class="number">0.07</strong></div>
+          <div>当日指令：<strong class="number">0</strong></div>
+          <div>累计收益：<strong class="number is-up">+7.81%</strong></div>
         </div>
-      </div>
-
-      <div class="product-ui-card-dark mock-overlap">
-        <div class="mock-card-head compact">
-          <span class="mock-label">Risk Panel</span>
-          <span class="number">82%</span>
-        </div>
-        <div class="risk-mini-grid">
-          <div>
-            <span>ENV</span>
-            <strong class="number is-up">+1.9</strong>
-          </div>
-          <div>
-            <span>SCI</span>
-            <strong class="number">0.07</strong>
-          </div>
-          <div>
-            <span>ORDERS</span>
-            <strong class="number">0</strong>
-          </div>
-        </div>
-        <div class="mock-list">
-          
-            <div class="mock-empty">
-              <span class="muted">当前空仓</span>
-              <span class="number">WAIT</span>
-            </div>
-            
-        </div>
-      </div>
+      </aside>
     </div>
-  </section>
+  </div>
 </header>
 
 <main>
   
 <section class="section section-soft">
   <div class="container">
-    <div class="section-heading">
-      <span class="badge-pill">ACCOUNT SNAPSHOT</span>
-      <h2>资产概览</h2>
+    <div class="section-head">
+      <div>
+        <span class="chip chip-neutral">ACCOUNT SNAPSHOT</span>
+        <h2>资产概览</h2>
+      </div>
+      <p>总资产、现金、持仓市值与回撤状态，一眼看懂账户当前结构。</p>
     </div>
+
     <div class="kpi-grid">
 
       <article class="kpi-card">
-        <span class="kpi-label">总资产</span>
-        <strong class="kpi-value number ">¥10,781</strong>
-        <span class="kpi-sub">Portfolio equity</span>
+        <span class="label">总资产</span>
+        <strong class="value number ">¥10,781</strong>
+        <span class="sub">Portfolio equity</span>
       </article>
 
       <article class="kpi-card">
-        <span class="kpi-label">现金</span>
-        <strong class="kpi-value number ">¥10,781</strong>
-        <span class="kpi-sub">Available cash</span>
+        <span class="label">现金</span>
+        <strong class="value number ">¥10,781</strong>
+        <span class="sub">Available cash</span>
       </article>
 
       <article class="kpi-card">
-        <span class="kpi-label">持仓市值</span>
-        <strong class="kpi-value number ">¥0</strong>
-        <span class="kpi-sub">Market exposure</span>
+        <span class="label">持仓市值</span>
+        <strong class="value number ">¥0</strong>
+        <span class="sub">Market exposure</span>
       </article>
 
       <article class="kpi-card">
-        <span class="kpi-label">累计盈亏</span>
-        <strong class="kpi-value number is-up">+781</strong>
-        <span class="kpi-sub">+7.81%</span>
+        <span class="label">累计盈亏</span>
+        <strong class="value number is-up">+781</strong>
+        <span class="sub">+7.81%</span>
       </article>
 
       <article class="kpi-card">
-        <span class="kpi-label">当前回撤</span>
-        <strong class="kpi-value number is-down">-0.56%</strong>
-        <span class="kpi-sub">From peak capital</span>
+        <span class="label">当前回撤</span>
+        <strong class="value number is-down">-0.56%</strong>
+        <span class="sub">From peak capital</span>
       </article>
 
       <article class="kpi-card">
-        <span class="kpi-label">资产峰值</span>
-        <strong class="kpi-value number ">¥10,842</strong>
-        <span class="kpi-sub">Peak equity</span>
+        <span class="label">资产峰值</span>
+        <strong class="value number ">¥10,842</strong>
+        <span class="sub">Peak equity</span>
       </article>
 
+    </div>
+
+    <div class="kpi-foot">
+      <div class="kpi-foot-card">
+        <span>仓位暴露</span>
+        <strong class="number">0.0%</strong>
+      </div>
+      <div class="kpi-foot-card">
+        <span>现金占比</span>
+        <strong class="number">100.0%</strong>
+      </div>
+      <div class="kpi-foot-card">
+        <span>回撤幅度</span>
+        <strong class="number is-down">-0.56%</strong>
+      </div>
     </div>
   </div>
 </section>
@@ -365,17 +1052,17 @@ tr:hover td{background:#fbfbfb}
   
 <section id="market" class="section">
   <div class="container">
-    <div class="section-heading split">
+    <div class="section-head split">
       <div>
-        <span class="badge-pill">MARKET REGIME</span>
+        <span class="chip chip-purple">MARKET REGIME</span>
         <h2>大盘环境与宏观约束</h2>
       </div>
-      <span class="large-number number is-up">+1.9</span>
+      <div class="large-number number is-up">+1.9</div>
     </div>
 
     
 
-    <div class="info-grid">
+    <div class="market-grid">
       <article class="info-card">
         <span class="info-label">环境状态</span>
         <strong class="info-value">偏多震荡</strong>
@@ -401,12 +1088,12 @@ tr:hover td{background:#fbfbfb}
       </article>
 
       
-        <article class="info-card">
-          <span class="info-label">市场宽度</span>
-          <strong class="info-value number">44%</strong>
-          <p>多空比 <span class="number">1.14</span> · 中性</p>
-          <p class="muted">宽度平稳(+2.6%)</p>
-        </article>
+      <article class="info-card">
+        <span class="info-label">市场宽度</span>
+        <strong class="info-value number">44%</strong>
+        <p>多空比 <span class="number">1.14</span> · 中性</p>
+        <p class="muted">宽度平稳(+2.6%)</p>
+      </article>
 
     </div>
   </div>
@@ -415,37 +1102,48 @@ tr:hover td{background:#fbfbfb}
   
 <section id="orders" class="section section-soft">
   <div class="container">
-    <div class="section-heading">
-      <span class="badge-pill">TRADING SIGNALS</span>
-      <h2>交易指令与系统提示</h2>
+    <div class="section-head split">
+      <div>
+        <span class="chip chip-purple">TRADING SIGNALS</span>
+        <h2>交易指令与系统提示</h2>
+      </div>
+      <div class="section-head-chips">
+        <span class="chip chip-danger">卖出 0</span>
+        <span class="chip chip-success">买入 0</span>
+      </div>
     </div>
 
     <div class="orders-layout">
-      <div class="orders-list">
-        
+      <div class="orders-columns">
+        <div class="orders-column">
+          <div class="column-head">
+            <h3>卖出 / 减仓</h3>
+          </div>
+          
       <article class="empty-card compact">
-        <h3>暂无交易指令</h3>
-        <p>当前组合保持观察，等待更优赔率或风控触发。</p>
+        <h3>暂无卖出指令</h3>
+        <p>当前没有触发减仓、止损或止盈动作。</p>
       </article>
 
+        </div>
+
+        <div class="orders-column">
+          <div class="column-head">
+            <h3>买入 / 试探</h3>
+          </div>
+          
+      <article class="empty-card compact">
+        <h3>暂无买入指令</h3>
+        <p>当前没有满足风控与赔率约束的入场机会。</p>
+      </article>
+
+        </div>
       </div>
 
       <aside class="alerts-card">
         <h3>系统提示</h3>
         <ul>
-          
-        <li>📊 宽度平稳(+2.6%) | 多头占44% | 多空比1.14</li>
-
-        <li>🔌 [Unified Risk] 系统运行环境健康状态: 82%</li>
-
-        <li> ↳ 原因: 动态冷静期惩罚: -0.18 (连止1次，大盘1.9)</li>
-
-        <li> ↳ 原因: ⚠️ 大盘环境较好，强信号可有限度恢复开仓</li>
-
-        <li>🛡️ 冷静期保护中（连止1次），无强恢复信号，禁止新仓</li>
-
-        <li>🧪 DRY_RUN 模式：仅生成指令，不修改账户状态</li>
-
+          <li>📊 宽度平稳(+2.6%) | 多头占44% | 多空比1.14</li><li>🔌 [Unified Risk] 系统运行环境健康状态: 82%</li><li> ↳ 原因: 动态冷静期惩罚: -0.18 (连止1次，大盘1.9)</li><li> ↳ 原因: ⚠️ 大盘环境较好，强信号可有限度恢复开仓</li><li>🛡️ 冷静期保护中（连止1次），无强恢复信号，禁止新仓</li><li>🧪 DRY_RUN 模式：仅生成指令，不修改账户状态</li>
         </ul>
       </aside>
     </div>
@@ -455,12 +1153,9 @@ tr:hover td{background:#fbfbfb}
   
 <section id="portfolio" class="section">
   <div class="container">
-    <div class="section-heading">
-      <span class="badge-pill">PORTFOLIO</span>
-      <h2>运行中持仓</h2>
-    </div>
     <div class="empty-card">
-      <h3>当前保持空仓</h3>
+      <span class="chip chip-neutral">PORTFOLIO</span>
+      <h2>当前保持空仓</h2>
       <p>系统未发现满足赔率、趋势和风控约束的行业 ETF 标的。</p>
     </div>
   </div>
@@ -469,13 +1164,16 @@ tr:hover td{background:#fbfbfb}
   
 <section class="section section-soft">
   <div class="container">
-    <div class="section-heading">
-      <span class="badge-pill">TRADE HISTORY</span>
-      <h2>最近 30 笔交易</h2>
+    <div class="section-head">
+      <div>
+        <span class="chip chip-neutral">TRADE HISTORY</span>
+        <h2>最近 30 笔交易</h2>
+      </div>
+      <p>按最新执行顺序倒序展示，便于快速复盘买卖理由与盈亏表现。</p>
     </div>
 
     <div class="table-card">
-      <table>
+      <table class="report-table">
         <thead>
           <tr>
             <th>日期</th>
@@ -624,16 +1322,19 @@ tr:hover td{background:#fbfbfb}
 </section>
 
   
-<section id="risk" class="cta-band-dark">
+<section id="risk" class="section">
   <div class="container">
-    <div class="risk-header">
-      <span class="badge-pill dark">RISK CONTROL</span>
-      <h2>风控闭环与组合健康</h2>
-      <p>系统以硬止损、冷静期、最大回撤、极端市场保护和仓位映射构成交易闭环。</p>
+    <div class="section-head split">
+      <div>
+        <span class="chip chip-purple">RISK CONTROL</span>
+        <h2>风控闭环与组合健康</h2>
+      </div>
+      <p>硬止损、冷静期、最大回撤、极端市场保护与仓位映射共同构成交易闭环。</p>
     </div>
 
-    <div class="risk-dark-grid">
-      
+    <div class="risk-layout">
+      <div class="risk-grid">
+        
       <article class="risk-tile">
         <span>冷静期</span>
         <strong class="number ">2026-05-22</strong>
@@ -674,13 +1375,24 @@ tr:hover td{background:#fbfbfb}
         <strong class="number is-up">178.21</strong>
       </article>
 
+      </div>
+
+      <aside class="risk-note">
+        <h3>风控摘要</h3>
+        <ul>
+          <li>连续止损达到阈值后，系统进入人工复核状态。</li>
+          <li>冷静期内仅允许极少数强恢复信号试探。</li>
+          <li>极端市场优先保命，禁止新增风险敞口。</li>
+          <li>T1 锁仓与真实止盈已经分离记录。</li>
+        </ul>
+      </aside>
     </div>
   </div>
 </section>
 
 </main>
 
-<footer class="footer-light">
+<footer class="footer">
   <div class="container footer-inner">
     <div>
       <strong>ETF Intelligence</strong>
