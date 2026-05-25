@@ -11,7 +11,7 @@
       "stop_loss": 2.302,
       "initial_stop_loss": 2.302,
       "atr_multiplier": 2.1,
-      "highest_close": 2.441,
+      "highest_close": 2.46,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
       "score_history": [
@@ -34,7 +34,7 @@
       "stop_loss": 1.653,
       "initial_stop_loss": 1.653,
       "atr_multiplier": 2.1,
-      "highest_close": 1.849,
+      "highest_close": 1.862,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
       "score_history": [
@@ -213,9 +213,9 @@
   ],
   "cooldown_until": "",
   "consecutive_stop_losses": 0,
-  "peak_capital": 10842.392485,
+  "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-25 14:05:18",
+  "last_update": "2026-05-25 14:55:18",
   "breadth_history": [
     {
       "date": "2026-05-15",
