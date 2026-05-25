@@ -1,7 +1,44 @@
 {
   "initial_capital": 10000.0,
-  "cash": 10781.19771,
-  "holdings": [],
+  "cash": 6179.607575,
+  "holdings": [
+    {
+      "code": "159667",
+      "name": "国泰中证机床ETF",
+      "shares": 1300,
+      "buy_price": 2.421,
+      "buy_date": "2026-05-25",
+      "stop_loss": 2.302,
+      "initial_stop_loss": 2.302,
+      "atr_multiplier": 2.1,
+      "highest_close": 2.421,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": null,
+      "extreme_protected": false
+    },
+    {
+      "code": "562950",
+      "name": "易方达中证消费电子主题ETF",
+      "shares": 800,
+      "buy_price": 1.817,
+      "buy_date": "2026-05-25",
+      "stop_loss": 1.653,
+      "initial_stop_loss": 1.653,
+      "atr_multiplier": 2.1,
+      "highest_close": 1.817,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": null,
+      "extreme_protected": false
+    }
+  ],
   "trade_history": [
     {
       "date": "2026-05-06",
@@ -130,13 +167,45 @@
       "pnl": -47.19,
       "pnl_pct": -3.51,
       "timestamp": "2026-05-21 14:05:20"
+    },
+    {
+      "date": "2026-05-25",
+      "code": "159667",
+      "name": "国泰中证机床ETF",
+      "action": "BUY",
+      "shares": 1300,
+      "price": 2.421,
+      "amount": 3147.77,
+      "reason": "总分 16.0/RPS 94/EV 3.31%/RE 0.68/优先 0.70/止损 2.302",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0331,
+      "signal_quality": 0.73,
+      "stop_loss": 2.302,
+      "timestamp": "2026-05-25 09:45:17"
+    },
+    {
+      "date": "2026-05-25",
+      "code": "562950",
+      "name": "易方达中证消费电子主题ETF",
+      "action": "BUY",
+      "shares": 800,
+      "price": 1.817,
+      "amount": 1453.82,
+      "reason": "总分 14.3/RPS 91/EV 3.55%/RE 0.55/优先 0.68/止损 1.653",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0355,
+      "signal_quality": 0.69,
+      "stop_loss": 1.653,
+      "timestamp": "2026-05-25 09:45:17"
     }
   ],
-  "cooldown_until": "2026-05-22",
-  "consecutive_stop_losses": 1,
+  "cooldown_until": "",
+  "consecutive_stop_losses": 0,
   "peak_capital": 10842.392485,
   "pause_until": null,
-  "last_update": "2026-05-24 19:58:52",
+  "last_update": "2026-05-25 09:45:17",
   "breadth_history": [
     {
       "date": "2026-05-15",
@@ -153,10 +222,14 @@
     {
       "date": "2026-05-22",
       "bull_pct": 44.4
+    },
+    {
+      "date": "2026-05-25",
+      "bull_pct": 44.4
     }
   ],
   "stale_signal_count": 0,
   "extreme_market_count": 0,
   "last_extreme_date": "",
-  "max_drawdown": -0.005644028758842697
+  "max_drawdown": -0.005707680300783787
 }
