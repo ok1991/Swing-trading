@@ -165,7 +165,7 @@
       "shares": 1200,
       "price": 2.359,
       "amount": 2830.38,
-      "reason": "信号恶化+R/R极差(0.1)",
+      "reason": "信号恶化+R/R极差(0.1) BUG",
       "pnl": 370.38,
       "pnl_pct": 15.06,
       "timestamp": "2026-05-20 09:50:21"
@@ -178,7 +178,7 @@
       "shares": 1200,
       "price": 2.174,
       "amount": 2608.41,
-      "reason": "信号恶化+R/R极差(0.1)",
+      "reason": "信号恶化+R/R极差(0.1 BUG)",
       "pnl": 292.41,
       "pnl_pct": 12.63,
       "timestamp": "2026-05-20 09:50:21"
@@ -249,7 +249,7 @@
       "shares": 900,
       "price": 1.534,
       "amount": 1380.81,
-      "reason": "原始15.9/展示15.9/RPS 97/EV 4.73%/RE 0.67/优先 81.22/止损 1.451",
+      "reason": "总分 15.9/RPS 97/EV 4.73%/RE 0.67/优先 81.22/止损 1.451",
       "pnl": 0,
       "pnl_pct": 0,
       "ev": 0.0473,
@@ -262,7 +262,7 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-26 15:34:35",
+  "last_update": "2026-05-26 19:28:07",
   "breadth_history": [
     {
       "date": "2026-05-15",
