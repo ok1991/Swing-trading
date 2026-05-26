@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6179.607575,
+  "cash": 4798.800485,
   "holdings": [
     {
       "code": "159667",
@@ -18,6 +18,10 @@
         {
           "date": "2026-05-25",
           "score": 16.0
+        },
+        {
+          "date": "2026-05-26",
+          "score": 15.2
         }
       ],
       "t1_locked": false,
@@ -41,8 +45,30 @@
         {
           "date": "2026-05-25",
           "score": 14.3
+        },
+        {
+          "date": "2026-05-26",
+          "score": 13.6
         }
       ],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": null,
+      "extreme_protected": false
+    },
+    {
+      "code": "515880",
+      "name": "国泰中证全指通信设备ETF",
+      "shares": 900,
+      "buy_price": 1.534,
+      "buy_date": "2026-05-26",
+      "stop_loss": 1.451,
+      "initial_stop_loss": 1.451,
+      "atr_multiplier": 2.2,
+      "highest_close": 1.534,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -209,13 +235,29 @@
       "signal_quality": 0.69,
       "stop_loss": 1.653,
       "timestamp": "2026-05-25 09:45:17"
+    },
+    {
+      "date": "2026-05-26",
+      "code": "515880",
+      "name": "国泰中证全指通信设备ETF",
+      "action": "BUY",
+      "shares": 900,
+      "price": 1.534,
+      "amount": 1380.81,
+      "reason": "原始15.9/展示15.9/RPS 97/EV 4.73%/RE 0.67/优先 81.22/止损 1.451",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0473,
+      "signal_quality": 0.73,
+      "stop_loss": 1.451,
+      "timestamp": "2026-05-26 09:50:18"
     }
   ],
   "cooldown_until": "",
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-25 18:19:04",
+  "last_update": "2026-05-26 09:50:18",
   "breadth_history": [
     {
       "date": "2026-05-15",
@@ -236,10 +278,14 @@
     {
       "date": "2026-05-25",
       "bull_pct": 44.4
+    },
+    {
+      "date": "2026-05-26",
+      "bull_pct": 38.9
     }
   ],
   "stale_signal_count": 0,
   "extreme_market_count": 0,
   "last_extreme_date": "",
-  "max_drawdown": -0.005707680300783787
+  "max_drawdown": -0.0069205533694795445
 }
