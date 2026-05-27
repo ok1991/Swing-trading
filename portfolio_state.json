@@ -1,38 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 4798.800485,
+  "cash": 7822.146914999999,
   "holdings": [
-    {
-      "code": "159667",
-      "name": "国泰中证机床ETF",
-      "shares": 1300,
-      "buy_price": 2.421,
-      "buy_date": "2026-05-25",
-      "stop_loss": 2.302,
-      "initial_stop_loss": 2.302,
-      "atr_multiplier": 2.1,
-      "highest_close": 2.46,
-      "profit_taken_tiers": [],
-      "profit_protected_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-05-25",
-          "score": 16.0
-        },
-        {
-          "date": "2026-05-26",
-          "score": 15.2
-        },
-        {
-          "date": "2026-05-27",
-          "score": 16.4
-        }
-      ],
-      "t1_locked": false,
-      "t1_locked_date": "",
-      "forward_rr": null,
-      "extreme_protected": false
-    },
     {
       "code": "562950",
       "name": "易方达中证消费电子主题ETF",
@@ -268,13 +237,27 @@
       "signal_quality": 0.73,
       "stop_loss": 1.451,
       "timestamp": "2026-05-26 09:50:18"
+    },
+    {
+      "date": "2026-05-27",
+      "code": "159667",
+      "name": "国泰中证机床ETF",
+      "action": "SELL",
+      "shares": 1300,
+      "price": 2.326,
+      "amount": 3023.35,
+      "reason": "新仓闪崩止损(-3.9%)",
+      "pnl": -123.95,
+      "pnl_pct": -3.94,
+      "timestamp": "2026-05-27 13:45:18",
+      "buy_date": "2026-05-25"
     }
   ],
-  "cooldown_until": "",
-  "consecutive_stop_losses": 0,
+  "cooldown_until": "2026-05-28",
+  "consecutive_stop_losses": 1,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-27 10:35:18",
+  "last_update": "2026-05-27 13:45:18",
   "breadth_history": [
     {
       "date": "2026-05-15",
@@ -308,5 +291,5 @@
   "stale_signal_count": 0,
   "extreme_market_count": 0,
   "last_extreme_date": "",
-  "max_drawdown": -0.00716900725989865
+  "max_drawdown": -0.019449399355013434
 }

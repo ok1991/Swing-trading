@@ -227,7 +227,7 @@ tr:hover td{background:#fbfbfb}
       </div>
 
       <div class="hero-meta">
-        <span>生成时间：2026-05-27 10:35:18</span>
+        <span>生成时间：2026-05-27 13:45:20</span>
         <span>市场宽度 39% · 多空比 1.00</span>
       </div>
     </div>
@@ -237,7 +237,7 @@ tr:hover td{background:#fbfbfb}
         <div class="mock-card-head">
           <div>
             <span class="mock-label">Total Assets</span>
-            <div class="mock-value number">¥10,865</div>
+            <div class="mock-value number">¥10,656</div>
           </div>
           <span class="status-dot"></span>
         </div>
@@ -245,15 +245,15 @@ tr:hover td{background:#fbfbfb}
         <div class="mock-metrics">
           <div>
             <span>现金</span>
-            <strong class="number">¥4,799</strong>
+            <strong class="number">¥7,822</strong>
           </div>
           <div>
             <span>市值</span>
-            <strong class="number">¥6,066</strong>
+            <strong class="number">¥2,834</strong>
           </div>
           <div>
             <span>盈亏</span>
-            <strong class="number is-up">+865</strong>
+            <strong class="number is-up">+656</strong>
           </div>
         </div>
 
@@ -269,7 +269,7 @@ tr:hover td{background:#fbfbfb}
 
         <div class="mock-foot">
           <span>累计收益</span>
-          <strong class="number is-up">+8.65%</strong>
+          <strong class="number is-up">+6.56%</strong>
         </div>
       </div>
 
@@ -289,25 +289,17 @@ tr:hover td{background:#fbfbfb}
           </div>
           <div>
             <span>ORDERS</span>
-            <strong class="number">0</strong>
+            <strong class="number">1</strong>
           </div>
         </div>
         <div class="mock-list">
           
             <div class="mock-asset-row">
               <div class="mock-asset-name">
-                <span class="asset-icon">国</span>
-                <span>国泰中证机床ETF</span>
-              </div>
-              <span class="number is-down">-0.7%</span>
-            </div>
-            
-            <div class="mock-asset-row">
-              <div class="mock-asset-name">
                 <span class="asset-icon">易</span>
                 <span>易方达中证消费电子主题ETF</span>
               </div>
-              <span class="number is-up">+4.3%</span>
+              <span class="number is-up">+0.3%</span>
             </div>
             
             <div class="mock-asset-row">
@@ -315,7 +307,7 @@ tr:hover td{background:#fbfbfb}
                 <span class="asset-icon">国</span>
                 <span>国泰中证全指通信设备ETF</span>
               </div>
-              <span class="number is-up">+3.1%</span>
+              <span class="number is-down">-0.3%</span>
             </div>
             
         </div>
@@ -336,31 +328,31 @@ tr:hover td{background:#fbfbfb}
 
       <article class="kpi-card">
         <span class="kpi-label">总资产</span>
-        <strong class="kpi-value number ">¥10,865</strong>
+        <strong class="kpi-value number ">¥10,656</strong>
         <span class="kpi-sub">Portfolio equity</span>
       </article>
 
       <article class="kpi-card">
         <span class="kpi-label">现金</span>
-        <strong class="kpi-value number ">¥4,799</strong>
+        <strong class="kpi-value number ">¥7,822</strong>
         <span class="kpi-sub">Available cash</span>
       </article>
 
       <article class="kpi-card">
         <span class="kpi-label">持仓市值</span>
-        <strong class="kpi-value number ">¥6,066</strong>
+        <strong class="kpi-value number ">¥2,834</strong>
         <span class="kpi-sub">Market exposure</span>
       </article>
 
       <article class="kpi-card">
         <span class="kpi-label">累计盈亏</span>
-        <strong class="kpi-value number is-up">+865</strong>
-        <span class="kpi-sub">+8.65%</span>
+        <strong class="kpi-value number is-up">+656</strong>
+        <span class="kpi-sub">+6.56%</span>
       </article>
 
       <article class="kpi-card">
         <span class="kpi-label">当前回撤</span>
-        <strong class="kpi-value number is-down">-0.02%</strong>
+        <strong class="kpi-value number is-down">-1.94%</strong>
         <span class="kpi-sub">From peak capital</span>
       </article>
 
@@ -435,9 +427,16 @@ tr:hover td{background:#fbfbfb}
     <div class="orders-layout">
       <div class="orders-list">
         
-      <article class="empty-card compact">
-        <h3>暂无交易指令</h3>
-        <p>当前组合保持观察，等待更优赔率或风控触发。</p>
+      <article class="order-card">
+        <div>
+          <span class="order-type">卖出</span>
+          <h3>国泰中证机床ETF <span>159667</span></h3>
+        </div>
+        <div class="order-side">
+          <strong class="number">1300 份</strong>
+          <span class="number">@ 2.326</span>
+        </div>
+        <p>新仓闪崩止损(-3.9%)</p>
       </article>
 
       </div>
@@ -450,7 +449,11 @@ tr:hover td{background:#fbfbfb}
 
         <li>🔌 [Unified Risk] 系统运行环境健康状态: 100%</li>
 
-        <li>🚫 持仓达到最大上限，无空闲标的舱门</li>
+        <li>🚫 今日存在预判止损事件，全天禁开新仓</li>
+
+        <li>🟢 国泰中证机床ETF 1300 份 @2.326 (-124元)</li>
+
+        <li>❄️ 止损触发，连续止损 1 次，冷静期至 2026-05-28</li>
 
         </ul>
       </aside>
@@ -487,39 +490,6 @@ tr:hover td{background:#fbfbfb}
 <tr>
   <td data-label="标的">
     <div class="asset-cell">
-      <span class="asset-icon">国</span>
-      <div>
-        <strong>国泰中证机床ETF</strong>
-        <span>159667</span>
-      </div>
-    </div>
-  </td>
-  <td data-label="持仓">
-    <span class="number">1300</span>
-    <div class="badge-line"></div>
-  </td>
-  <td data-label="成本" class="number">2.421</td>
-  <td data-label="现价" class="number">2.405</td>
-  <td data-label="市值" class="number">¥3,126</td>
-  <td data-label="盈亏">
-    <strong class="number is-down">-21</strong>
-    <span class="number is-down">-0.66%</span>
-  </td>
-  <td data-label="止损线">
-    <strong class="number">2.302</strong>
-    <span class="muted number">距 4.3%</span>
-  </td>
-  <td data-label="持仓周期">
-    <div class="hold-progress">
-      <span class="number">2/15</span>
-      <i><b style="width:13%"></b></i>
-    </div>
-  </td>
-</tr>
-
-<tr>
-  <td data-label="标的">
-    <div class="asset-cell">
       <span class="asset-icon">易</span>
       <div>
         <strong>易方达中证消费电子主题ETF</strong>
@@ -532,15 +502,15 @@ tr:hover td{background:#fbfbfb}
     <div class="badge-line"></div>
   </td>
   <td data-label="成本" class="number">1.817</td>
-  <td data-label="现价" class="number">1.896</td>
-  <td data-label="市值" class="number">¥1,517</td>
+  <td data-label="现价" class="number">1.822</td>
+  <td data-label="市值" class="number">¥1,458</td>
   <td data-label="盈亏">
-    <strong class="number is-up">+63</strong>
-    <span class="number is-up">+4.35%</span>
+    <strong class="number is-up">+4</strong>
+    <span class="number is-up">+0.28%</span>
   </td>
   <td data-label="止损线">
     <strong class="number">1.653</strong>
-    <span class="muted number">距 12.8%</span>
+    <span class="muted number">距 9.3%</span>
   </td>
   <td data-label="持仓周期">
     <div class="hold-progress">
@@ -565,15 +535,15 @@ tr:hover td{background:#fbfbfb}
     <div class="badge-line"></div>
   </td>
   <td data-label="成本" class="number">1.534</td>
-  <td data-label="现价" class="number">1.581</td>
-  <td data-label="市值" class="number">¥1,423</td>
+  <td data-label="现价" class="number">1.529</td>
+  <td data-label="市值" class="number">¥1,376</td>
   <td data-label="盈亏">
-    <strong class="number is-up">+42</strong>
-    <span class="number is-up">+3.06%</span>
+    <strong class="number is-down">-5</strong>
+    <span class="number is-down">-0.33%</span>
   </td>
   <td data-label="止损线">
     <strong class="number">1.451</strong>
-    <span class="muted number">距 8.2%</span>
+    <span class="muted number">距 5.1%</span>
   </td>
   <td data-label="持仓周期">
     <div class="hold-progress">
@@ -610,6 +580,19 @@ tr:hover td{background:#fbfbfb}
           </tr>
         </thead>
         <tbody>
+<tr>
+  <td data-label="日期">2026-05-27</td>
+  <td data-label="操作"><span class="action-tag act-sell">卖出</span></td>
+  <td data-label="标的">
+    <strong>国泰中证机床ETF</strong>
+    <span class="muted">159667</span>
+  </td>
+  <td data-label="数量" class="number">1300</td>
+  <td data-label="价格" class="number">2.326</td>
+  <td data-label="盈亏"><span class="number is-down">-123.95 · -3.9%</span></td>
+  <td data-label="依据" class="reason-cell">新仓闪崩止损(-3.9%)</td>
+</tr>
+
 <tr>
   <td data-label="日期">2026-05-26</td>
   <td data-label="操作"><span class="action-tag act-buy">买入</span></td>
@@ -797,12 +780,12 @@ tr:hover td{background:#fbfbfb}
       
       <article class="risk-tile">
         <span>冷静期</span>
-        <strong class="number ">无</strong>
+        <strong class="number ">2026-05-28</strong>
       </article>
 
       <article class="risk-tile">
         <span>连续止损</span>
-        <strong class="number ">0/3</strong>
+        <strong class="number ">1/3</strong>
       </article>
 
       <article class="risk-tile">
@@ -822,17 +805,17 @@ tr:hover td{background:#fbfbfb}
 
       <article class="risk-tile">
         <span>总亏损</span>
-        <strong class="number is-down">-100.28</strong>
+        <strong class="number is-down">-224.23</strong>
       </article>
 
       <article class="risk-tile">
         <span>盈利因子</span>
-        <strong class="number is-up">8.81</strong>
+        <strong class="number is-up">3.94</strong>
       </article>
 
       <article class="risk-tile">
         <span>Calmar 比率</span>
-        <strong class="number is-up">150.35</strong>
+        <strong class="number is-up">58.61</strong>
       </article>
 
     </div>
