@@ -8,7 +8,7 @@
       "shares": 800,
       "buy_price": 1.817,
       "buy_date": "2026-05-25",
-      "stop_loss": 1.653,
+      "stop_loss": 1.8224,
       "initial_stop_loss": 1.653,
       "atr_multiplier": 2.1,
       "highest_close": 1.896,
@@ -16,21 +16,29 @@
       "profit_protected_tiers": [],
       "score_history": [
         {
-          "date": "2026-05-25",
-          "score": 14.3
-        },
-        {
           "date": "2026-05-26",
           "score": 13.6
         },
         {
           "date": "2026-05-27",
           "score": 15.0
+        },
+        {
+          "date": "2026-05-28",
+          "score": 13.6
         }
       ],
       "t1_locked": false,
       "t1_locked_date": "",
-      "forward_rr": null,
+      "forward_rr": {
+        "rr_ratio": 0.21,
+        "target": 1.8381449999999997,
+        "upside_pct": 0.5,
+        "downside_pct": 2.4,
+        "action": "WATCH_ONLY",
+        "reason": "R/R正常0.21",
+        "signal_quality": 0.59
+      },
       "extreme_protected": false
     },
     {
@@ -53,6 +61,10 @@
         {
           "date": "2026-05-27",
           "score": 15.1
+        },
+        {
+          "date": "2026-05-28",
+          "score": 14.9
         }
       ],
       "t1_locked": false,
@@ -257,7 +269,7 @@
   "consecutive_stop_losses": 1,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-27 14:55:18",
+  "last_update": "2026-05-28 09:50:17",
   "breadth_history": [
     {
       "date": "2026-05-15",
@@ -286,6 +298,10 @@
     {
       "date": "2026-05-27",
       "bull_pct": 38.9
+    },
+    {
+      "date": "2026-05-28",
+      "bull_pct": 30.6
     }
   ],
   "stale_signal_count": 0,
