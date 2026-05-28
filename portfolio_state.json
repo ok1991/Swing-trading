@@ -11,7 +11,7 @@
       "stop_loss": 1.451,
       "initial_stop_loss": 1.451,
       "atr_multiplier": 2.2,
-      "highest_close": 1.6,
+      "highest_close": 1.617,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
       "score_history": [
@@ -244,7 +244,7 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-28 13:45:19",
+  "last_update": "2026-05-28 14:55:20",
   "breadth_history": [
     {
       "date": "2026-05-15",
