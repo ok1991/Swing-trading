@@ -8,7 +8,7 @@
       "shares": 800,
       "buy_price": 1.817,
       "buy_date": "2026-05-25",
-      "stop_loss": 1.8224,
+      "stop_loss": 1.8277999999999999,
       "initial_stop_loss": 1.653,
       "atr_multiplier": 2.1,
       "highest_close": 1.896,
@@ -31,12 +31,12 @@
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": {
-        "rr_ratio": 0.21,
-        "target": 1.8381449999999997,
+        "rr_ratio": 0.49,
+        "target": 1.8502049999999999,
         "upside_pct": 0.5,
-        "downside_pct": 2.4,
+        "downside_pct": 1.01,
         "action": "WATCH_ONLY",
-        "reason": "R/R正常0.21",
+        "reason": "R/R正常0.49",
         "signal_quality": 0.59
       },
       "extreme_protected": false
@@ -269,7 +269,7 @@
   "consecutive_stop_losses": 1,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-28 09:50:17",
+  "last_update": "2026-05-28 10:35:17",
   "breadth_history": [
     {
       "date": "2026-05-15",
