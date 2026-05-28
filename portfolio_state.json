@@ -1,46 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7822.146914999999,
+  "cash": 9307.524075,
   "holdings": [
-    {
-      "code": "562950",
-      "name": "易方达中证消费电子主题ETF",
-      "shares": 800,
-      "buy_price": 1.817,
-      "buy_date": "2026-05-25",
-      "stop_loss": 1.8277999999999999,
-      "initial_stop_loss": 1.653,
-      "atr_multiplier": 2.1,
-      "highest_close": 1.896,
-      "profit_taken_tiers": [],
-      "profit_protected_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-05-26",
-          "score": 13.6
-        },
-        {
-          "date": "2026-05-27",
-          "score": 15.0
-        },
-        {
-          "date": "2026-05-28",
-          "score": 13.6
-        }
-      ],
-      "t1_locked": false,
-      "t1_locked_date": "",
-      "forward_rr": {
-        "rr_ratio": 0.49,
-        "target": 1.8502049999999999,
-        "upside_pct": 0.5,
-        "downside_pct": 1.01,
-        "action": "WATCH_ONLY",
-        "reason": "R/R正常0.49",
-        "signal_quality": 0.59
-      },
-      "extreme_protected": false
-    },
     {
       "code": "515880",
       "name": "国泰中证全指通信设备ETF",
@@ -50,7 +11,7 @@
       "stop_loss": 1.451,
       "initial_stop_loss": 1.451,
       "atr_multiplier": 2.2,
-      "highest_close": 1.581,
+      "highest_close": 1.6,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
       "score_history": [
@@ -263,13 +224,27 @@
       "pnl_pct": -3.94,
       "timestamp": "2026-05-27 13:45:18",
       "buy_date": "2026-05-25"
+    },
+    {
+      "date": "2026-05-28",
+      "code": "562950",
+      "name": "易方达中证消费电子主题ETF",
+      "action": "SELL",
+      "shares": 800,
+      "price": 1.857,
+      "amount": 1485.38,
+      "reason": "R/R极差0.32<0.32(浮盈2.2%)",
+      "pnl": 31.78,
+      "pnl_pct": 2.19,
+      "timestamp": "2026-05-28 13:45:19",
+      "buy_date": "2026-05-25"
     }
   ],
-  "cooldown_until": "2026-05-28",
-  "consecutive_stop_losses": 1,
+  "cooldown_until": "",
+  "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-28 10:35:17",
+  "last_update": "2026-05-28 13:45:19",
   "breadth_history": [
     {
       "date": "2026-05-15",
