@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9307.524075,
+  "cash": 6150.650614999999,
   "holdings": [
     {
       "code": "515880",
@@ -8,7 +8,7 @@
       "shares": 900,
       "buy_price": 1.534,
       "buy_date": "2026-05-26",
-      "stop_loss": 1.451,
+      "stop_loss": 1.5224055,
       "initial_stop_loss": 1.451,
       "atr_multiplier": 2.2,
       "highest_close": 1.617,
@@ -16,18 +16,44 @@
       "profit_protected_tiers": [],
       "score_history": [
         {
-          "date": "2026-05-26",
-          "score": 15.9
-        },
-        {
           "date": "2026-05-27",
           "score": 15.1
         },
         {
           "date": "2026-05-28",
           "score": 14.9
+        },
+        {
+          "date": "2026-05-29",
+          "score": 15.5
         }
       ],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": {
+        "rr_ratio": 2.21,
+        "target": 1.7717700000000003,
+        "upside_pct": 10.74,
+        "downside_pct": 4.85,
+        "action": "WATCH_ONLY",
+        "reason": "R/R正常2.21",
+        "signal_quality": 0.74
+      },
+      "extreme_protected": false
+    },
+    {
+      "code": "159611",
+      "name": "广发中证全指电力ETF",
+      "shares": 2600,
+      "buy_price": 1.214,
+      "buy_date": "2026-05-29",
+      "stop_loss": 1.16,
+      "initial_stop_loss": 1.16,
+      "atr_multiplier": 2.2,
+      "highest_close": 1.214,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -238,13 +264,29 @@
       "pnl_pct": 2.19,
       "timestamp": "2026-05-28 13:45:19",
       "buy_date": "2026-05-25"
+    },
+    {
+      "date": "2026-05-29",
+      "code": "159611",
+      "name": "广发中证全指电力ETF",
+      "action": "BUY",
+      "shares": 2600,
+      "price": 1.214,
+      "amount": 3156.87,
+      "reason": "优选66.0｜RPS74｜EV2.68%｜RE0.60｜止损1.160",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0268,
+      "signal_quality": 0.81,
+      "stop_loss": 1.16,
+      "timestamp": "2026-05-29 09:50:21"
     }
   ],
   "cooldown_until": "",
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-28 14:55:20",
+  "last_update": "2026-05-29 09:50:21",
   "breadth_history": [
     {
       "date": "2026-05-15",
@@ -277,6 +319,10 @@
     {
       "date": "2026-05-28",
       "bull_pct": 30.6
+    },
+    {
+      "date": "2026-05-29",
+      "bull_pct": 38.9
     }
   ],
   "stale_signal_count": 0,
