@@ -31,13 +31,13 @@
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": {
-        "rr_ratio": 1.82,
+        "rr_ratio": 2.71,
         "target": 1.7717700000000003,
-        "upside_pct": 9.91,
-        "downside_pct": 5.44,
+        "upside_pct": 11.36,
+        "downside_pct": 4.19,
         "action": "WATCH_ONLY",
-        "reason": "R/R正常1.82",
-        "signal_quality": 0.74
+        "reason": "R/R正常2.71",
+        "signal_quality": 0.72
       },
       "extreme_protected": false
     },
@@ -291,7 +291,7 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-29 13:45:18",
+  "last_update": "2026-05-29 14:55:27",
   "breadth_history": [
     {
       "date": "2026-05-15",
