@@ -16,28 +16,28 @@
       "profit_protected_tiers": [],
       "score_history": [
         {
-          "date": "2026-05-27",
-          "score": 15.1
-        },
-        {
           "date": "2026-05-28",
           "score": 14.9
         },
         {
           "date": "2026-05-29",
           "score": 15.5
+        },
+        {
+          "date": "2026-06-01",
+          "score": 15.8
         }
       ],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": {
-        "rr_ratio": 2.71,
+        "rr_ratio": 3.44,
         "target": 1.7717700000000003,
-        "upside_pct": 11.36,
-        "downside_pct": 4.19,
+        "upside_pct": 12.14,
+        "downside_pct": 3.53,
         "action": "WATCH_ONLY",
-        "reason": "R/R正常2.71",
-        "signal_quality": 0.72
+        "reason": "R/R正常3.44",
+        "signal_quality": 0.74
       },
       "extreme_protected": false
     },
@@ -57,6 +57,10 @@
         {
           "date": "2026-05-29",
           "score": 15.2
+        },
+        {
+          "date": "2026-06-01",
+          "score": 18.4
         }
       ],
       "t1_locked": false,
@@ -291,7 +295,7 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-05-29 14:55:27",
+  "last_update": "2026-06-01 09:50:19",
   "breadth_history": [
     {
       "date": "2026-05-15",
@@ -328,6 +332,10 @@
     {
       "date": "2026-05-29",
       "bull_pct": 38.9
+    },
+    {
+      "date": "2026-06-01",
+      "bull_pct": 30.6
     }
   ],
   "stale_signal_count": 0,
