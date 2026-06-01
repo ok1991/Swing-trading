@@ -31,12 +31,12 @@
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": {
-        "rr_ratio": 3.44,
+        "rr_ratio": 3.98,
         "target": 1.7717700000000003,
-        "upside_pct": 12.14,
-        "downside_pct": 3.53,
+        "upside_pct": 12.56,
+        "downside_pct": 3.16,
         "action": "WATCH_ONLY",
-        "reason": "R/R正常3.44",
+        "reason": "R/R正常3.98",
         "signal_quality": 0.74
       },
       "extreme_protected": false
@@ -50,7 +50,7 @@
       "stop_loss": 1.16,
       "initial_stop_loss": 1.16,
       "atr_multiplier": 2.2,
-      "highest_close": 1.244,
+      "highest_close": 1.254,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
       "score_history": [
@@ -295,7 +295,7 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-06-01 09:50:19",
+  "last_update": "2026-06-01 10:35:19",
   "breadth_history": [
     {
       "date": "2026-05-15",
