@@ -1,46 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 6150.650614999999,
+  "cash": 7578.736369999999,
   "holdings": [
-    {
-      "code": "515880",
-      "name": "国泰中证全指通信设备ETF",
-      "shares": 900,
-      "buy_price": 1.534,
-      "buy_date": "2026-05-26",
-      "stop_loss": 1.5457,
-      "initial_stop_loss": 1.451,
-      "atr_multiplier": 2.2,
-      "highest_close": 1.619,
-      "profit_taken_tiers": [],
-      "profit_protected_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-05-29",
-          "score": 15.5
-        },
-        {
-          "date": "2026-06-01",
-          "score": 15.8
-        },
-        {
-          "date": "2026-06-02",
-          "score": 13.3
-        }
-      ],
-      "t1_locked": false,
-      "t1_locked_date": "",
-      "forward_rr": {
-        "rr_ratio": 0.22,
-        "target": 1.5677999999999999,
-        "upside_pct": 0.5,
-        "downside_pct": 2.29,
-        "action": "WATCH_ONLY",
-        "reason": "R/R正常0.22",
-        "signal_quality": 0.66
-      },
-      "extreme_protected": false
-    },
     {
       "code": "159611",
       "name": "广发中证全指电力ETF",
@@ -293,63 +254,77 @@
       "signal_quality": 0.81,
       "stop_loss": 1.16,
       "timestamp": "2026-05-29 09:50:21"
+    },
+    {
+      "date": "2026-06-02",
+      "code": "515880",
+      "name": "国泰中证全指通信设备ETF",
+      "action": "SELL",
+      "shares": 900,
+      "price": 1.587,
+      "amount": 1428.09,
+      "reason": "R/R极差0.19<0.30(浮盈3.5%)",
+      "pnl": 47.49,
+      "pnl_pct": 3.44,
+      "timestamp": "2026-06-02 10:35:20",
+      "buy_date": "2026-05-26"
     }
   ],
   "cooldown_until": "",
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-06-02 09:50:24",
+  "last_update": "2026-06-02 10:35:20",
   "breadth_history": [
     {
       "date": "2026-05-20",
       "bull_pct": 42.9,
-      "breadth_ewma": 40.92
+      "breadth_ewma": 42.9
     },
     {
       "date": "2026-05-21",
       "bull_pct": 42.9,
-      "breadth_ewma": 41.81
+      "breadth_ewma": 42.9
     },
     {
       "date": "2026-05-22",
       "bull_pct": 44.4,
-      "breadth_ewma": 42.98
+      "breadth_ewma": 43.58
     },
     {
       "date": "2026-05-25",
       "bull_pct": 44.4,
-      "breadth_ewma": 43.62
+      "breadth_ewma": 43.95
     },
     {
       "date": "2026-05-26",
       "bull_pct": 38.9,
-      "breadth_ewma": 41.49
+      "breadth_ewma": 41.68
     },
     {
       "date": "2026-05-27",
       "bull_pct": 38.9,
-      "breadth_ewma": 40.33
+      "breadth_ewma": 40.43
     },
     {
       "date": "2026-05-28",
       "bull_pct": 30.6,
-      "breadth_ewma": 35.95
+      "breadth_ewma": 36.0
     },
     {
       "date": "2026-05-29",
       "bull_pct": 38.9,
-      "breadth_ewma": 37.28
+      "breadth_ewma": 37.31
     },
     {
       "date": "2026-06-01",
       "bull_pct": 30.6,
-      "breadth_ewma": 34.27
+      "breadth_ewma": 34.29
     },
     {
       "date": "2026-06-02",
       "bull_pct": 30.6,
-      "breadth_ewma": 32.62
+      "breadth_ewma": 32.63
     }
   ],
   "stale_signal_count": 0,
