@@ -106,6 +106,17 @@ main{background:var(--canvas)}
 .alerts-card ul{display:flex;flex-direction:column;gap:12px;list-style:none}
 .alerts-card li{color:var(--body);font-size:14px;padding-bottom:12px;border-bottom:1px solid var(--hairline-soft)}
 
+.diagnostics-layout{display:grid;grid-template-columns:300px 300px minmax(0,1fr);gap:24px;align-items:start}
+.diag-card{background:var(--canvas);border:1px solid var(--hairline);border-radius:var(--radius-xl);padding:28px}
+.diag-card h3{font-size:18px;font-weight:600;margin-bottom:18px}
+.diag-rejections{display:flex;flex-direction:column;gap:10px}
+.diag-reject-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--hairline-soft);font-size:14px}
+.diag-reject-row:last-child{border-bottom:none}
+.diag-empty{color:var(--muted);font-size:14px}
+.diag-table-wrap{overflow:auto}
+.diag-table th,.diag-table td{padding:14px 12px}
+.diag-code{display:block;margin-top:4px;color:var(--muted);font-family:var(--mono);font-size:12px}
+
 .table-card{overflow:hidden}
 table{width:100%;border-collapse:collapse}
 th{background:var(--surface-soft);color:var(--muted);text-align:left;font-size:13px;font-weight:600;padding:16px 20px;border-bottom:1px solid var(--hairline);white-space:nowrap}
@@ -158,7 +169,7 @@ tr:hover td{background:#fbfbfb}
     </a>
 
     <div class="nav-actions">
-      <span class="search-pill">RUN 2026-06-01</span>
+      <span class="search-pill">RUN 2026-06-02</span>
       <a class="button-primary" href="#orders">View Signals</a>
     </div>
   </nav>
@@ -177,7 +188,7 @@ tr:hover td{background:#fbfbfb}
       </div>
 
       <div class="hero-meta">
-        <span>生成时间：2026-06-01 14:55:18</span>
+        <span>生成时间：2026-06-02 09:50:24</span>
         <span>市场宽度 31% · 多空比 0.65</span>
       </div>
     </div>
@@ -187,7 +198,7 @@ tr:hover td{background:#fbfbfb}
         <div class="mock-card-head">
           <div>
             <span class="mock-label">Total Assets</span>
-            <div class="mock-value number">¥10,788</div>
+            <div class="mock-value number">¥10,758</div>
           </div>
           <span class="status-dot"></span>
         </div>
@@ -199,11 +210,11 @@ tr:hover td{background:#fbfbfb}
           </div>
           <div>
             <span>市值</span>
-            <strong class="number">¥4,638</strong>
+            <strong class="number">¥4,607</strong>
           </div>
           <div>
             <span>盈亏</span>
-            <strong class="number is-up">+788</strong>
+            <strong class="number is-up">+758</strong>
           </div>
         </div>
 
@@ -219,7 +230,7 @@ tr:hover td{background:#fbfbfb}
 
         <div class="mock-foot">
           <span>累计收益</span>
-          <strong class="number is-up">+7.88%</strong>
+          <strong class="number is-up">+7.58%</strong>
         </div>
       </div>
 
@@ -231,11 +242,11 @@ tr:hover td{background:#fbfbfb}
         <div class="risk-mini-grid">
           <div>
             <span>ENV</span>
-            <strong class="number is-up">+2.1</strong>
+            <strong class="number is-up">+0.6</strong>
           </div>
           <div>
             <span>SCI</span>
-            <strong class="number">0.09</strong>
+            <strong class="number">0.07</strong>
           </div>
           <div>
             <span>ORDERS</span>
@@ -249,7 +260,7 @@ tr:hover td{background:#fbfbfb}
                 <span class="asset-icon">国</span>
                 <span>国泰中证全指通信设备ETF</span>
               </div>
-              <span class="number is-down">-0.1%</span>
+              <span class="number is-up">+1.7%</span>
             </div>
             
             <div class="mock-asset-row">
@@ -257,7 +268,7 @@ tr:hover td{background:#fbfbfb}
                 <span class="asset-icon">广</span>
                 <span>广发中证全指电力ETF</span>
               </div>
-              <span class="number is-up">+3.2%</span>
+              <span class="number is-up">+1.5%</span>
             </div>
             
         </div>
@@ -278,7 +289,7 @@ tr:hover td{background:#fbfbfb}
 
       <article class="kpi-card">
         <span class="kpi-label">总资产</span>
-        <strong class="kpi-value number ">¥10,788</strong>
+        <strong class="kpi-value number ">¥10,758</strong>
         <span class="kpi-sub">Portfolio equity</span>
       </article>
 
@@ -290,19 +301,19 @@ tr:hover td{background:#fbfbfb}
 
       <article class="kpi-card">
         <span class="kpi-label">持仓市值</span>
-        <strong class="kpi-value number ">¥4,638</strong>
+        <strong class="kpi-value number ">¥4,607</strong>
         <span class="kpi-sub">Market exposure</span>
       </article>
 
       <article class="kpi-card">
         <span class="kpi-label">累计盈亏</span>
-        <strong class="kpi-value number is-up">+788</strong>
-        <span class="kpi-sub">+7.88%</span>
+        <strong class="kpi-value number is-up">+758</strong>
+        <span class="kpi-sub">+7.58%</span>
       </article>
 
       <article class="kpi-card">
         <span class="kpi-label">当前回撤</span>
-        <strong class="kpi-value number is-down">-0.73%</strong>
+        <strong class="kpi-value number is-down">-1.01%</strong>
         <span class="kpi-sub">From peak capital</span>
       </article>
 
@@ -324,7 +335,7 @@ tr:hover td{background:#fbfbfb}
         <span class="badge-pill">MARKET REGIME</span>
         <h2>大盘环境与宏观约束</h2>
       </div>
-      <span class="large-number number is-up">+2.1</span>
+      <span class="large-number number is-up">+0.6</span>
     </div>
 
     
@@ -332,13 +343,13 @@ tr:hover td{background:#fbfbfb}
     <div class="info-grid">
       <article class="info-card">
         <span class="info-label">环境状态</span>
-        <strong class="info-value">偏多震荡</strong>
-        <p>偏多 · 允许交易</p>
+        <strong class="info-value">中性震荡</strong>
+        <p>震荡 · 防御优先</p>
       </article>
 
       <article class="info-card">
         <span class="info-label">ATR 分位</span>
-        <strong class="info-value number">97.5</strong>
+        <strong class="info-value number">99.2</strong>
         <p>用于动态调整止损距离、持仓周期和风险预算。</p>
       </article>
 
@@ -350,7 +361,7 @@ tr:hover td{background:#fbfbfb}
 
       <article class="info-card">
         <span class="info-label">板块拥挤度 SCI</span>
-        <strong class="info-value number">0.09</strong>
+        <strong class="info-value number">0.07</strong>
         <p>拥挤度正常</p>
       </article>
 
@@ -359,7 +370,7 @@ tr:hover td{background:#fbfbfb}
           <span class="info-label">市场宽度</span>
           <strong class="info-value number">31%</strong>
           <p>多空比 <span class="number">0.65</span> · 偏空</p>
-          <p class="muted">宽度平稳(+0.0%)</p>
+          <p class="muted">宽度平稳(-1.7%)</p>
         </article>
 
     </div>
@@ -388,11 +399,13 @@ tr:hover td{background:#fbfbfb}
         <h3>系统提示</h3>
         <ul>
           
-        <li>📊 宽度平稳(+0.0%) | 多头占31% | 多空比0.65</li>
+        <li>📊 宽度平稳(-1.7%) | 多头占31% | 多空比0.65</li>
 
         <li>🔌 [Unified Risk] 系统运行环境健康状态: 100%</li>
 
-        <li>🚫 持仓达到最大上限，无空闲标的舱门</li>
+        <li>🔥 止损上调: 国泰中证全指通信设备ETF → 1.546 (宽度领先预警：指数未破位但宽度结构偏弱，多头占31%，多空比0.65，保本保护)</li>
+
+        <li>📉 宽度领先恶化预警：指数未破位但宽度结构偏弱，多头占31%，多空比0.65 → 暂停新仓，只做持仓保护</li>
 
         </ul>
       </aside>
@@ -400,6 +413,7 @@ tr:hover td{background:#fbfbfb}
   </div>
 </section>
 
+  
   
 <section id="portfolio" class="section">
   <div class="container">
@@ -438,23 +452,23 @@ tr:hover td{background:#fbfbfb}
   </td>
   <td data-label="持仓">
     <span class="number">900</span>
-    <div class="badge-line"><span class="mini-badge">R/R 27.41</span></div>
+    <div class="badge-line"><span class="mini-badge">R/R 0.22</span></div>
   </td>
   <td data-label="成本" class="number">1.534</td>
-  <td data-label="现价" class="number">1.533</td>
-  <td data-label="市值" class="number">¥1,380</td>
+  <td data-label="现价" class="number">1.560</td>
+  <td data-label="市值" class="number">¥1,404</td>
   <td data-label="盈亏">
-    <strong class="number is-down">-1</strong>
-    <span class="number is-down">-0.07%</span>
+    <strong class="number is-up">+23</strong>
+    <span class="number is-up">+1.69%</span>
   </td>
   <td data-label="止损线">
-    <strong class="number">1.524</strong>
-    <span class="muted number">距 0.6%</span>
+    <strong class="number">1.546</strong>
+    <span class="muted number">距 0.9%</span>
   </td>
   <td data-label="持仓周期">
     <div class="hold-progress">
-      <span class="number">4/15</span>
-      <i><b style="width:26%"></b></i>
+      <span class="number">5/15</span>
+      <i><b style="width:33%"></b></i>
     </div>
   </td>
 </tr>
@@ -474,20 +488,20 @@ tr:hover td{background:#fbfbfb}
     <div class="badge-line"></div>
   </td>
   <td data-label="成本" class="number">1.214</td>
-  <td data-label="现价" class="number">1.253</td>
-  <td data-label="市值" class="number">¥3,258</td>
+  <td data-label="现价" class="number">1.232</td>
+  <td data-label="市值" class="number">¥3,203</td>
   <td data-label="盈亏">
-    <strong class="number is-up">+101</strong>
-    <span class="number is-up">+3.21%</span>
+    <strong class="number is-up">+47</strong>
+    <span class="number is-up">+1.48%</span>
   </td>
   <td data-label="止损线">
     <strong class="number">1.160</strong>
-    <span class="muted number">距 7.4%</span>
+    <span class="muted number">距 5.8%</span>
   </td>
   <td data-label="持仓周期">
     <div class="hold-progress">
-      <span class="number">1/15</span>
-      <i><b style="width:6%"></b></i>
+      <span class="number">2/15</span>
+      <i><b style="width:13%"></b></i>
     </div>
   </td>
 </tr>
@@ -769,7 +783,7 @@ tr:hover td{background:#fbfbfb}
 
       <article class="risk-tile">
         <span>年化收益率</span>
-        <strong class="number is-up">+110.64%</strong>
+        <strong class="number is-up">+102.45%</strong>
       </article>
 
       <article class="risk-tile">
@@ -779,7 +793,7 @@ tr:hover td{background:#fbfbfb}
 
       <article class="risk-tile">
         <span>Calmar 比率</span>
-        <strong class="number is-up">56.89</strong>
+        <strong class="number is-up">52.68</strong>
       </article>
 
     </div>

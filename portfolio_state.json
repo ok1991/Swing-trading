@@ -8,7 +8,7 @@
       "shares": 900,
       "buy_price": 1.534,
       "buy_date": "2026-05-26",
-      "stop_loss": 1.5242885,
+      "stop_loss": 1.5457,
       "initial_stop_loss": 1.451,
       "atr_multiplier": 2.2,
       "highest_close": 1.619,
@@ -16,28 +16,28 @@
       "profit_protected_tiers": [],
       "score_history": [
         {
-          "date": "2026-05-28",
-          "score": 14.9
-        },
-        {
           "date": "2026-05-29",
           "score": 15.5
         },
         {
           "date": "2026-06-01",
           "score": 15.8
+        },
+        {
+          "date": "2026-06-02",
+          "score": 13.3
         }
       ],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": {
-        "rr_ratio": 27.41,
-        "target": 1.7717700000000003,
-        "upside_pct": 15.58,
-        "downside_pct": 0.57,
+        "rr_ratio": 0.22,
+        "target": 1.5677999999999999,
+        "upside_pct": 0.5,
+        "downside_pct": 2.29,
         "action": "WATCH_ONLY",
-        "reason": "R/R正常27.41",
-        "signal_quality": 0.74
+        "reason": "R/R正常0.22",
+        "signal_quality": 0.66
       },
       "extreme_protected": false
     },
@@ -61,6 +61,10 @@
         {
           "date": "2026-06-01",
           "score": 18.4
+        },
+        {
+          "date": "2026-06-02",
+          "score": 20.0
         }
       ],
       "t1_locked": false,
@@ -295,47 +299,57 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-06-01 14:55:18",
+  "last_update": "2026-06-02 09:50:24",
   "breadth_history": [
     {
-      "date": "2026-05-15",
-      "bull_pct": 39.3
-    },
-    {
       "date": "2026-05-20",
-      "bull_pct": 42.9
+      "bull_pct": 42.9,
+      "breadth_ewma": 40.92
     },
     {
       "date": "2026-05-21",
-      "bull_pct": 42.9
+      "bull_pct": 42.9,
+      "breadth_ewma": 41.81
     },
     {
       "date": "2026-05-22",
-      "bull_pct": 44.4
+      "bull_pct": 44.4,
+      "breadth_ewma": 42.98
     },
     {
       "date": "2026-05-25",
-      "bull_pct": 44.4
+      "bull_pct": 44.4,
+      "breadth_ewma": 43.62
     },
     {
       "date": "2026-05-26",
-      "bull_pct": 38.9
+      "bull_pct": 38.9,
+      "breadth_ewma": 41.49
     },
     {
       "date": "2026-05-27",
-      "bull_pct": 38.9
+      "bull_pct": 38.9,
+      "breadth_ewma": 40.33
     },
     {
       "date": "2026-05-28",
-      "bull_pct": 30.6
+      "bull_pct": 30.6,
+      "breadth_ewma": 35.95
     },
     {
       "date": "2026-05-29",
-      "bull_pct": 38.9
+      "bull_pct": 38.9,
+      "breadth_ewma": 37.28
     },
     {
       "date": "2026-06-01",
-      "bull_pct": 30.6
+      "bull_pct": 30.6,
+      "breadth_ewma": 34.27
+    },
+    {
+      "date": "2026-06-02",
+      "bull_pct": 30.6,
+      "breadth_ewma": 32.62
     }
   ],
   "stale_signal_count": 0,
