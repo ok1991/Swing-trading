@@ -1,16 +1,16 @@
 {
-  "record_count": 6,
+  "record_count": 7,
   "trading_day_count": 2,
   "candidate_count": 12,
   "by_ev_bucket": {
     "0.40~0.80": {
-      "count": 5,
-      "weighted_count": 5.0,
+      "count": 6,
+      "weighted_count": 6.0,
       "sample_ok": false
     },
     ">=0.80": {
-      "count": 6,
-      "weighted_count": 6.0,
+      "count": 5,
+      "weighted_count": 5.0,
       "sample_ok": false
     },
     "0.12~0.40": {
@@ -54,14 +54,14 @@
       "weighted_count": 5.0,
       "sample_ok": false
     },
-    "止损距低于健康门槛3.0%": {
+    "日线偏弱": {
       "count": 5,
       "weighted_count": 5.0,
       "sample_ok": false
     },
-    "日线偏弱": {
-      "count": 5,
-      "weighted_count": 5.0,
+    "止损距低于健康门槛3.0%": {
+      "count": 4,
+      "weighted_count": 4.0,
       "sample_ok": false
     },
     "总分偏低": {
@@ -70,7 +70,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-06-03 10:35:18",
+  "generated_at": "2026-06-03 13:45:19",
   "as_of_date": "2026-06-03",
   "schema_version": 2,
   "review_horizons": [
@@ -87,18 +87,18 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 6,
+      "record_count": 7,
       "trading_day_count": 2,
       "candidate_count": 12,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 5,
-          "weighted_count": 5.0,
+          "count": 6,
+          "weighted_count": 6.0,
           "sample_ok": false
         },
         ">=0.80": {
-          "count": 6,
-          "weighted_count": 6.0,
+          "count": 5,
+          "weighted_count": 5.0,
           "sample_ok": false
         },
         "0.12~0.40": {
@@ -142,14 +142,14 @@
           "weighted_count": 5.0,
           "sample_ok": false
         },
-        "止损距低于健康门槛3.0%": {
+        "日线偏弱": {
           "count": 5,
           "weighted_count": 5.0,
           "sample_ok": false
         },
-        "日线偏弱": {
-          "count": 5,
-          "weighted_count": 5.0,
+        "止损距低于健康门槛3.0%": {
+          "count": 4,
+          "weighted_count": 4.0,
           "sample_ok": false
         },
         "总分偏低": {
@@ -160,18 +160,18 @@
       }
     },
     "d60": {
-      "record_count": 6,
+      "record_count": 7,
       "trading_day_count": 2,
       "candidate_count": 12,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 5,
-          "weighted_count": 5.0,
+          "count": 6,
+          "weighted_count": 6.0,
           "sample_ok": false
         },
         ">=0.80": {
-          "count": 6,
-          "weighted_count": 6.0,
+          "count": 5,
+          "weighted_count": 5.0,
           "sample_ok": false
         },
         "0.12~0.40": {
@@ -215,14 +215,14 @@
           "weighted_count": 5.0,
           "sample_ok": false
         },
-        "止损距低于健康门槛3.0%": {
+        "日线偏弱": {
           "count": 5,
           "weighted_count": 5.0,
           "sample_ok": false
         },
-        "日线偏弱": {
-          "count": 5,
-          "weighted_count": 5.0,
+        "止损距低于健康门槛3.0%": {
+          "count": 4,
+          "weighted_count": 4.0,
           "sample_ok": false
         },
         "总分偏低": {
@@ -233,18 +233,18 @@
       }
     },
     "d120": {
-      "record_count": 6,
+      "record_count": 7,
       "trading_day_count": 2,
       "candidate_count": 12,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 5,
-          "weighted_count": 5.0,
+          "count": 6,
+          "weighted_count": 6.0,
           "sample_ok": false
         },
         ">=0.80": {
-          "count": 6,
-          "weighted_count": 6.0,
+          "count": 5,
+          "weighted_count": 5.0,
           "sample_ok": false
         },
         "0.12~0.40": {
@@ -288,14 +288,14 @@
           "weighted_count": 5.0,
           "sample_ok": false
         },
-        "止损距低于健康门槛3.0%": {
+        "日线偏弱": {
           "count": 5,
           "weighted_count": 5.0,
           "sample_ok": false
         },
-        "日线偏弱": {
-          "count": 5,
-          "weighted_count": 5.0,
+        "止损距低于健康门槛3.0%": {
+          "count": 4,
+          "weighted_count": 4.0,
           "sample_ok": false
         },
         "总分偏低": {
@@ -306,18 +306,18 @@
       }
     },
     "d250": {
-      "record_count": 6,
+      "record_count": 7,
       "trading_day_count": 2,
       "candidate_count": 12,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 5,
-          "weighted_count": 5.0,
+          "count": 6,
+          "weighted_count": 6.0,
           "sample_ok": false
         },
         ">=0.80": {
-          "count": 6,
-          "weighted_count": 6.0,
+          "count": 5,
+          "weighted_count": 5.0,
           "sample_ok": false
         },
         "0.12~0.40": {
@@ -361,14 +361,14 @@
           "weighted_count": 5.0,
           "sample_ok": false
         },
-        "止损距低于健康门槛3.0%": {
+        "日线偏弱": {
           "count": 5,
           "weighted_count": 5.0,
           "sample_ok": false
         },
-        "日线偏弱": {
-          "count": 5,
-          "weighted_count": 5.0,
+        "止损距低于健康门槛3.0%": {
+          "count": 4,
+          "weighted_count": 4.0,
           "sample_ok": false
         },
         "总分偏低": {
