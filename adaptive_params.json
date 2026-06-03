@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "enabled": true,
-  "generated_at": "2026-06-03 09:50:19",
+  "generated_at": "2026-06-03 10:35:18",
   "calibration_as_of": "2026-06-03",
   "source": {
     "primary_window": 60,
     "confirm_window": 120,
-    "primary_candidates": 4,
-    "confirm_candidates": 4,
+    "primary_candidates": 12,
+    "confirm_candidates": 12,
     "closed_trades": 9
   },
   "overrides": {
