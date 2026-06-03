@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "enabled": true,
+  "generated_at": "2026-06-03 09:50:19",
+  "calibration_as_of": "2026-06-03",
+  "source": {
+    "primary_window": 60,
+    "confirm_window": 120,
+    "primary_candidates": 4,
+    "confirm_candidates": 4,
+    "closed_trades": 9
+  },
+  "overrides": {
+    "EV_R_MIN": 0.12,
+    "BUY_HARD_MIN_RAW_SCORE": 5.5,
+    "BUY_HARD_MIN_RPS": 45.0,
+    "SIGNAL_MIN_STOP_DIST": 2.0,
+    "RISK_MAX_PCT": 0.018,
+    "MAX_SINGLE_POSITION_RATIO": 0.25
+  },
+  "changes": [],
+  "notes": [
+    "auto-generated; loaded at the start of the next run",
+    "no source config file is rewritten"
+  ]
+}

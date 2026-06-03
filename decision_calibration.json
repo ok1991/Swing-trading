@@ -1,7 +1,337 @@
 {
-  "generated_at": "2026-06-02 14:55:20",
-  "record_count": 4,
-  "candidate_count": 0,
-  "by_ev_bucket": {},
-  "by_soft_penalty": {}
+  "record_count": 5,
+  "trading_day_count": 2,
+  "candidate_count": 4,
+  "by_ev_bucket": {
+    "0.40~0.80": {
+      "count": 2,
+      "weighted_count": 2.0,
+      "sample_ok": false
+    },
+    ">=0.80": {
+      "count": 2,
+      "weighted_count": 2.0,
+      "sample_ok": false
+    }
+  },
+  "by_rps_bucket": {
+    ">=90": {
+      "count": 3,
+      "weighted_count": 3.0,
+      "sample_ok": false
+    },
+    "75~90": {
+      "count": 1,
+      "weighted_count": 1.0,
+      "sample_ok": false
+    }
+  },
+  "by_atr_bucket": {
+    ">=85": {
+      "count": 4,
+      "weighted_count": 4.0,
+      "sample_ok": false
+    }
+  },
+  "by_soft_penalty": {
+    "no_soft_penalty": {
+      "count": 1,
+      "weighted_count": 1.0,
+      "sample_ok": false
+    },
+    "顶背离": {
+      "count": 2,
+      "weighted_count": 2.0,
+      "sample_ok": false
+    },
+    "止损距低于健康门槛3.0%": {
+      "count": 1,
+      "weighted_count": 1.0,
+      "sample_ok": false
+    },
+    "日线偏弱": {
+      "count": 2,
+      "weighted_count": 2.0,
+      "sample_ok": false
+    }
+  },
+  "generated_at": "2026-06-03 09:50:19",
+  "as_of_date": "2026-06-03",
+  "schema_version": 2,
+  "review_horizons": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "thresholds": {
+    "min_candidates": 100,
+    "min_trades": 30,
+    "min_bucket_samples": 20,
+    "half_life_days": 50
+  },
+  "rolling_windows": {
+    "d20": {
+      "record_count": 5,
+      "trading_day_count": 2,
+      "candidate_count": 4,
+      "by_ev_bucket": {
+        "0.40~0.80": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        },
+        ">=0.80": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        }
+      },
+      "by_rps_bucket": {
+        ">=90": {
+          "count": 3,
+          "weighted_count": 3.0,
+          "sample_ok": false
+        },
+        "75~90": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        }
+      },
+      "by_atr_bucket": {
+        ">=85": {
+          "count": 4,
+          "weighted_count": 4.0,
+          "sample_ok": false
+        }
+      },
+      "by_soft_penalty": {
+        "no_soft_penalty": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        },
+        "顶背离": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        },
+        "止损距低于健康门槛3.0%": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        },
+        "日线偏弱": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        }
+      }
+    },
+    "d60": {
+      "record_count": 5,
+      "trading_day_count": 2,
+      "candidate_count": 4,
+      "by_ev_bucket": {
+        "0.40~0.80": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        },
+        ">=0.80": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        }
+      },
+      "by_rps_bucket": {
+        ">=90": {
+          "count": 3,
+          "weighted_count": 3.0,
+          "sample_ok": false
+        },
+        "75~90": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        }
+      },
+      "by_atr_bucket": {
+        ">=85": {
+          "count": 4,
+          "weighted_count": 4.0,
+          "sample_ok": false
+        }
+      },
+      "by_soft_penalty": {
+        "no_soft_penalty": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        },
+        "顶背离": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        },
+        "止损距低于健康门槛3.0%": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        },
+        "日线偏弱": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        }
+      }
+    },
+    "d120": {
+      "record_count": 5,
+      "trading_day_count": 2,
+      "candidate_count": 4,
+      "by_ev_bucket": {
+        "0.40~0.80": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        },
+        ">=0.80": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        }
+      },
+      "by_rps_bucket": {
+        ">=90": {
+          "count": 3,
+          "weighted_count": 3.0,
+          "sample_ok": false
+        },
+        "75~90": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        }
+      },
+      "by_atr_bucket": {
+        ">=85": {
+          "count": 4,
+          "weighted_count": 4.0,
+          "sample_ok": false
+        }
+      },
+      "by_soft_penalty": {
+        "no_soft_penalty": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        },
+        "顶背离": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        },
+        "止损距低于健康门槛3.0%": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        },
+        "日线偏弱": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        }
+      }
+    },
+    "d250": {
+      "record_count": 5,
+      "trading_day_count": 2,
+      "candidate_count": 4,
+      "by_ev_bucket": {
+        "0.40~0.80": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        },
+        ">=0.80": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        }
+      },
+      "by_rps_bucket": {
+        ">=90": {
+          "count": 3,
+          "weighted_count": 3.0,
+          "sample_ok": false
+        },
+        "75~90": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        }
+      },
+      "by_atr_bucket": {
+        ">=85": {
+          "count": 4,
+          "weighted_count": 4.0,
+          "sample_ok": false
+        }
+      },
+      "by_soft_penalty": {
+        "no_soft_penalty": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        },
+        "顶背离": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        },
+        "止损距低于健康门槛3.0%": {
+          "count": 1,
+          "weighted_count": 1.0,
+          "sample_ok": false
+        },
+        "日线偏弱": {
+          "count": 2,
+          "weighted_count": 2.0,
+          "sample_ok": false
+        }
+      }
+    }
+  },
+  "trade_outcomes": {
+    "closed_trade_count": 9,
+    "sample_ok": false,
+    "avg_pnl_pct": 4.85,
+    "positive_rate": 0.667,
+    "by_exit_reason": {
+      "profit_tier_or_partial": {
+        "count": 2,
+        "avg_pnl_pct": 10.22,
+        "positive_rate": 1.0,
+        "sample_ok": false
+      },
+      "loss_or_stop": {
+        "count": 3,
+        "avg_pnl_pct": -3.38,
+        "positive_rate": 0.0,
+        "sample_ok": false
+      },
+      "forward_rr": {
+        "count": 4,
+        "avg_pnl_pct": 8.33,
+        "positive_rate": 1.0,
+        "sample_ok": false
+      }
+    }
+  },
+  "recommendations": [
+    "observe_only: candidate samples 4/100, do not tune entry thresholds yet",
+    "observe_only: closed trades 9/30, do not tune stop/take-profit parameters yet"
+  ]
 }

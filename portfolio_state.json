@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7578.736369999999,
+  "cash": 5139.8705949999985,
   "holdings": [
     {
       "code": "159611",
@@ -8,7 +8,7 @@
       "shares": 2600,
       "buy_price": 1.214,
       "buy_date": "2026-05-29",
-      "stop_loss": 1.16,
+      "stop_loss": 1.180641,
       "initial_stop_loss": 1.16,
       "atr_multiplier": 2.2,
       "highest_close": 1.254,
@@ -16,18 +16,62 @@
       "profit_protected_tiers": [],
       "score_history": [
         {
-          "date": "2026-05-29",
-          "score": 15.2
-        },
-        {
           "date": "2026-06-01",
           "score": 18.4
         },
         {
           "date": "2026-06-02",
           "score": 20.0
+        },
+        {
+          "date": "2026-06-03",
+          "score": 22.1
         }
       ],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": {
+        "rr_ratio": 3.03,
+        "target": 1.3754620000000002,
+        "upside_pct": 11.92,
+        "downside_pct": 3.93,
+        "action": "WATCH_ONLY",
+        "reason": "R/R正常3.03",
+        "signal_quality": 0.87
+      },
+      "extreme_protected": false
+    },
+    {
+      "code": "159259",
+      "name": "易方达国证成长100ETF",
+      "shares": 900,
+      "buy_price": 1.521,
+      "buy_date": "2026-06-03",
+      "stop_loss": 1.392,
+      "initial_stop_loss": 1.392,
+      "atr_multiplier": 2.2,
+      "highest_close": 1.521,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": null,
+      "extreme_protected": false
+    },
+    {
+      "code": "515220",
+      "name": "国泰中证煤炭ETF",
+      "shares": 800,
+      "buy_price": 1.337,
+      "buy_date": "2026-06-03",
+      "stop_loss": 1.308,
+      "initial_stop_loss": 1.308,
+      "atr_multiplier": 2.2,
+      "highest_close": 1.337,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -268,19 +312,54 @@
       "pnl_pct": 3.44,
       "timestamp": "2026-06-02 10:35:20",
       "buy_date": "2026-05-26"
+    },
+    {
+      "date": "2026-06-03",
+      "code": "159259",
+      "name": "易方达国证成长100ETF",
+      "action": "BUY",
+      "shares": 900,
+      "price": 1.521,
+      "amount": 1369.11,
+      "reason": "优选82.5｜RPS94｜EV_R0.78｜胜率66%｜R1.73｜止损1.392",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0665,
+      "ev_r": 0.7838,
+      "p_win": 0.66,
+      "r_multiple": 1.726,
+      "risk_pct": 0.011243138400000002,
+      "signal_quality": 0.71,
+      "stop_loss": 1.392,
+      "timestamp": "2026-06-03 09:50:19"
+    },
+    {
+      "date": "2026-06-03",
+      "code": "515220",
+      "name": "国泰中证煤炭ETF",
+      "action": "BUY",
+      "shares": 800,
+      "price": 1.337,
+      "amount": 1069.76,
+      "reason": "优选70.8｜RPS86｜EV_R1.27｜胜率61%｜R4.61｜止损1.308",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0275,
+      "ev_r": 1.2688,
+      "p_win": 0.6128,
+      "r_multiple": 4.61,
+      "risk_pct": 0.010033575552,
+      "signal_quality": 0.76,
+      "stop_loss": 1.308,
+      "timestamp": "2026-06-03 09:50:19"
     }
   ],
   "cooldown_until": "",
   "consecutive_stop_losses": 0,
   "peak_capital": 10867.207575,
   "pause_until": null,
-  "last_update": "2026-06-02 14:55:20",
+  "last_update": "2026-06-03 09:50:19",
   "breadth_history": [
-    {
-      "date": "2026-05-20",
-      "bull_pct": 42.9,
-      "breadth_ewma": 42.9
-    },
     {
       "date": "2026-05-21",
       "bull_pct": 42.9,
@@ -325,6 +404,11 @@
       "date": "2026-06-02",
       "bull_pct": 30.6,
       "breadth_ewma": 32.63
+    },
+    {
+      "date": "2026-06-03",
+      "bull_pct": 36.1,
+      "breadth_ewma": 34.19
     }
   ],
   "stale_signal_count": 0,
