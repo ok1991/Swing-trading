@@ -1,46 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 5139.8705949999985,
+  "cash": 8287.998305,
   "holdings": [
-    {
-      "code": "159611",
-      "name": "广发中证全指电力ETF",
-      "shares": 2600,
-      "buy_price": 1.214,
-      "buy_date": "2026-05-29",
-      "stop_loss": 1.2293,
-      "initial_stop_loss": 1.16,
-      "atr_multiplier": 2.2,
-      "highest_close": 1.254,
-      "profit_taken_tiers": [],
-      "profit_protected_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-06-02",
-          "score": 20.0
-        },
-        {
-          "date": "2026-06-03",
-          "score": 22.1
-        },
-        {
-          "date": "2026-06-04",
-          "score": 21.6
-        }
-      ],
-      "t1_locked": false,
-      "t1_locked_date": "",
-      "forward_rr": {
-        "rr_ratio": 207.8,
-        "target": 1.3754620000000002,
-        "upside_pct": 11.83,
-        "downside_pct": 0.06,
-        "action": "WATCH_ONLY",
-        "reason": "R/R正常207.80",
-        "signal_quality": 0.74
-      },
-      "extreme_protected": false
-    },
     {
       "code": "159259",
       "name": "易方达国证成长100ETF",
@@ -61,6 +22,10 @@
         {
           "date": "2026-06-04",
           "score": 11.0
+        },
+        {
+          "date": "2026-06-05",
+          "score": 13.1
         }
       ],
       "t1_locked": false,
@@ -88,6 +53,10 @@
         {
           "date": "2026-06-04",
           "score": 19.6
+        },
+        {
+          "date": "2026-06-05",
+          "score": 20.2
         }
       ],
       "t1_locked": false,
@@ -370,19 +339,28 @@
       "signal_quality": 0.76,
       "stop_loss": 1.308,
       "timestamp": "2026-06-03 09:50:19"
+    },
+    {
+      "date": "2026-06-05",
+      "code": "159611",
+      "name": "广发中证全指电力ETF",
+      "action": "SELL",
+      "shares": 2600,
+      "price": 1.211,
+      "amount": 3148.13,
+      "reason": "破位绝对止损 1.211≤1.229",
+      "pnl": -8.27,
+      "pnl_pct": -0.26,
+      "timestamp": "2026-06-05 09:45:21",
+      "buy_date": "2026-05-29"
     }
   ],
-  "cooldown_until": "",
-  "consecutive_stop_losses": 0,
+  "cooldown_until": "2026-06-06",
+  "consecutive_stop_losses": 1,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-04 14:55:18",
+  "last_update": "2026-06-05 09:45:21",
   "breadth_history": [
-    {
-      "date": "2026-05-22",
-      "bull_pct": 44.4,
-      "breadth_ewma": 44.4
-    },
     {
       "date": "2026-05-25",
       "bull_pct": 44.4,
@@ -427,6 +405,11 @@
       "date": "2026-06-04",
       "bull_pct": 30.6,
       "breadth_ewma": 32.58
+    },
+    {
+      "date": "2026-06-05",
+      "bull_pct": 30.6,
+      "breadth_ewma": 31.69
     }
   ],
   "stale_signal_count": 0,
