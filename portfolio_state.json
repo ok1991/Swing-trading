@@ -1,70 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8287.998305,
-  "holdings": [
-    {
-      "code": "159259",
-      "name": "易方达国证成长100ETF",
-      "shares": 900,
-      "buy_price": 1.521,
-      "buy_date": "2026-06-03",
-      "stop_loss": 1.392,
-      "initial_stop_loss": 1.392,
-      "atr_multiplier": 2.2,
-      "highest_close": 1.548,
-      "profit_taken_tiers": [],
-      "profit_protected_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-06-03",
-          "score": 11.8
-        },
-        {
-          "date": "2026-06-04",
-          "score": 11.0
-        },
-        {
-          "date": "2026-06-05",
-          "score": 13.1
-        }
-      ],
-      "t1_locked": false,
-      "t1_locked_date": "",
-      "forward_rr": null,
-      "extreme_protected": false
-    },
-    {
-      "code": "515220",
-      "name": "国泰中证煤炭ETF",
-      "shares": 800,
-      "buy_price": 1.337,
-      "buy_date": "2026-06-03",
-      "stop_loss": 1.308,
-      "initial_stop_loss": 1.308,
-      "atr_multiplier": 2.2,
-      "highest_close": 1.432,
-      "profit_taken_tiers": [],
-      "profit_protected_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-06-03",
-          "score": 17.1
-        },
-        {
-          "date": "2026-06-04",
-          "score": 19.6
-        },
-        {
-          "date": "2026-06-05",
-          "score": 20.2
-        }
-      ],
-      "t1_locked": false,
-      "t1_locked_date": "",
-      "forward_rr": null,
-      "extreme_protected": false
-    }
-  ],
+  "cash": 10710.73484,
+  "holdings": [],
   "trade_history": [
     {
       "date": "2026-05-06",
@@ -353,19 +290,42 @@
       "pnl_pct": -0.26,
       "timestamp": "2026-06-05 09:45:21",
       "buy_date": "2026-05-29"
+    },
+    {
+      "date": "2026-06-08",
+      "code": "159259",
+      "name": "易方达国证成长100ETF",
+      "action": "SELL",
+      "shares": 900,
+      "price": 1.455,
+      "amount": 1309.3,
+      "reason": "破位绝对止损 1.455≤1.457",
+      "pnl": -59.6,
+      "pnl_pct": -4.35,
+      "timestamp": "2026-06-08 09:45:20",
+      "buy_date": "2026-06-03"
+    },
+    {
+      "date": "2026-06-08",
+      "code": "515220",
+      "name": "国泰中证煤炭ETF",
+      "action": "SELL",
+      "shares": 800,
+      "price": 1.392,
+      "amount": 1113.43,
+      "reason": "R/R极差0.19<0.29(浮盈4.1%)",
+      "pnl": 43.83,
+      "pnl_pct": 4.1,
+      "timestamp": "2026-06-08 09:45:20",
+      "buy_date": "2026-06-03"
     }
   ],
-  "cooldown_until": "2026-06-06",
+  "cooldown_until": "2026-06-09",
   "consecutive_stop_losses": 1,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-05 14:57:18",
+  "last_update": "2026-06-08 09:45:20",
   "breadth_history": [
-    {
-      "date": "2026-05-25",
-      "bull_pct": 44.4,
-      "breadth_ewma": 44.4
-    },
     {
       "date": "2026-05-26",
       "bull_pct": 38.9,
@@ -410,6 +370,11 @@
       "date": "2026-06-05",
       "bull_pct": 30.6,
       "breadth_ewma": 31.69
+    },
+    {
+      "date": "2026-06-08",
+      "bull_pct": 30.6,
+      "breadth_ewma": 31.2
     }
   ],
   "stale_signal_count": 0,
