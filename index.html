@@ -169,7 +169,7 @@ tr:hover td{background:#fbfbfb}
     </a>
 
     <div class="nav-actions">
-      <span class="search-pill">RUN 2026-06-08</span>
+      <span class="search-pill">RUN 2026-06-09</span>
       <a class="button-primary" href="#orders">View Signals</a>
     </div>
   </nav>
@@ -188,8 +188,8 @@ tr:hover td{background:#fbfbfb}
       </div>
 
       <div class="hero-meta">
-        <span>生成时间：2026-06-08 14:57:19</span>
-        <span>市场宽度 31% · 多空比 0.69</span>
+        <span>生成时间：2026-06-09 10:35:19</span>
+        <span>市场宽度 31% · 多空比 0.46</span>
       </div>
     </div>
 
@@ -242,11 +242,11 @@ tr:hover td{background:#fbfbfb}
         <div class="risk-mini-grid">
           <div>
             <span>ENV</span>
-            <strong class="number is-up">+0.6</strong>
+            <strong class="number is-down">-4.6</strong>
           </div>
           <div>
             <span>SCI</span>
-            <strong class="number">0.07</strong>
+            <strong class="number">0.00</strong>
           </div>
           <div>
             <span>ORDERS</span>
@@ -324,21 +324,26 @@ tr:hover td{background:#fbfbfb}
         <span class="badge-pill">MARKET REGIME</span>
         <h2>大盘环境与宏观约束</h2>
       </div>
-      <span class="large-number number is-up">+0.6</span>
+      <span class="large-number number is-down">-4.6</span>
     </div>
 
     
+      <div class="notice notice-danger">
+        <strong>极端市场保护已触发</strong>
+        <span>大盘评分极端(-4.6)、波动率极端(ATR 99%)</span>
+      </div>
+
 
     <div class="info-grid">
       <article class="info-card">
         <span class="info-label">环境状态</span>
-        <strong class="info-value">中性震荡</strong>
-        <p>偏多 · 允许交易</p>
+        <strong class="info-value">极端空头</strong>
+        <p>强空头 · 防御优先</p>
       </article>
 
       <article class="info-card">
         <span class="info-label">ATR 分位</span>
-        <strong class="info-value number">98.3</strong>
+        <strong class="info-value number">99.2</strong>
         <p>用于动态调整止损距离、持仓周期和风险预算。</p>
       </article>
 
@@ -350,7 +355,7 @@ tr:hover td{background:#fbfbfb}
 
       <article class="info-card">
         <span class="info-label">板块拥挤度 SCI</span>
-        <strong class="info-value number">0.07</strong>
+        <strong class="info-value number">0.00</strong>
         <p>拥挤度正常</p>
       </article>
 
@@ -358,8 +363,8 @@ tr:hover td{background:#fbfbfb}
         <article class="info-card">
           <span class="info-label">市场宽度</span>
           <strong class="info-value number">31%</strong>
-          <p>多空比 <span class="number">0.69</span> · 中性</p>
-          <p class="muted">宽度平稳(-0.5%)</p>
+          <p>多空比 <span class="number">0.46</span> · 偏空</p>
+          <p class="muted">宽度平稳(-0.3%)</p>
         </article>
 
     </div>
@@ -388,13 +393,17 @@ tr:hover td{background:#fbfbfb}
         <h3>系统提示</h3>
         <ul>
           
-        <li>📊 宽度平稳(-0.5%) | 多头占31% | 多空比0.69</li>
+        <li>📊 宽度平稳(-0.3%) | 多头占31% | 多空比0.46</li>
 
         <li>🔌 [Unified Risk] 系统运行环境健康状态: 100%</li>
 
         <li> ↳ 原因: 冷静期进行中，至 2026-06-09；买入权限由恢复信号单独判断</li>
 
-        <li>🛡️ 冷静期保护中（连止1次），无强恢复信号，禁止新仓</li>
+        <li>🚨 极端市场: 大盘评分极端(-4.6)、波动率极端(ATR 99%) → 保护生效</li>
+
+        <li>🔄 冷静期内检测到强恢复信号 → 进入有限度恢复模式（最大仓位20%）</li>
+
+        <li>🚨 极端市场风控生效，全天禁开新仓</li>
 
         </ul>
       </aside>
@@ -448,51 +457,63 @@ tr:hover td{background:#fbfbfb}
             <tbody>
               
           <tr>
-            <td>国泰中证煤炭ETF<span class="diag-code">515220</span></td>
-            <td class="number">71%</td>
-            <td class="number">86</td>
-            <td class="number">59%</td>
-            <td class="number">3.66</td>
-            <td class="number is-up">+1.18</td>
+            <td>国泰中证机床ETF<span class="diag-code">159667</span></td>
+            <td class="number">68%</td>
+            <td class="number">89</td>
+            <td class="number">66%</td>
+            <td class="number">3.61</td>
+            <td class="number is-up">+1.46</td>
             <td class="number">N/A</td>
             <td class="number">N/A</td>
-            <td>评分快速下降、止损距低于健康门槛3.0%</td>
+            <td>日线偏弱、顶背离、止损距低于健康门槛3.0%</td>
           </tr>
 
           <tr>
             <td>华夏中证机器人ETF<span class="diag-code">562500</span></td>
-            <td class="number">64%</td>
-            <td class="number">83</td>
+            <td class="number">61%</td>
+            <td class="number">86</td>
+            <td class="number">56%</td>
+            <td class="number">12.92</td>
+            <td class="number is-up">+1.04</td>
+            <td class="number">N/A</td>
+            <td class="number">N/A</td>
+            <td>日线偏弱、顶背离、止损距低于健康门槛3.0%</td>
+          </tr>
+
+          <tr>
+            <td>易方达中证消费电子主题ETF<span class="diag-code">562950</span></td>
+            <td class="number">55%</td>
+            <td class="number">97</td>
+            <td class="number">51%</td>
+            <td class="number">1.63</td>
+            <td class="number is-up">+0.33</td>
+            <td class="number">N/A</td>
+            <td class="number">N/A</td>
+            <td>日线偏弱、周强日破、顶背离</td>
+          </tr>
+
+          <tr>
+            <td>华夏上证科创板半导体材料设备主题ETF<span class="diag-code">588170</span></td>
+            <td class="number">54%</td>
+            <td class="number">91</td>
             <td class="number">59%</td>
-            <td class="number">9.72</td>
-            <td class="number is-up">+1.16</td>
+            <td class="number">1.62</td>
+            <td class="number is-up">+0.54</td>
             <td class="number">N/A</td>
             <td class="number">N/A</td>
-            <td>日线偏弱、顶背离、止损距低于健康门槛3.0%</td>
+            <td>日线偏弱</td>
           </tr>
 
           <tr>
-            <td>汇添富中证能源ETF<span class="diag-code">159930</span></td>
-            <td class="number">45%</td>
-            <td class="number">80</td>
-            <td class="number">44%</td>
-            <td class="number">3.06</td>
-            <td class="number is-up">+0.63</td>
+            <td>广发中证全指电力ETF<span class="diag-code">159611</span></td>
+            <td class="number">55%</td>
+            <td class="number">74</td>
+            <td class="number">54%</td>
+            <td class="number">2.20</td>
+            <td class="number is-up">+0.69</td>
             <td class="number">N/A</td>
             <td class="number">N/A</td>
-            <td>评分快速下降</td>
-          </tr>
-
-          <tr>
-            <td>易方达国证成长100ETF<span class="diag-code">159259</span></td>
-            <td class="number">47%</td>
-            <td class="number">94</td>
-            <td class="number">47%</td>
-            <td class="number">6.61</td>
-            <td class="number is-up">+0.71</td>
-            <td class="number">N/A</td>
-            <td class="number">N/A</td>
-            <td>日线偏弱、顶背离、止损距低于健康门槛3.0%</td>
+            <td>日线偏弱、顶背离</td>
           </tr>
 
             </tbody>
@@ -867,7 +888,7 @@ tr:hover td{background:#fbfbfb}
 
       <article class="risk-tile">
         <span>年化收益率</span>
-        <strong class="number is-up">+78.61%</strong>
+        <strong class="number is-up">+76.30%</strong>
       </article>
 
       <article class="risk-tile">
@@ -877,7 +898,7 @@ tr:hover td{background:#fbfbfb}
 
       <article class="risk-tile">
         <span>Calmar 比率</span>
-        <strong class="number is-up">40.42</strong>
+        <strong class="number is-up">39.23</strong>
       </article>
 
     </div>
