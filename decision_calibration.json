@@ -1,47 +1,63 @@
 {
-  "record_count": 23,
-  "trading_day_count": 6,
-  "candidate_count": 45,
+  "record_count": 24,
+  "trading_day_count": 7,
+  "candidate_count": 51,
   "by_ev_bucket": {
     "0.40~0.80": {
-      "count": 17,
-      "weighted_count": 17.0,
+      "count": 19,
+      "weighted_count": 19.0,
       "h1": {
-        "n": 15,
-        "weighted_n": 15.0,
-        "avg_return_pct": -0.88,
-        "positive_rate": 0.333,
-        "weighted_avg_return_pct": -0.88,
-        "weighted_positive_rate": 0.333
+        "n": 17,
+        "weighted_n": 17.0,
+        "avg_return_pct": -0.72,
+        "positive_rate": 0.353,
+        "weighted_avg_return_pct": -0.72,
+        "weighted_positive_rate": 0.353
       },
       "h3": {
-        "n": 10,
-        "weighted_n": 10.0,
-        "avg_return_pct": -3.89,
+        "n": 12,
+        "weighted_n": 12.0,
+        "avg_return_pct": -9.23,
         "positive_rate": 0.0,
-        "weighted_avg_return_pct": -3.89,
+        "weighted_avg_return_pct": -9.23,
+        "weighted_positive_rate": 0.0
+      },
+      "h5": {
+        "n": 5,
+        "weighted_n": 5.0,
+        "avg_return_pct": -3.73,
+        "positive_rate": 0.0,
+        "weighted_avg_return_pct": -3.73,
         "weighted_positive_rate": 0.0
       },
       "sample_ok": false
     },
     ">=0.80": {
-      "count": 20,
-      "weighted_count": 20.0,
+      "count": 24,
+      "weighted_count": 24.0,
       "h1": {
-        "n": 18,
-        "weighted_n": 18.0,
-        "avg_return_pct": -0.89,
-        "positive_rate": 0.111,
-        "weighted_avg_return_pct": -0.89,
-        "weighted_positive_rate": 0.111
+        "n": 20,
+        "weighted_n": 20.0,
+        "avg_return_pct": -4.27,
+        "positive_rate": 0.1,
+        "weighted_avg_return_pct": -4.27,
+        "weighted_positive_rate": 0.1
       },
       "h3": {
-        "n": 9,
-        "weighted_n": 9.0,
-        "avg_return_pct": -3.08,
-        "positive_rate": 0.222,
-        "weighted_avg_return_pct": -3.08,
-        "weighted_positive_rate": 0.222
+        "n": 15,
+        "weighted_n": 15.0,
+        "avg_return_pct": -1.78,
+        "positive_rate": 0.333,
+        "weighted_avg_return_pct": -1.78,
+        "weighted_positive_rate": 0.333
+      },
+      "h5": {
+        "n": 6,
+        "weighted_n": 6.0,
+        "avg_return_pct": -11.74,
+        "positive_rate": 0.333,
+        "weighted_avg_return_pct": -11.74,
+        "weighted_positive_rate": 0.333
       },
       "sample_ok": true
     },
@@ -49,85 +65,117 @@
       "count": 8,
       "weighted_count": 8.0,
       "h1": {
-        "n": 5,
-        "weighted_n": 5.0,
-        "avg_return_pct": -1.46,
+        "n": 8,
+        "weighted_n": 8.0,
+        "avg_return_pct": -1.38,
         "positive_rate": 0.0,
-        "weighted_avg_return_pct": -1.46,
+        "weighted_avg_return_pct": -1.38,
         "weighted_positive_rate": 0.0
       },
       "h3": {
-        "n": 3,
-        "weighted_n": 3.0,
-        "avg_return_pct": 0.22,
-        "positive_rate": 0.667,
-        "weighted_avg_return_pct": 0.22,
-        "weighted_positive_rate": 0.667
+        "n": 4,
+        "weighted_n": 4.0,
+        "avg_return_pct": 0.02,
+        "positive_rate": 0.5,
+        "weighted_avg_return_pct": 0.02,
+        "weighted_positive_rate": 0.5
+      },
+      "h5": {
+        "n": 2,
+        "weighted_n": 2.0,
+        "avg_return_pct": -1.52,
+        "positive_rate": 0.5,
+        "weighted_avg_return_pct": -1.52,
+        "weighted_positive_rate": 0.5
       },
       "sample_ok": false
     }
   },
   "by_rps_bucket": {
     ">=90": {
+      "count": 23,
+      "weighted_count": 23.0,
+      "h1": {
+        "n": 19,
+        "weighted_n": 19.0,
+        "avg_return_pct": -0.54,
+        "positive_rate": 0.368,
+        "weighted_avg_return_pct": -0.54,
+        "weighted_positive_rate": 0.368
+      },
+      "h3": {
+        "n": 12,
+        "weighted_n": 12.0,
+        "avg_return_pct": -1.78,
+        "positive_rate": 0.25,
+        "weighted_avg_return_pct": -1.78,
+        "weighted_positive_rate": 0.25
+      },
+      "h5": {
+        "n": 4,
+        "weighted_n": 4.0,
+        "avg_return_pct": 0.97,
+        "positive_rate": 0.25,
+        "weighted_avg_return_pct": 0.97,
+        "weighted_positive_rate": 0.25
+      },
+      "sample_ok": true
+    },
+    "75~90": {
       "count": 19,
       "weighted_count": 19.0,
       "h1": {
-        "n": 15,
-        "weighted_n": 15.0,
-        "avg_return_pct": -0.62,
+        "n": 18,
+        "weighted_n": 18.0,
+        "avg_return_pct": -4.83,
+        "positive_rate": 0.0,
+        "weighted_avg_return_pct": -4.83,
+        "weighted_positive_rate": 0.0
+      },
+      "h3": {
+        "n": 13,
+        "weighted_n": 13.0,
+        "avg_return_pct": -7.82,
+        "positive_rate": 0.231,
+        "weighted_avg_return_pct": -7.82,
+        "weighted_positive_rate": 0.231
+      },
+      "h5": {
+        "n": 5,
+        "weighted_n": 5.0,
+        "avg_return_pct": -15.12,
         "positive_rate": 0.4,
-        "weighted_avg_return_pct": -0.62,
+        "weighted_avg_return_pct": -15.12,
         "weighted_positive_rate": 0.4
-      },
-      "h3": {
-        "n": 8,
-        "weighted_n": 8.0,
-        "avg_return_pct": -3.81,
-        "positive_rate": 0.0,
-        "weighted_avg_return_pct": -3.81,
-        "weighted_positive_rate": 0.0
-      },
-      "sample_ok": false
-    },
-    "75~90": {
-      "count": 18,
-      "weighted_count": 18.0,
-      "h1": {
-        "n": 16,
-        "weighted_n": 16.0,
-        "avg_return_pct": -1.1,
-        "positive_rate": 0.0,
-        "weighted_avg_return_pct": -1.1,
-        "weighted_positive_rate": 0.0
-      },
-      "h3": {
-        "n": 9,
-        "weighted_n": 9.0,
-        "avg_return_pct": -2.41,
-        "positive_rate": 0.333,
-        "weighted_avg_return_pct": -2.41,
-        "weighted_positive_rate": 0.333
       },
       "sample_ok": false
     },
     "60~75": {
-      "count": 7,
-      "weighted_count": 7.0,
+      "count": 8,
+      "weighted_count": 8.0,
       "h1": {
-        "n": 6,
-        "weighted_n": 6.0,
-        "avg_return_pct": -1.25,
-        "positive_rate": 0.167,
-        "weighted_avg_return_pct": -1.25,
-        "weighted_positive_rate": 0.167
+        "n": 7,
+        "weighted_n": 7.0,
+        "avg_return_pct": -1.34,
+        "positive_rate": 0.143,
+        "weighted_avg_return_pct": -1.34,
+        "weighted_positive_rate": 0.143
       },
       "h3": {
-        "n": 4,
-        "weighted_n": 4.0,
-        "avg_return_pct": -2.19,
-        "positive_rate": 0.25,
-        "weighted_avg_return_pct": -2.19,
-        "weighted_positive_rate": 0.25
+        "n": 5,
+        "weighted_n": 5.0,
+        "avg_return_pct": -1.87,
+        "positive_rate": 0.2,
+        "weighted_avg_return_pct": -1.87,
+        "weighted_positive_rate": 0.2
+      },
+      "h5": {
+        "n": 3,
+        "weighted_n": 3.0,
+        "avg_return_pct": -4.95,
+        "positive_rate": 0.0,
+        "weighted_avg_return_pct": -4.95,
+        "weighted_positive_rate": 0.0
       },
       "sample_ok": false
     },
@@ -150,28 +198,44 @@
         "weighted_avg_return_pct": -5.0,
         "weighted_positive_rate": 0.0
       },
+      "h5": {
+        "n": 1,
+        "weighted_n": 1.0,
+        "avg_return_pct": -5.53,
+        "positive_rate": 0.0,
+        "weighted_avg_return_pct": -5.53,
+        "weighted_positive_rate": 0.0
+      },
       "sample_ok": false
     }
   },
   "by_atr_bucket": {
     ">=85": {
-      "count": 45,
-      "weighted_count": 45.0,
+      "count": 51,
+      "weighted_count": 51.0,
       "h1": {
-        "n": 38,
-        "weighted_n": 38.0,
-        "avg_return_pct": -0.96,
-        "positive_rate": 0.184,
-        "weighted_avg_return_pct": -0.96,
-        "weighted_positive_rate": 0.184
+        "n": 45,
+        "weighted_n": 45.0,
+        "avg_return_pct": -2.41,
+        "positive_rate": 0.178,
+        "weighted_avg_return_pct": -2.41,
+        "weighted_positive_rate": 0.178
       },
       "h3": {
-        "n": 22,
-        "weighted_n": 22.0,
-        "avg_return_pct": -3.0,
-        "positive_rate": 0.182,
-        "weighted_avg_return_pct": -3.0,
-        "weighted_positive_rate": 0.182
+        "n": 31,
+        "weighted_n": 31.0,
+        "avg_return_pct": -4.43,
+        "positive_rate": 0.226,
+        "weighted_avg_return_pct": -4.43,
+        "weighted_positive_rate": 0.226
+      },
+      "h5": {
+        "n": 13,
+        "weighted_n": 13.0,
+        "avg_return_pct": -7.09,
+        "positive_rate": 0.231,
+        "weighted_avg_return_pct": -7.09,
+        "weighted_positive_rate": 0.231
       },
       "sample_ok": true
     }
@@ -189,74 +253,106 @@
         "weighted_positive_rate": 0.143
       },
       "h3": {
-        "n": 6,
-        "weighted_n": 6.0,
-        "avg_return_pct": -4.2,
+        "n": 7,
+        "weighted_n": 7.0,
+        "avg_return_pct": -4.26,
         "positive_rate": 0.0,
-        "weighted_avg_return_pct": -4.2,
+        "weighted_avg_return_pct": -4.26,
+        "weighted_positive_rate": 0.0
+      },
+      "h5": {
+        "n": 4,
+        "weighted_n": 4.0,
+        "avg_return_pct": -3.85,
+        "positive_rate": 0.0,
+        "weighted_avg_return_pct": -3.85,
         "weighted_positive_rate": 0.0
       },
       "sample_ok": false
     },
     "顶背离": {
-      "count": 26,
-      "weighted_count": 26.0,
+      "count": 28,
+      "weighted_count": 28.0,
       "h1": {
-        "n": 20,
-        "weighted_n": 20.0,
-        "avg_return_pct": -1.19,
-        "positive_rate": 0.15,
-        "weighted_avg_return_pct": -1.19,
-        "weighted_positive_rate": 0.15
+        "n": 26,
+        "weighted_n": 26.0,
+        "avg_return_pct": -3.8,
+        "positive_rate": 0.115,
+        "weighted_avg_return_pct": -3.8,
+        "weighted_positive_rate": 0.115
       },
       "h3": {
-        "n": 10,
-        "weighted_n": 10.0,
-        "avg_return_pct": -2.57,
-        "positive_rate": 0.3,
-        "weighted_avg_return_pct": -2.57,
-        "weighted_positive_rate": 0.3
+        "n": 16,
+        "weighted_n": 16.0,
+        "avg_return_pct": -5.99,
+        "positive_rate": 0.312,
+        "weighted_avg_return_pct": -5.99,
+        "weighted_positive_rate": 0.312
+      },
+      "h5": {
+        "n": 5,
+        "weighted_n": 5.0,
+        "avg_return_pct": -15.86,
+        "positive_rate": 0.2,
+        "weighted_avg_return_pct": -15.86,
+        "weighted_positive_rate": 0.2
       },
       "sample_ok": true
     },
     "日线偏弱": {
-      "count": 28,
-      "weighted_count": 28.0,
+      "count": 32,
+      "weighted_count": 32.0,
       "h1": {
-        "n": 21,
-        "weighted_n": 21.0,
-        "avg_return_pct": -0.98,
-        "positive_rate": 0.238,
-        "weighted_avg_return_pct": -0.98,
-        "weighted_positive_rate": 0.238
+        "n": 28,
+        "weighted_n": 28.0,
+        "avg_return_pct": -3.31,
+        "positive_rate": 0.214,
+        "weighted_avg_return_pct": -3.31,
+        "weighted_positive_rate": 0.214
       },
       "h3": {
-        "n": 11,
-        "weighted_n": 11.0,
-        "avg_return_pct": -2.0,
-        "positive_rate": 0.273,
-        "weighted_avg_return_pct": -2.0,
-        "weighted_positive_rate": 0.273
+        "n": 17,
+        "weighted_n": 17.0,
+        "avg_return_pct": -4.72,
+        "positive_rate": 0.353,
+        "weighted_avg_return_pct": -4.72,
+        "weighted_positive_rate": 0.353
+      },
+      "h5": {
+        "n": 6,
+        "weighted_n": 6.0,
+        "avg_return_pct": -10.83,
+        "positive_rate": 0.333,
+        "weighted_avg_return_pct": -10.83,
+        "weighted_positive_rate": 0.333
       },
       "sample_ok": true
     },
     "止损距低于健康门槛3.0%": {
-      "count": 15,
-      "weighted_count": 15.0,
+      "count": 17,
+      "weighted_count": 17.0,
       "h1": {
-        "n": 14,
-        "weighted_n": 14.0,
-        "avg_return_pct": -1.06,
-        "positive_rate": 0.214,
-        "weighted_avg_return_pct": -1.06,
-        "weighted_positive_rate": 0.214
+        "n": 15,
+        "weighted_n": 15.0,
+        "avg_return_pct": -1.15,
+        "positive_rate": 0.2,
+        "weighted_avg_return_pct": -1.15,
+        "weighted_positive_rate": 0.2
       },
       "h3": {
+        "n": 8,
+        "weighted_n": 8.0,
+        "avg_return_pct": -2.25,
+        "positive_rate": 0.25,
+        "weighted_avg_return_pct": -2.25,
+        "weighted_positive_rate": 0.25
+      },
+      "h5": {
         "n": 4,
         "weighted_n": 4.0,
-        "avg_return_pct": -3.95,
+        "avg_return_pct": -3.86,
         "positive_rate": 0.25,
-        "weighted_avg_return_pct": -3.95,
+        "weighted_avg_return_pct": -3.86,
         "weighted_positive_rate": 0.25
       },
       "sample_ok": false
@@ -280,6 +376,14 @@
         "weighted_avg_return_pct": -2.61,
         "weighted_positive_rate": 0.333
       },
+      "h5": {
+        "n": 3,
+        "weighted_n": 3.0,
+        "avg_return_pct": -2.31,
+        "positive_rate": 0.333,
+        "weighted_avg_return_pct": -2.31,
+        "weighted_positive_rate": 0.333
+      },
       "sample_ok": false
     },
     "RPS偏低": {
@@ -299,6 +403,14 @@
         "avg_return_pct": -5.0,
         "positive_rate": 0.0,
         "weighted_avg_return_pct": -5.0,
+        "weighted_positive_rate": 0.0
+      },
+      "h5": {
+        "n": 1,
+        "weighted_n": 1.0,
+        "avg_return_pct": -5.53,
+        "positive_rate": 0.0,
+        "weighted_avg_return_pct": -5.53,
         "weighted_positive_rate": 0.0
       },
       "sample_ok": false
@@ -322,18 +434,34 @@
         "weighted_avg_return_pct": -5.0,
         "weighted_positive_rate": 0.0
       },
+      "h5": {
+        "n": 1,
+        "weighted_n": 1.0,
+        "avg_return_pct": -5.53,
+        "positive_rate": 0.0,
+        "weighted_avg_return_pct": -5.53,
+        "weighted_positive_rate": 0.0
+      },
       "sample_ok": false
     },
     "评分快速下降": {
       "count": 6,
       "weighted_count": 6.0,
       "h1": {
-        "n": 5,
-        "weighted_n": 5.0,
-        "avg_return_pct": -2.6,
+        "n": 6,
+        "weighted_n": 6.0,
+        "avg_return_pct": -2.42,
         "positive_rate": 0.0,
-        "weighted_avg_return_pct": -2.6,
+        "weighted_avg_return_pct": -2.42,
         "weighted_positive_rate": 0.0
+      },
+      "h3": {
+        "n": 2,
+        "weighted_n": 2.0,
+        "avg_return_pct": -2.43,
+        "positive_rate": 0.5,
+        "weighted_avg_return_pct": -2.43,
+        "weighted_positive_rate": 0.5
       },
       "sample_ok": false
     },
@@ -341,18 +469,18 @@
       "count": 2,
       "weighted_count": 2.0,
       "h1": {
-        "n": 1,
-        "weighted_n": 1.0,
-        "avg_return_pct": 1.16,
-        "positive_rate": 1.0,
-        "weighted_avg_return_pct": 1.16,
-        "weighted_positive_rate": 1.0
+        "n": 2,
+        "weighted_n": 2.0,
+        "avg_return_pct": -0.01,
+        "positive_rate": 0.5,
+        "weighted_avg_return_pct": -0.01,
+        "weighted_positive_rate": 0.5
       },
       "sample_ok": false
     }
   },
-  "generated_at": "2026-06-09 14:57:21",
-  "as_of_date": "2026-06-09",
+  "generated_at": "2026-06-10 09:45:22",
+  "as_of_date": "2026-06-10",
   "schema_version": 2,
   "review_horizons": [
     1,
@@ -368,144 +496,192 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 23,
-      "trading_day_count": 6,
-      "candidate_count": 45,
+      "record_count": 24,
+      "trading_day_count": 7,
+      "candidate_count": 51,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 17,
-          "weighted_count": 16.43,
+          "count": 19,
+          "weighted_count": 18.2,
           "h1": {
-            "n": 15,
-            "weighted_n": 14.43,
-            "avg_return_pct": -0.88,
-            "positive_rate": 0.333,
-            "weighted_avg_return_pct": -0.88,
-            "weighted_positive_rate": 0.333
+            "n": 17,
+            "weighted_n": 16.2,
+            "avg_return_pct": -0.72,
+            "positive_rate": 0.353,
+            "weighted_avg_return_pct": -0.71,
+            "weighted_positive_rate": 0.354
           },
           "h3": {
-            "n": 10,
-            "weighted_n": 9.53,
-            "avg_return_pct": -3.89,
+            "n": 12,
+            "weighted_n": 11.31,
+            "avg_return_pct": -9.23,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -3.89,
+            "weighted_avg_return_pct": -9.32,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -3.73,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -3.73,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         ">=0.80": {
-          "count": 20,
-          "weighted_count": 19.35,
+          "count": 24,
+          "weighted_count": 23.08,
           "h1": {
-            "n": 18,
-            "weighted_n": 17.35,
-            "avg_return_pct": -0.89,
-            "positive_rate": 0.111,
-            "weighted_avg_return_pct": -0.9,
-            "weighted_positive_rate": 0.11
+            "n": 20,
+            "weighted_n": 19.08,
+            "avg_return_pct": -4.27,
+            "positive_rate": 0.1,
+            "weighted_avg_return_pct": -4.39,
+            "weighted_positive_rate": 0.098
           },
           "h3": {
-            "n": 9,
-            "weighted_n": 8.55,
-            "avg_return_pct": -3.08,
-            "positive_rate": 0.222,
-            "weighted_avg_return_pct": -3.09,
-            "weighted_positive_rate": 0.221
+            "n": 15,
+            "weighted_n": 14.19,
+            "avg_return_pct": -1.78,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -1.77,
+            "weighted_positive_rate": 0.334
+          },
+          "h5": {
+            "n": 6,
+            "weighted_n": 5.6,
+            "avg_return_pct": -11.74,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -11.74,
+            "weighted_positive_rate": 0.333
           },
           "sample_ok": true
         },
         "0.12~0.40": {
           "count": 8,
-          "weighted_count": 7.81,
+          "weighted_count": 7.7,
           "h1": {
-            "n": 5,
-            "weighted_n": 4.81,
-            "avg_return_pct": -1.46,
+            "n": 8,
+            "weighted_n": 7.7,
+            "avg_return_pct": -1.38,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -1.47,
+            "weighted_avg_return_pct": -1.38,
             "weighted_positive_rate": 0.0
           },
           "h3": {
-            "n": 3,
-            "weighted_n": 2.85,
-            "avg_return_pct": 0.22,
-            "positive_rate": 0.667,
-            "weighted_avg_return_pct": 0.24,
-            "weighted_positive_rate": 0.668
+            "n": 4,
+            "weighted_n": 3.77,
+            "avg_return_pct": 0.02,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": 0.02,
+            "weighted_positive_rate": 0.498
+          },
+          "h5": {
+            "n": 2,
+            "weighted_n": 1.87,
+            "avg_return_pct": -1.52,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -1.52,
+            "weighted_positive_rate": 0.5
           },
           "sample_ok": false
         }
       },
       "by_rps_bucket": {
         ">=90": {
-          "count": 19,
-          "weighted_count": 18.47,
+          "count": 23,
+          "weighted_count": 22.22,
           "h1": {
-            "n": 15,
-            "weighted_n": 14.47,
-            "avg_return_pct": -0.62,
-            "positive_rate": 0.4,
-            "weighted_avg_return_pct": -0.62,
-            "weighted_positive_rate": 0.399
+            "n": 19,
+            "weighted_n": 18.22,
+            "avg_return_pct": -0.54,
+            "positive_rate": 0.368,
+            "weighted_avg_return_pct": -0.54,
+            "weighted_positive_rate": 0.367
           },
           "h3": {
-            "n": 8,
-            "weighted_n": 7.62,
-            "avg_return_pct": -3.81,
-            "positive_rate": 0.0,
-            "weighted_avg_return_pct": -3.81,
-            "weighted_positive_rate": 0.0
+            "n": 12,
+            "weighted_n": 11.35,
+            "avg_return_pct": -1.78,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": -1.76,
+            "weighted_positive_rate": 0.253
           },
-          "sample_ok": false
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": 0.97,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": 0.97,
+            "weighted_positive_rate": 0.25
+          },
+          "sample_ok": true
         },
         "75~90": {
-          "count": 18,
-          "weighted_count": 17.42,
+          "count": 19,
+          "weighted_count": 18.18,
           "h1": {
-            "n": 16,
-            "weighted_n": 15.42,
-            "avg_return_pct": -1.1,
+            "n": 18,
+            "weighted_n": 17.18,
+            "avg_return_pct": -4.83,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -1.11,
+            "weighted_avg_return_pct": -4.97,
             "weighted_positive_rate": 0.0
           },
           "h3": {
-            "n": 9,
-            "weighted_n": 8.57,
-            "avg_return_pct": -2.41,
-            "positive_rate": 0.333,
-            "weighted_avg_return_pct": -2.42,
-            "weighted_positive_rate": 0.331
+            "n": 13,
+            "weighted_n": 12.29,
+            "avg_return_pct": -7.82,
+            "positive_rate": 0.231,
+            "weighted_avg_return_pct": -7.91,
+            "weighted_positive_rate": 0.228
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -15.12,
+            "positive_rate": 0.4,
+            "weighted_avg_return_pct": -15.12,
+            "weighted_positive_rate": 0.4
           },
           "sample_ok": false
         },
         "60~75": {
-          "count": 7,
-          "weighted_count": 6.76,
+          "count": 8,
+          "weighted_count": 7.66,
           "h1": {
-            "n": 6,
-            "weighted_n": 5.76,
-            "avg_return_pct": -1.25,
-            "positive_rate": 0.167,
-            "weighted_avg_return_pct": -1.26,
-            "weighted_positive_rate": 0.164
+            "n": 7,
+            "weighted_n": 6.66,
+            "avg_return_pct": -1.34,
+            "positive_rate": 0.143,
+            "weighted_avg_return_pct": -1.34,
+            "weighted_positive_rate": 0.14
           },
           "h3": {
-            "n": 4,
-            "weighted_n": 3.8,
-            "avg_return_pct": -2.19,
-            "positive_rate": 0.25,
-            "weighted_avg_return_pct": -2.17,
-            "weighted_positive_rate": 0.253
+            "n": 5,
+            "weighted_n": 4.7,
+            "avg_return_pct": -1.87,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -1.85,
+            "weighted_positive_rate": 0.201
+          },
+          "h5": {
+            "n": 3,
+            "weighted_n": 2.8,
+            "avg_return_pct": -4.95,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -4.95,
+            "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "45~60": {
           "count": 1,
-          "weighted_count": 0.95,
+          "weighted_count": 0.93,
           "h1": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -2.11,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.11,
@@ -513,10 +689,18 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
@@ -524,23 +708,31 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 45,
-          "weighted_count": 43.59,
+          "count": 51,
+          "weighted_count": 48.99,
           "h1": {
-            "n": 38,
-            "weighted_n": 36.59,
-            "avg_return_pct": -0.96,
-            "positive_rate": 0.184,
-            "weighted_avg_return_pct": -0.97,
-            "weighted_positive_rate": 0.184
+            "n": 45,
+            "weighted_n": 42.99,
+            "avg_return_pct": -2.41,
+            "positive_rate": 0.178,
+            "weighted_avg_return_pct": -2.47,
+            "weighted_positive_rate": 0.177
           },
           "h3": {
-            "n": 22,
-            "weighted_n": 20.93,
-            "avg_return_pct": -3.0,
-            "positive_rate": 0.182,
-            "weighted_avg_return_pct": -3.0,
-            "weighted_positive_rate": 0.181
+            "n": 31,
+            "weighted_n": 29.28,
+            "avg_return_pct": -4.43,
+            "positive_rate": 0.226,
+            "weighted_avg_return_pct": -4.46,
+            "weighted_positive_rate": 0.226
+          },
+          "h5": {
+            "n": 13,
+            "weighted_n": 12.13,
+            "avg_return_pct": -7.09,
+            "positive_rate": 0.231,
+            "weighted_avg_return_pct": -7.09,
+            "weighted_positive_rate": 0.231
           },
           "sample_ok": true
         }
@@ -548,94 +740,126 @@
       "by_soft_penalty": {
         "no_soft_penalty": {
           "count": 7,
-          "weighted_count": 6.68,
+          "weighted_count": 6.58,
           "h1": {
             "n": 7,
-            "weighted_n": 6.68,
+            "weighted_n": 6.58,
             "avg_return_pct": -0.4,
             "positive_rate": 0.143,
             "weighted_avg_return_pct": -0.4,
             "weighted_positive_rate": 0.142
           },
           "h3": {
-            "n": 6,
-            "weighted_n": 5.7,
-            "avg_return_pct": -4.2,
+            "n": 7,
+            "weighted_n": 6.58,
+            "avg_return_pct": -4.26,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -4.2,
+            "weighted_avg_return_pct": -4.26,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": -3.85,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -3.85,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "顶背离": {
-          "count": 26,
-          "weighted_count": 25.31,
+          "count": 28,
+          "weighted_count": 26.96,
           "h1": {
-            "n": 20,
-            "weighted_n": 19.31,
-            "avg_return_pct": -1.19,
-            "positive_rate": 0.15,
-            "weighted_avg_return_pct": -1.19,
-            "weighted_positive_rate": 0.15
+            "n": 26,
+            "weighted_n": 24.96,
+            "avg_return_pct": -3.8,
+            "positive_rate": 0.115,
+            "weighted_avg_return_pct": -3.87,
+            "weighted_positive_rate": 0.114
           },
           "h3": {
-            "n": 10,
-            "weighted_n": 9.53,
-            "avg_return_pct": -2.57,
-            "positive_rate": 0.3,
-            "weighted_avg_return_pct": -2.57,
-            "weighted_positive_rate": 0.299
+            "n": 16,
+            "weighted_n": 15.15,
+            "avg_return_pct": -5.99,
+            "positive_rate": 0.312,
+            "weighted_avg_return_pct": -6.04,
+            "weighted_positive_rate": 0.312
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -15.86,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -15.86,
+            "weighted_positive_rate": 0.2
           },
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 28,
-          "weighted_count": 27.25,
+          "count": 32,
+          "weighted_count": 30.88,
           "h1": {
-            "n": 21,
-            "weighted_n": 20.25,
-            "avg_return_pct": -0.98,
-            "positive_rate": 0.238,
-            "weighted_avg_return_pct": -0.99,
-            "weighted_positive_rate": 0.238
+            "n": 28,
+            "weighted_n": 26.88,
+            "avg_return_pct": -3.31,
+            "positive_rate": 0.214,
+            "weighted_avg_return_pct": -3.38,
+            "weighted_positive_rate": 0.213
           },
           "h3": {
-            "n": 11,
-            "weighted_n": 10.47,
-            "avg_return_pct": -2.0,
-            "positive_rate": 0.273,
-            "weighted_avg_return_pct": -2.0,
-            "weighted_positive_rate": 0.272
+            "n": 17,
+            "weighted_n": 16.08,
+            "avg_return_pct": -4.72,
+            "positive_rate": 0.353,
+            "weighted_avg_return_pct": -4.76,
+            "weighted_positive_rate": 0.354
+          },
+          "h5": {
+            "n": 6,
+            "weighted_n": 5.6,
+            "avg_return_pct": -10.83,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -10.83,
+            "weighted_positive_rate": 0.333
           },
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 15,
-          "weighted_count": 14.59,
+          "count": 17,
+          "weighted_count": 16.39,
           "h1": {
-            "n": 14,
-            "weighted_n": 13.59,
-            "avg_return_pct": -1.06,
-            "positive_rate": 0.214,
-            "weighted_avg_return_pct": -1.06,
-            "weighted_positive_rate": 0.215
+            "n": 15,
+            "weighted_n": 14.39,
+            "avg_return_pct": -1.15,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -1.15,
+            "weighted_positive_rate": 0.2
           },
           "h3": {
-            "n": 4,
-            "weighted_n": 3.78,
-            "avg_return_pct": -3.95,
+            "n": 8,
+            "weighted_n": 7.57,
+            "avg_return_pct": -2.25,
             "positive_rate": 0.25,
-            "weighted_avg_return_pct": -3.94,
+            "weighted_avg_return_pct": -2.22,
+            "weighted_positive_rate": 0.25
+          },
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": -3.86,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": -3.86,
             "weighted_positive_rate": 0.25
           },
           "sample_ok": false
         },
         "总分偏低": {
           "count": 3,
-          "weighted_count": 2.84,
+          "weighted_count": 2.8,
           "h1": {
             "n": 3,
-            "weighted_n": 2.84,
+            "weighted_n": 2.8,
             "avg_return_pct": -0.51,
             "positive_rate": 0.333,
             "weighted_avg_return_pct": -0.51,
@@ -643,20 +867,28 @@
           },
           "h3": {
             "n": 3,
-            "weighted_n": 2.84,
+            "weighted_n": 2.8,
             "avg_return_pct": -2.61,
             "positive_rate": 0.333,
             "weighted_avg_return_pct": -2.61,
+            "weighted_positive_rate": 0.333
+          },
+          "h5": {
+            "n": 3,
+            "weighted_n": 2.8,
+            "avg_return_pct": -2.31,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -2.31,
             "weighted_positive_rate": 0.333
           },
           "sample_ok": false
         },
         "RPS偏低": {
           "count": 1,
-          "weighted_count": 0.95,
+          "weighted_count": 0.93,
           "h1": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -2.11,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.11,
@@ -664,20 +896,28 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "周线偏弱": {
           "count": 2,
-          "weighted_count": 1.93,
+          "weighted_count": 1.91,
           "h1": {
             "n": 2,
-            "weighted_n": 1.93,
+            "weighted_n": 1.91,
             "avg_return_pct": -2.29,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.29,
@@ -685,181 +925,245 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "评分快速下降": {
           "count": 6,
-          "weighted_count": 5.9,
+          "weighted_count": 5.82,
           "h1": {
-            "n": 5,
-            "weighted_n": 4.9,
-            "avg_return_pct": -2.6,
+            "n": 6,
+            "weighted_n": 5.82,
+            "avg_return_pct": -2.42,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -2.6,
+            "weighted_avg_return_pct": -2.42,
             "weighted_positive_rate": 0.0
+          },
+          "h3": {
+            "n": 2,
+            "weighted_n": 1.92,
+            "avg_return_pct": -2.43,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -2.43,
+            "weighted_positive_rate": 0.5
           },
           "sample_ok": false
         },
         "周强日破": {
           "count": 2,
-          "weighted_count": 1.99,
+          "weighted_count": 1.96,
           "h1": {
-            "n": 1,
-            "weighted_n": 0.99,
-            "avg_return_pct": 1.16,
-            "positive_rate": 1.0,
-            "weighted_avg_return_pct": 1.16,
-            "weighted_positive_rate": 1.0
+            "n": 2,
+            "weighted_n": 1.96,
+            "avg_return_pct": -0.01,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -0.02,
+            "weighted_positive_rate": 0.497
           },
           "sample_ok": false
         }
       }
     },
     "d60": {
-      "record_count": 23,
-      "trading_day_count": 6,
-      "candidate_count": 45,
+      "record_count": 24,
+      "trading_day_count": 7,
+      "candidate_count": 51,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 17,
-          "weighted_count": 16.43,
+          "count": 19,
+          "weighted_count": 18.2,
           "h1": {
-            "n": 15,
-            "weighted_n": 14.43,
-            "avg_return_pct": -0.88,
-            "positive_rate": 0.333,
-            "weighted_avg_return_pct": -0.88,
-            "weighted_positive_rate": 0.333
+            "n": 17,
+            "weighted_n": 16.2,
+            "avg_return_pct": -0.72,
+            "positive_rate": 0.353,
+            "weighted_avg_return_pct": -0.71,
+            "weighted_positive_rate": 0.354
           },
           "h3": {
-            "n": 10,
-            "weighted_n": 9.53,
-            "avg_return_pct": -3.89,
+            "n": 12,
+            "weighted_n": 11.31,
+            "avg_return_pct": -9.23,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -3.89,
+            "weighted_avg_return_pct": -9.32,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -3.73,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -3.73,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         ">=0.80": {
-          "count": 20,
-          "weighted_count": 19.35,
+          "count": 24,
+          "weighted_count": 23.08,
           "h1": {
-            "n": 18,
-            "weighted_n": 17.35,
-            "avg_return_pct": -0.89,
-            "positive_rate": 0.111,
-            "weighted_avg_return_pct": -0.9,
-            "weighted_positive_rate": 0.11
+            "n": 20,
+            "weighted_n": 19.08,
+            "avg_return_pct": -4.27,
+            "positive_rate": 0.1,
+            "weighted_avg_return_pct": -4.39,
+            "weighted_positive_rate": 0.098
           },
           "h3": {
-            "n": 9,
-            "weighted_n": 8.55,
-            "avg_return_pct": -3.08,
-            "positive_rate": 0.222,
-            "weighted_avg_return_pct": -3.09,
-            "weighted_positive_rate": 0.221
+            "n": 15,
+            "weighted_n": 14.19,
+            "avg_return_pct": -1.78,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -1.77,
+            "weighted_positive_rate": 0.334
+          },
+          "h5": {
+            "n": 6,
+            "weighted_n": 5.6,
+            "avg_return_pct": -11.74,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -11.74,
+            "weighted_positive_rate": 0.333
           },
           "sample_ok": true
         },
         "0.12~0.40": {
           "count": 8,
-          "weighted_count": 7.81,
+          "weighted_count": 7.7,
           "h1": {
-            "n": 5,
-            "weighted_n": 4.81,
-            "avg_return_pct": -1.46,
+            "n": 8,
+            "weighted_n": 7.7,
+            "avg_return_pct": -1.38,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -1.47,
+            "weighted_avg_return_pct": -1.38,
             "weighted_positive_rate": 0.0
           },
           "h3": {
-            "n": 3,
-            "weighted_n": 2.85,
-            "avg_return_pct": 0.22,
-            "positive_rate": 0.667,
-            "weighted_avg_return_pct": 0.24,
-            "weighted_positive_rate": 0.668
+            "n": 4,
+            "weighted_n": 3.77,
+            "avg_return_pct": 0.02,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": 0.02,
+            "weighted_positive_rate": 0.498
+          },
+          "h5": {
+            "n": 2,
+            "weighted_n": 1.87,
+            "avg_return_pct": -1.52,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -1.52,
+            "weighted_positive_rate": 0.5
           },
           "sample_ok": false
         }
       },
       "by_rps_bucket": {
         ">=90": {
-          "count": 19,
-          "weighted_count": 18.47,
+          "count": 23,
+          "weighted_count": 22.22,
           "h1": {
-            "n": 15,
-            "weighted_n": 14.47,
-            "avg_return_pct": -0.62,
-            "positive_rate": 0.4,
-            "weighted_avg_return_pct": -0.62,
-            "weighted_positive_rate": 0.399
+            "n": 19,
+            "weighted_n": 18.22,
+            "avg_return_pct": -0.54,
+            "positive_rate": 0.368,
+            "weighted_avg_return_pct": -0.54,
+            "weighted_positive_rate": 0.367
           },
           "h3": {
-            "n": 8,
-            "weighted_n": 7.62,
-            "avg_return_pct": -3.81,
-            "positive_rate": 0.0,
-            "weighted_avg_return_pct": -3.81,
-            "weighted_positive_rate": 0.0
+            "n": 12,
+            "weighted_n": 11.35,
+            "avg_return_pct": -1.78,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": -1.76,
+            "weighted_positive_rate": 0.253
           },
-          "sample_ok": false
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": 0.97,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": 0.97,
+            "weighted_positive_rate": 0.25
+          },
+          "sample_ok": true
         },
         "75~90": {
-          "count": 18,
-          "weighted_count": 17.42,
+          "count": 19,
+          "weighted_count": 18.18,
           "h1": {
-            "n": 16,
-            "weighted_n": 15.42,
-            "avg_return_pct": -1.1,
+            "n": 18,
+            "weighted_n": 17.18,
+            "avg_return_pct": -4.83,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -1.11,
+            "weighted_avg_return_pct": -4.97,
             "weighted_positive_rate": 0.0
           },
           "h3": {
-            "n": 9,
-            "weighted_n": 8.57,
-            "avg_return_pct": -2.41,
-            "positive_rate": 0.333,
-            "weighted_avg_return_pct": -2.42,
-            "weighted_positive_rate": 0.331
+            "n": 13,
+            "weighted_n": 12.29,
+            "avg_return_pct": -7.82,
+            "positive_rate": 0.231,
+            "weighted_avg_return_pct": -7.91,
+            "weighted_positive_rate": 0.228
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -15.12,
+            "positive_rate": 0.4,
+            "weighted_avg_return_pct": -15.12,
+            "weighted_positive_rate": 0.4
           },
           "sample_ok": false
         },
         "60~75": {
-          "count": 7,
-          "weighted_count": 6.76,
+          "count": 8,
+          "weighted_count": 7.66,
           "h1": {
-            "n": 6,
-            "weighted_n": 5.76,
-            "avg_return_pct": -1.25,
-            "positive_rate": 0.167,
-            "weighted_avg_return_pct": -1.26,
-            "weighted_positive_rate": 0.164
+            "n": 7,
+            "weighted_n": 6.66,
+            "avg_return_pct": -1.34,
+            "positive_rate": 0.143,
+            "weighted_avg_return_pct": -1.34,
+            "weighted_positive_rate": 0.14
           },
           "h3": {
-            "n": 4,
-            "weighted_n": 3.8,
-            "avg_return_pct": -2.19,
-            "positive_rate": 0.25,
-            "weighted_avg_return_pct": -2.17,
-            "weighted_positive_rate": 0.253
+            "n": 5,
+            "weighted_n": 4.7,
+            "avg_return_pct": -1.87,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -1.85,
+            "weighted_positive_rate": 0.201
+          },
+          "h5": {
+            "n": 3,
+            "weighted_n": 2.8,
+            "avg_return_pct": -4.95,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -4.95,
+            "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "45~60": {
           "count": 1,
-          "weighted_count": 0.95,
+          "weighted_count": 0.93,
           "h1": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -2.11,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.11,
@@ -867,10 +1171,18 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
@@ -878,23 +1190,31 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 45,
-          "weighted_count": 43.59,
+          "count": 51,
+          "weighted_count": 48.99,
           "h1": {
-            "n": 38,
-            "weighted_n": 36.59,
-            "avg_return_pct": -0.96,
-            "positive_rate": 0.184,
-            "weighted_avg_return_pct": -0.97,
-            "weighted_positive_rate": 0.184
+            "n": 45,
+            "weighted_n": 42.99,
+            "avg_return_pct": -2.41,
+            "positive_rate": 0.178,
+            "weighted_avg_return_pct": -2.47,
+            "weighted_positive_rate": 0.177
           },
           "h3": {
-            "n": 22,
-            "weighted_n": 20.93,
-            "avg_return_pct": -3.0,
-            "positive_rate": 0.182,
-            "weighted_avg_return_pct": -3.0,
-            "weighted_positive_rate": 0.181
+            "n": 31,
+            "weighted_n": 29.28,
+            "avg_return_pct": -4.43,
+            "positive_rate": 0.226,
+            "weighted_avg_return_pct": -4.46,
+            "weighted_positive_rate": 0.226
+          },
+          "h5": {
+            "n": 13,
+            "weighted_n": 12.13,
+            "avg_return_pct": -7.09,
+            "positive_rate": 0.231,
+            "weighted_avg_return_pct": -7.09,
+            "weighted_positive_rate": 0.231
           },
           "sample_ok": true
         }
@@ -902,94 +1222,126 @@
       "by_soft_penalty": {
         "no_soft_penalty": {
           "count": 7,
-          "weighted_count": 6.68,
+          "weighted_count": 6.58,
           "h1": {
             "n": 7,
-            "weighted_n": 6.68,
+            "weighted_n": 6.58,
             "avg_return_pct": -0.4,
             "positive_rate": 0.143,
             "weighted_avg_return_pct": -0.4,
             "weighted_positive_rate": 0.142
           },
           "h3": {
-            "n": 6,
-            "weighted_n": 5.7,
-            "avg_return_pct": -4.2,
+            "n": 7,
+            "weighted_n": 6.58,
+            "avg_return_pct": -4.26,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -4.2,
+            "weighted_avg_return_pct": -4.26,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": -3.85,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -3.85,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "顶背离": {
-          "count": 26,
-          "weighted_count": 25.31,
+          "count": 28,
+          "weighted_count": 26.96,
           "h1": {
-            "n": 20,
-            "weighted_n": 19.31,
-            "avg_return_pct": -1.19,
-            "positive_rate": 0.15,
-            "weighted_avg_return_pct": -1.19,
-            "weighted_positive_rate": 0.15
+            "n": 26,
+            "weighted_n": 24.96,
+            "avg_return_pct": -3.8,
+            "positive_rate": 0.115,
+            "weighted_avg_return_pct": -3.87,
+            "weighted_positive_rate": 0.114
           },
           "h3": {
-            "n": 10,
-            "weighted_n": 9.53,
-            "avg_return_pct": -2.57,
-            "positive_rate": 0.3,
-            "weighted_avg_return_pct": -2.57,
-            "weighted_positive_rate": 0.299
+            "n": 16,
+            "weighted_n": 15.15,
+            "avg_return_pct": -5.99,
+            "positive_rate": 0.312,
+            "weighted_avg_return_pct": -6.04,
+            "weighted_positive_rate": 0.312
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -15.86,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -15.86,
+            "weighted_positive_rate": 0.2
           },
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 28,
-          "weighted_count": 27.25,
+          "count": 32,
+          "weighted_count": 30.88,
           "h1": {
-            "n": 21,
-            "weighted_n": 20.25,
-            "avg_return_pct": -0.98,
-            "positive_rate": 0.238,
-            "weighted_avg_return_pct": -0.99,
-            "weighted_positive_rate": 0.238
+            "n": 28,
+            "weighted_n": 26.88,
+            "avg_return_pct": -3.31,
+            "positive_rate": 0.214,
+            "weighted_avg_return_pct": -3.38,
+            "weighted_positive_rate": 0.213
           },
           "h3": {
-            "n": 11,
-            "weighted_n": 10.47,
-            "avg_return_pct": -2.0,
-            "positive_rate": 0.273,
-            "weighted_avg_return_pct": -2.0,
-            "weighted_positive_rate": 0.272
+            "n": 17,
+            "weighted_n": 16.08,
+            "avg_return_pct": -4.72,
+            "positive_rate": 0.353,
+            "weighted_avg_return_pct": -4.76,
+            "weighted_positive_rate": 0.354
+          },
+          "h5": {
+            "n": 6,
+            "weighted_n": 5.6,
+            "avg_return_pct": -10.83,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -10.83,
+            "weighted_positive_rate": 0.333
           },
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 15,
-          "weighted_count": 14.59,
+          "count": 17,
+          "weighted_count": 16.39,
           "h1": {
-            "n": 14,
-            "weighted_n": 13.59,
-            "avg_return_pct": -1.06,
-            "positive_rate": 0.214,
-            "weighted_avg_return_pct": -1.06,
-            "weighted_positive_rate": 0.215
+            "n": 15,
+            "weighted_n": 14.39,
+            "avg_return_pct": -1.15,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -1.15,
+            "weighted_positive_rate": 0.2
           },
           "h3": {
-            "n": 4,
-            "weighted_n": 3.78,
-            "avg_return_pct": -3.95,
+            "n": 8,
+            "weighted_n": 7.57,
+            "avg_return_pct": -2.25,
             "positive_rate": 0.25,
-            "weighted_avg_return_pct": -3.94,
+            "weighted_avg_return_pct": -2.22,
+            "weighted_positive_rate": 0.25
+          },
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": -3.86,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": -3.86,
             "weighted_positive_rate": 0.25
           },
           "sample_ok": false
         },
         "总分偏低": {
           "count": 3,
-          "weighted_count": 2.84,
+          "weighted_count": 2.8,
           "h1": {
             "n": 3,
-            "weighted_n": 2.84,
+            "weighted_n": 2.8,
             "avg_return_pct": -0.51,
             "positive_rate": 0.333,
             "weighted_avg_return_pct": -0.51,
@@ -997,20 +1349,28 @@
           },
           "h3": {
             "n": 3,
-            "weighted_n": 2.84,
+            "weighted_n": 2.8,
             "avg_return_pct": -2.61,
             "positive_rate": 0.333,
             "weighted_avg_return_pct": -2.61,
+            "weighted_positive_rate": 0.333
+          },
+          "h5": {
+            "n": 3,
+            "weighted_n": 2.8,
+            "avg_return_pct": -2.31,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -2.31,
             "weighted_positive_rate": 0.333
           },
           "sample_ok": false
         },
         "RPS偏低": {
           "count": 1,
-          "weighted_count": 0.95,
+          "weighted_count": 0.93,
           "h1": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -2.11,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.11,
@@ -1018,20 +1378,28 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "周线偏弱": {
           "count": 2,
-          "weighted_count": 1.93,
+          "weighted_count": 1.91,
           "h1": {
             "n": 2,
-            "weighted_n": 1.93,
+            "weighted_n": 1.91,
             "avg_return_pct": -2.29,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.29,
@@ -1039,181 +1407,245 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "评分快速下降": {
           "count": 6,
-          "weighted_count": 5.9,
+          "weighted_count": 5.82,
           "h1": {
-            "n": 5,
-            "weighted_n": 4.9,
-            "avg_return_pct": -2.6,
+            "n": 6,
+            "weighted_n": 5.82,
+            "avg_return_pct": -2.42,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -2.6,
+            "weighted_avg_return_pct": -2.42,
             "weighted_positive_rate": 0.0
+          },
+          "h3": {
+            "n": 2,
+            "weighted_n": 1.92,
+            "avg_return_pct": -2.43,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -2.43,
+            "weighted_positive_rate": 0.5
           },
           "sample_ok": false
         },
         "周强日破": {
           "count": 2,
-          "weighted_count": 1.99,
+          "weighted_count": 1.96,
           "h1": {
-            "n": 1,
-            "weighted_n": 0.99,
-            "avg_return_pct": 1.16,
-            "positive_rate": 1.0,
-            "weighted_avg_return_pct": 1.16,
-            "weighted_positive_rate": 1.0
+            "n": 2,
+            "weighted_n": 1.96,
+            "avg_return_pct": -0.01,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -0.02,
+            "weighted_positive_rate": 0.497
           },
           "sample_ok": false
         }
       }
     },
     "d120": {
-      "record_count": 23,
-      "trading_day_count": 6,
-      "candidate_count": 45,
+      "record_count": 24,
+      "trading_day_count": 7,
+      "candidate_count": 51,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 17,
-          "weighted_count": 16.43,
+          "count": 19,
+          "weighted_count": 18.2,
           "h1": {
-            "n": 15,
-            "weighted_n": 14.43,
-            "avg_return_pct": -0.88,
-            "positive_rate": 0.333,
-            "weighted_avg_return_pct": -0.88,
-            "weighted_positive_rate": 0.333
+            "n": 17,
+            "weighted_n": 16.2,
+            "avg_return_pct": -0.72,
+            "positive_rate": 0.353,
+            "weighted_avg_return_pct": -0.71,
+            "weighted_positive_rate": 0.354
           },
           "h3": {
-            "n": 10,
-            "weighted_n": 9.53,
-            "avg_return_pct": -3.89,
+            "n": 12,
+            "weighted_n": 11.31,
+            "avg_return_pct": -9.23,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -3.89,
+            "weighted_avg_return_pct": -9.32,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -3.73,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -3.73,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         ">=0.80": {
-          "count": 20,
-          "weighted_count": 19.35,
+          "count": 24,
+          "weighted_count": 23.08,
           "h1": {
-            "n": 18,
-            "weighted_n": 17.35,
-            "avg_return_pct": -0.89,
-            "positive_rate": 0.111,
-            "weighted_avg_return_pct": -0.9,
-            "weighted_positive_rate": 0.11
+            "n": 20,
+            "weighted_n": 19.08,
+            "avg_return_pct": -4.27,
+            "positive_rate": 0.1,
+            "weighted_avg_return_pct": -4.39,
+            "weighted_positive_rate": 0.098
           },
           "h3": {
-            "n": 9,
-            "weighted_n": 8.55,
-            "avg_return_pct": -3.08,
-            "positive_rate": 0.222,
-            "weighted_avg_return_pct": -3.09,
-            "weighted_positive_rate": 0.221
+            "n": 15,
+            "weighted_n": 14.19,
+            "avg_return_pct": -1.78,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -1.77,
+            "weighted_positive_rate": 0.334
+          },
+          "h5": {
+            "n": 6,
+            "weighted_n": 5.6,
+            "avg_return_pct": -11.74,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -11.74,
+            "weighted_positive_rate": 0.333
           },
           "sample_ok": true
         },
         "0.12~0.40": {
           "count": 8,
-          "weighted_count": 7.81,
+          "weighted_count": 7.7,
           "h1": {
-            "n": 5,
-            "weighted_n": 4.81,
-            "avg_return_pct": -1.46,
+            "n": 8,
+            "weighted_n": 7.7,
+            "avg_return_pct": -1.38,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -1.47,
+            "weighted_avg_return_pct": -1.38,
             "weighted_positive_rate": 0.0
           },
           "h3": {
-            "n": 3,
-            "weighted_n": 2.85,
-            "avg_return_pct": 0.22,
-            "positive_rate": 0.667,
-            "weighted_avg_return_pct": 0.24,
-            "weighted_positive_rate": 0.668
+            "n": 4,
+            "weighted_n": 3.77,
+            "avg_return_pct": 0.02,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": 0.02,
+            "weighted_positive_rate": 0.498
+          },
+          "h5": {
+            "n": 2,
+            "weighted_n": 1.87,
+            "avg_return_pct": -1.52,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -1.52,
+            "weighted_positive_rate": 0.5
           },
           "sample_ok": false
         }
       },
       "by_rps_bucket": {
         ">=90": {
-          "count": 19,
-          "weighted_count": 18.47,
+          "count": 23,
+          "weighted_count": 22.22,
           "h1": {
-            "n": 15,
-            "weighted_n": 14.47,
-            "avg_return_pct": -0.62,
-            "positive_rate": 0.4,
-            "weighted_avg_return_pct": -0.62,
-            "weighted_positive_rate": 0.399
+            "n": 19,
+            "weighted_n": 18.22,
+            "avg_return_pct": -0.54,
+            "positive_rate": 0.368,
+            "weighted_avg_return_pct": -0.54,
+            "weighted_positive_rate": 0.367
           },
           "h3": {
-            "n": 8,
-            "weighted_n": 7.62,
-            "avg_return_pct": -3.81,
-            "positive_rate": 0.0,
-            "weighted_avg_return_pct": -3.81,
-            "weighted_positive_rate": 0.0
+            "n": 12,
+            "weighted_n": 11.35,
+            "avg_return_pct": -1.78,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": -1.76,
+            "weighted_positive_rate": 0.253
           },
-          "sample_ok": false
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": 0.97,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": 0.97,
+            "weighted_positive_rate": 0.25
+          },
+          "sample_ok": true
         },
         "75~90": {
-          "count": 18,
-          "weighted_count": 17.42,
+          "count": 19,
+          "weighted_count": 18.18,
           "h1": {
-            "n": 16,
-            "weighted_n": 15.42,
-            "avg_return_pct": -1.1,
+            "n": 18,
+            "weighted_n": 17.18,
+            "avg_return_pct": -4.83,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -1.11,
+            "weighted_avg_return_pct": -4.97,
             "weighted_positive_rate": 0.0
           },
           "h3": {
-            "n": 9,
-            "weighted_n": 8.57,
-            "avg_return_pct": -2.41,
-            "positive_rate": 0.333,
-            "weighted_avg_return_pct": -2.42,
-            "weighted_positive_rate": 0.331
+            "n": 13,
+            "weighted_n": 12.29,
+            "avg_return_pct": -7.82,
+            "positive_rate": 0.231,
+            "weighted_avg_return_pct": -7.91,
+            "weighted_positive_rate": 0.228
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -15.12,
+            "positive_rate": 0.4,
+            "weighted_avg_return_pct": -15.12,
+            "weighted_positive_rate": 0.4
           },
           "sample_ok": false
         },
         "60~75": {
-          "count": 7,
-          "weighted_count": 6.76,
+          "count": 8,
+          "weighted_count": 7.66,
           "h1": {
-            "n": 6,
-            "weighted_n": 5.76,
-            "avg_return_pct": -1.25,
-            "positive_rate": 0.167,
-            "weighted_avg_return_pct": -1.26,
-            "weighted_positive_rate": 0.164
+            "n": 7,
+            "weighted_n": 6.66,
+            "avg_return_pct": -1.34,
+            "positive_rate": 0.143,
+            "weighted_avg_return_pct": -1.34,
+            "weighted_positive_rate": 0.14
           },
           "h3": {
-            "n": 4,
-            "weighted_n": 3.8,
-            "avg_return_pct": -2.19,
-            "positive_rate": 0.25,
-            "weighted_avg_return_pct": -2.17,
-            "weighted_positive_rate": 0.253
+            "n": 5,
+            "weighted_n": 4.7,
+            "avg_return_pct": -1.87,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -1.85,
+            "weighted_positive_rate": 0.201
+          },
+          "h5": {
+            "n": 3,
+            "weighted_n": 2.8,
+            "avg_return_pct": -4.95,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -4.95,
+            "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "45~60": {
           "count": 1,
-          "weighted_count": 0.95,
+          "weighted_count": 0.93,
           "h1": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -2.11,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.11,
@@ -1221,10 +1653,18 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
@@ -1232,23 +1672,31 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 45,
-          "weighted_count": 43.59,
+          "count": 51,
+          "weighted_count": 48.99,
           "h1": {
-            "n": 38,
-            "weighted_n": 36.59,
-            "avg_return_pct": -0.96,
-            "positive_rate": 0.184,
-            "weighted_avg_return_pct": -0.97,
-            "weighted_positive_rate": 0.184
+            "n": 45,
+            "weighted_n": 42.99,
+            "avg_return_pct": -2.41,
+            "positive_rate": 0.178,
+            "weighted_avg_return_pct": -2.47,
+            "weighted_positive_rate": 0.177
           },
           "h3": {
-            "n": 22,
-            "weighted_n": 20.93,
-            "avg_return_pct": -3.0,
-            "positive_rate": 0.182,
-            "weighted_avg_return_pct": -3.0,
-            "weighted_positive_rate": 0.181
+            "n": 31,
+            "weighted_n": 29.28,
+            "avg_return_pct": -4.43,
+            "positive_rate": 0.226,
+            "weighted_avg_return_pct": -4.46,
+            "weighted_positive_rate": 0.226
+          },
+          "h5": {
+            "n": 13,
+            "weighted_n": 12.13,
+            "avg_return_pct": -7.09,
+            "positive_rate": 0.231,
+            "weighted_avg_return_pct": -7.09,
+            "weighted_positive_rate": 0.231
           },
           "sample_ok": true
         }
@@ -1256,94 +1704,126 @@
       "by_soft_penalty": {
         "no_soft_penalty": {
           "count": 7,
-          "weighted_count": 6.68,
+          "weighted_count": 6.58,
           "h1": {
             "n": 7,
-            "weighted_n": 6.68,
+            "weighted_n": 6.58,
             "avg_return_pct": -0.4,
             "positive_rate": 0.143,
             "weighted_avg_return_pct": -0.4,
             "weighted_positive_rate": 0.142
           },
           "h3": {
-            "n": 6,
-            "weighted_n": 5.7,
-            "avg_return_pct": -4.2,
+            "n": 7,
+            "weighted_n": 6.58,
+            "avg_return_pct": -4.26,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -4.2,
+            "weighted_avg_return_pct": -4.26,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": -3.85,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -3.85,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "顶背离": {
-          "count": 26,
-          "weighted_count": 25.31,
+          "count": 28,
+          "weighted_count": 26.96,
           "h1": {
-            "n": 20,
-            "weighted_n": 19.31,
-            "avg_return_pct": -1.19,
-            "positive_rate": 0.15,
-            "weighted_avg_return_pct": -1.19,
-            "weighted_positive_rate": 0.15
+            "n": 26,
+            "weighted_n": 24.96,
+            "avg_return_pct": -3.8,
+            "positive_rate": 0.115,
+            "weighted_avg_return_pct": -3.87,
+            "weighted_positive_rate": 0.114
           },
           "h3": {
-            "n": 10,
-            "weighted_n": 9.53,
-            "avg_return_pct": -2.57,
-            "positive_rate": 0.3,
-            "weighted_avg_return_pct": -2.57,
-            "weighted_positive_rate": 0.299
+            "n": 16,
+            "weighted_n": 15.15,
+            "avg_return_pct": -5.99,
+            "positive_rate": 0.312,
+            "weighted_avg_return_pct": -6.04,
+            "weighted_positive_rate": 0.312
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -15.86,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -15.86,
+            "weighted_positive_rate": 0.2
           },
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 28,
-          "weighted_count": 27.25,
+          "count": 32,
+          "weighted_count": 30.88,
           "h1": {
-            "n": 21,
-            "weighted_n": 20.25,
-            "avg_return_pct": -0.98,
-            "positive_rate": 0.238,
-            "weighted_avg_return_pct": -0.99,
-            "weighted_positive_rate": 0.238
+            "n": 28,
+            "weighted_n": 26.88,
+            "avg_return_pct": -3.31,
+            "positive_rate": 0.214,
+            "weighted_avg_return_pct": -3.38,
+            "weighted_positive_rate": 0.213
           },
           "h3": {
-            "n": 11,
-            "weighted_n": 10.47,
-            "avg_return_pct": -2.0,
-            "positive_rate": 0.273,
-            "weighted_avg_return_pct": -2.0,
-            "weighted_positive_rate": 0.272
+            "n": 17,
+            "weighted_n": 16.08,
+            "avg_return_pct": -4.72,
+            "positive_rate": 0.353,
+            "weighted_avg_return_pct": -4.76,
+            "weighted_positive_rate": 0.354
+          },
+          "h5": {
+            "n": 6,
+            "weighted_n": 5.6,
+            "avg_return_pct": -10.83,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -10.83,
+            "weighted_positive_rate": 0.333
           },
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 15,
-          "weighted_count": 14.59,
+          "count": 17,
+          "weighted_count": 16.39,
           "h1": {
-            "n": 14,
-            "weighted_n": 13.59,
-            "avg_return_pct": -1.06,
-            "positive_rate": 0.214,
-            "weighted_avg_return_pct": -1.06,
-            "weighted_positive_rate": 0.215
+            "n": 15,
+            "weighted_n": 14.39,
+            "avg_return_pct": -1.15,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -1.15,
+            "weighted_positive_rate": 0.2
           },
           "h3": {
-            "n": 4,
-            "weighted_n": 3.78,
-            "avg_return_pct": -3.95,
+            "n": 8,
+            "weighted_n": 7.57,
+            "avg_return_pct": -2.25,
             "positive_rate": 0.25,
-            "weighted_avg_return_pct": -3.94,
+            "weighted_avg_return_pct": -2.22,
+            "weighted_positive_rate": 0.25
+          },
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": -3.86,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": -3.86,
             "weighted_positive_rate": 0.25
           },
           "sample_ok": false
         },
         "总分偏低": {
           "count": 3,
-          "weighted_count": 2.84,
+          "weighted_count": 2.8,
           "h1": {
             "n": 3,
-            "weighted_n": 2.84,
+            "weighted_n": 2.8,
             "avg_return_pct": -0.51,
             "positive_rate": 0.333,
             "weighted_avg_return_pct": -0.51,
@@ -1351,20 +1831,28 @@
           },
           "h3": {
             "n": 3,
-            "weighted_n": 2.84,
+            "weighted_n": 2.8,
             "avg_return_pct": -2.61,
             "positive_rate": 0.333,
             "weighted_avg_return_pct": -2.61,
+            "weighted_positive_rate": 0.333
+          },
+          "h5": {
+            "n": 3,
+            "weighted_n": 2.8,
+            "avg_return_pct": -2.31,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -2.31,
             "weighted_positive_rate": 0.333
           },
           "sample_ok": false
         },
         "RPS偏低": {
           "count": 1,
-          "weighted_count": 0.95,
+          "weighted_count": 0.93,
           "h1": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -2.11,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.11,
@@ -1372,20 +1860,28 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "周线偏弱": {
           "count": 2,
-          "weighted_count": 1.93,
+          "weighted_count": 1.91,
           "h1": {
             "n": 2,
-            "weighted_n": 1.93,
+            "weighted_n": 1.91,
             "avg_return_pct": -2.29,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.29,
@@ -1393,181 +1889,245 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "评分快速下降": {
           "count": 6,
-          "weighted_count": 5.9,
+          "weighted_count": 5.82,
           "h1": {
-            "n": 5,
-            "weighted_n": 4.9,
-            "avg_return_pct": -2.6,
+            "n": 6,
+            "weighted_n": 5.82,
+            "avg_return_pct": -2.42,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -2.6,
+            "weighted_avg_return_pct": -2.42,
             "weighted_positive_rate": 0.0
+          },
+          "h3": {
+            "n": 2,
+            "weighted_n": 1.92,
+            "avg_return_pct": -2.43,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -2.43,
+            "weighted_positive_rate": 0.5
           },
           "sample_ok": false
         },
         "周强日破": {
           "count": 2,
-          "weighted_count": 1.99,
+          "weighted_count": 1.96,
           "h1": {
-            "n": 1,
-            "weighted_n": 0.99,
-            "avg_return_pct": 1.16,
-            "positive_rate": 1.0,
-            "weighted_avg_return_pct": 1.16,
-            "weighted_positive_rate": 1.0
+            "n": 2,
+            "weighted_n": 1.96,
+            "avg_return_pct": -0.01,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -0.02,
+            "weighted_positive_rate": 0.497
           },
           "sample_ok": false
         }
       }
     },
     "d250": {
-      "record_count": 23,
-      "trading_day_count": 6,
-      "candidate_count": 45,
+      "record_count": 24,
+      "trading_day_count": 7,
+      "candidate_count": 51,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 17,
-          "weighted_count": 16.43,
+          "count": 19,
+          "weighted_count": 18.2,
           "h1": {
-            "n": 15,
-            "weighted_n": 14.43,
-            "avg_return_pct": -0.88,
-            "positive_rate": 0.333,
-            "weighted_avg_return_pct": -0.88,
-            "weighted_positive_rate": 0.333
+            "n": 17,
+            "weighted_n": 16.2,
+            "avg_return_pct": -0.72,
+            "positive_rate": 0.353,
+            "weighted_avg_return_pct": -0.71,
+            "weighted_positive_rate": 0.354
           },
           "h3": {
-            "n": 10,
-            "weighted_n": 9.53,
-            "avg_return_pct": -3.89,
+            "n": 12,
+            "weighted_n": 11.31,
+            "avg_return_pct": -9.23,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -3.89,
+            "weighted_avg_return_pct": -9.32,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -3.73,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -3.73,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         ">=0.80": {
-          "count": 20,
-          "weighted_count": 19.35,
+          "count": 24,
+          "weighted_count": 23.08,
           "h1": {
-            "n": 18,
-            "weighted_n": 17.35,
-            "avg_return_pct": -0.89,
-            "positive_rate": 0.111,
-            "weighted_avg_return_pct": -0.9,
-            "weighted_positive_rate": 0.11
+            "n": 20,
+            "weighted_n": 19.08,
+            "avg_return_pct": -4.27,
+            "positive_rate": 0.1,
+            "weighted_avg_return_pct": -4.39,
+            "weighted_positive_rate": 0.098
           },
           "h3": {
-            "n": 9,
-            "weighted_n": 8.55,
-            "avg_return_pct": -3.08,
-            "positive_rate": 0.222,
-            "weighted_avg_return_pct": -3.09,
-            "weighted_positive_rate": 0.221
+            "n": 15,
+            "weighted_n": 14.19,
+            "avg_return_pct": -1.78,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -1.77,
+            "weighted_positive_rate": 0.334
+          },
+          "h5": {
+            "n": 6,
+            "weighted_n": 5.6,
+            "avg_return_pct": -11.74,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -11.74,
+            "weighted_positive_rate": 0.333
           },
           "sample_ok": true
         },
         "0.12~0.40": {
           "count": 8,
-          "weighted_count": 7.81,
+          "weighted_count": 7.7,
           "h1": {
-            "n": 5,
-            "weighted_n": 4.81,
-            "avg_return_pct": -1.46,
+            "n": 8,
+            "weighted_n": 7.7,
+            "avg_return_pct": -1.38,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -1.47,
+            "weighted_avg_return_pct": -1.38,
             "weighted_positive_rate": 0.0
           },
           "h3": {
-            "n": 3,
-            "weighted_n": 2.85,
-            "avg_return_pct": 0.22,
-            "positive_rate": 0.667,
-            "weighted_avg_return_pct": 0.24,
-            "weighted_positive_rate": 0.668
+            "n": 4,
+            "weighted_n": 3.77,
+            "avg_return_pct": 0.02,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": 0.02,
+            "weighted_positive_rate": 0.498
+          },
+          "h5": {
+            "n": 2,
+            "weighted_n": 1.87,
+            "avg_return_pct": -1.52,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -1.52,
+            "weighted_positive_rate": 0.5
           },
           "sample_ok": false
         }
       },
       "by_rps_bucket": {
         ">=90": {
-          "count": 19,
-          "weighted_count": 18.47,
+          "count": 23,
+          "weighted_count": 22.22,
           "h1": {
-            "n": 15,
-            "weighted_n": 14.47,
-            "avg_return_pct": -0.62,
-            "positive_rate": 0.4,
-            "weighted_avg_return_pct": -0.62,
-            "weighted_positive_rate": 0.399
+            "n": 19,
+            "weighted_n": 18.22,
+            "avg_return_pct": -0.54,
+            "positive_rate": 0.368,
+            "weighted_avg_return_pct": -0.54,
+            "weighted_positive_rate": 0.367
           },
           "h3": {
-            "n": 8,
-            "weighted_n": 7.62,
-            "avg_return_pct": -3.81,
-            "positive_rate": 0.0,
-            "weighted_avg_return_pct": -3.81,
-            "weighted_positive_rate": 0.0
+            "n": 12,
+            "weighted_n": 11.35,
+            "avg_return_pct": -1.78,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": -1.76,
+            "weighted_positive_rate": 0.253
           },
-          "sample_ok": false
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": 0.97,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": 0.97,
+            "weighted_positive_rate": 0.25
+          },
+          "sample_ok": true
         },
         "75~90": {
-          "count": 18,
-          "weighted_count": 17.42,
+          "count": 19,
+          "weighted_count": 18.18,
           "h1": {
-            "n": 16,
-            "weighted_n": 15.42,
-            "avg_return_pct": -1.1,
+            "n": 18,
+            "weighted_n": 17.18,
+            "avg_return_pct": -4.83,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -1.11,
+            "weighted_avg_return_pct": -4.97,
             "weighted_positive_rate": 0.0
           },
           "h3": {
-            "n": 9,
-            "weighted_n": 8.57,
-            "avg_return_pct": -2.41,
-            "positive_rate": 0.333,
-            "weighted_avg_return_pct": -2.42,
-            "weighted_positive_rate": 0.331
+            "n": 13,
+            "weighted_n": 12.29,
+            "avg_return_pct": -7.82,
+            "positive_rate": 0.231,
+            "weighted_avg_return_pct": -7.91,
+            "weighted_positive_rate": 0.228
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -15.12,
+            "positive_rate": 0.4,
+            "weighted_avg_return_pct": -15.12,
+            "weighted_positive_rate": 0.4
           },
           "sample_ok": false
         },
         "60~75": {
-          "count": 7,
-          "weighted_count": 6.76,
+          "count": 8,
+          "weighted_count": 7.66,
           "h1": {
-            "n": 6,
-            "weighted_n": 5.76,
-            "avg_return_pct": -1.25,
-            "positive_rate": 0.167,
-            "weighted_avg_return_pct": -1.26,
-            "weighted_positive_rate": 0.164
+            "n": 7,
+            "weighted_n": 6.66,
+            "avg_return_pct": -1.34,
+            "positive_rate": 0.143,
+            "weighted_avg_return_pct": -1.34,
+            "weighted_positive_rate": 0.14
           },
           "h3": {
-            "n": 4,
-            "weighted_n": 3.8,
-            "avg_return_pct": -2.19,
-            "positive_rate": 0.25,
-            "weighted_avg_return_pct": -2.17,
-            "weighted_positive_rate": 0.253
+            "n": 5,
+            "weighted_n": 4.7,
+            "avg_return_pct": -1.87,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -1.85,
+            "weighted_positive_rate": 0.201
+          },
+          "h5": {
+            "n": 3,
+            "weighted_n": 2.8,
+            "avg_return_pct": -4.95,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -4.95,
+            "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "45~60": {
           "count": 1,
-          "weighted_count": 0.95,
+          "weighted_count": 0.93,
           "h1": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -2.11,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.11,
@@ -1575,10 +2135,18 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
@@ -1586,23 +2154,31 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 45,
-          "weighted_count": 43.59,
+          "count": 51,
+          "weighted_count": 48.99,
           "h1": {
-            "n": 38,
-            "weighted_n": 36.59,
-            "avg_return_pct": -0.96,
-            "positive_rate": 0.184,
-            "weighted_avg_return_pct": -0.97,
-            "weighted_positive_rate": 0.184
+            "n": 45,
+            "weighted_n": 42.99,
+            "avg_return_pct": -2.41,
+            "positive_rate": 0.178,
+            "weighted_avg_return_pct": -2.47,
+            "weighted_positive_rate": 0.177
           },
           "h3": {
-            "n": 22,
-            "weighted_n": 20.93,
-            "avg_return_pct": -3.0,
-            "positive_rate": 0.182,
-            "weighted_avg_return_pct": -3.0,
-            "weighted_positive_rate": 0.181
+            "n": 31,
+            "weighted_n": 29.28,
+            "avg_return_pct": -4.43,
+            "positive_rate": 0.226,
+            "weighted_avg_return_pct": -4.46,
+            "weighted_positive_rate": 0.226
+          },
+          "h5": {
+            "n": 13,
+            "weighted_n": 12.13,
+            "avg_return_pct": -7.09,
+            "positive_rate": 0.231,
+            "weighted_avg_return_pct": -7.09,
+            "weighted_positive_rate": 0.231
           },
           "sample_ok": true
         }
@@ -1610,94 +2186,126 @@
       "by_soft_penalty": {
         "no_soft_penalty": {
           "count": 7,
-          "weighted_count": 6.68,
+          "weighted_count": 6.58,
           "h1": {
             "n": 7,
-            "weighted_n": 6.68,
+            "weighted_n": 6.58,
             "avg_return_pct": -0.4,
             "positive_rate": 0.143,
             "weighted_avg_return_pct": -0.4,
             "weighted_positive_rate": 0.142
           },
           "h3": {
-            "n": 6,
-            "weighted_n": 5.7,
-            "avg_return_pct": -4.2,
+            "n": 7,
+            "weighted_n": 6.58,
+            "avg_return_pct": -4.26,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -4.2,
+            "weighted_avg_return_pct": -4.26,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": -3.85,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -3.85,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "顶背离": {
-          "count": 26,
-          "weighted_count": 25.31,
+          "count": 28,
+          "weighted_count": 26.96,
           "h1": {
-            "n": 20,
-            "weighted_n": 19.31,
-            "avg_return_pct": -1.19,
-            "positive_rate": 0.15,
-            "weighted_avg_return_pct": -1.19,
-            "weighted_positive_rate": 0.15
+            "n": 26,
+            "weighted_n": 24.96,
+            "avg_return_pct": -3.8,
+            "positive_rate": 0.115,
+            "weighted_avg_return_pct": -3.87,
+            "weighted_positive_rate": 0.114
           },
           "h3": {
-            "n": 10,
-            "weighted_n": 9.53,
-            "avg_return_pct": -2.57,
-            "positive_rate": 0.3,
-            "weighted_avg_return_pct": -2.57,
-            "weighted_positive_rate": 0.299
+            "n": 16,
+            "weighted_n": 15.15,
+            "avg_return_pct": -5.99,
+            "positive_rate": 0.312,
+            "weighted_avg_return_pct": -6.04,
+            "weighted_positive_rate": 0.312
+          },
+          "h5": {
+            "n": 5,
+            "weighted_n": 4.67,
+            "avg_return_pct": -15.86,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -15.86,
+            "weighted_positive_rate": 0.2
           },
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 28,
-          "weighted_count": 27.25,
+          "count": 32,
+          "weighted_count": 30.88,
           "h1": {
-            "n": 21,
-            "weighted_n": 20.25,
-            "avg_return_pct": -0.98,
-            "positive_rate": 0.238,
-            "weighted_avg_return_pct": -0.99,
-            "weighted_positive_rate": 0.238
+            "n": 28,
+            "weighted_n": 26.88,
+            "avg_return_pct": -3.31,
+            "positive_rate": 0.214,
+            "weighted_avg_return_pct": -3.38,
+            "weighted_positive_rate": 0.213
           },
           "h3": {
-            "n": 11,
-            "weighted_n": 10.47,
-            "avg_return_pct": -2.0,
-            "positive_rate": 0.273,
-            "weighted_avg_return_pct": -2.0,
-            "weighted_positive_rate": 0.272
+            "n": 17,
+            "weighted_n": 16.08,
+            "avg_return_pct": -4.72,
+            "positive_rate": 0.353,
+            "weighted_avg_return_pct": -4.76,
+            "weighted_positive_rate": 0.354
+          },
+          "h5": {
+            "n": 6,
+            "weighted_n": 5.6,
+            "avg_return_pct": -10.83,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -10.83,
+            "weighted_positive_rate": 0.333
           },
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 15,
-          "weighted_count": 14.59,
+          "count": 17,
+          "weighted_count": 16.39,
           "h1": {
-            "n": 14,
-            "weighted_n": 13.59,
-            "avg_return_pct": -1.06,
-            "positive_rate": 0.214,
-            "weighted_avg_return_pct": -1.06,
-            "weighted_positive_rate": 0.215
+            "n": 15,
+            "weighted_n": 14.39,
+            "avg_return_pct": -1.15,
+            "positive_rate": 0.2,
+            "weighted_avg_return_pct": -1.15,
+            "weighted_positive_rate": 0.2
           },
           "h3": {
-            "n": 4,
-            "weighted_n": 3.78,
-            "avg_return_pct": -3.95,
+            "n": 8,
+            "weighted_n": 7.57,
+            "avg_return_pct": -2.25,
             "positive_rate": 0.25,
-            "weighted_avg_return_pct": -3.94,
+            "weighted_avg_return_pct": -2.22,
+            "weighted_positive_rate": 0.25
+          },
+          "h5": {
+            "n": 4,
+            "weighted_n": 3.73,
+            "avg_return_pct": -3.86,
+            "positive_rate": 0.25,
+            "weighted_avg_return_pct": -3.86,
             "weighted_positive_rate": 0.25
           },
           "sample_ok": false
         },
         "总分偏低": {
           "count": 3,
-          "weighted_count": 2.84,
+          "weighted_count": 2.8,
           "h1": {
             "n": 3,
-            "weighted_n": 2.84,
+            "weighted_n": 2.8,
             "avg_return_pct": -0.51,
             "positive_rate": 0.333,
             "weighted_avg_return_pct": -0.51,
@@ -1705,20 +2313,28 @@
           },
           "h3": {
             "n": 3,
-            "weighted_n": 2.84,
+            "weighted_n": 2.8,
             "avg_return_pct": -2.61,
             "positive_rate": 0.333,
             "weighted_avg_return_pct": -2.61,
+            "weighted_positive_rate": 0.333
+          },
+          "h5": {
+            "n": 3,
+            "weighted_n": 2.8,
+            "avg_return_pct": -2.31,
+            "positive_rate": 0.333,
+            "weighted_avg_return_pct": -2.31,
             "weighted_positive_rate": 0.333
           },
           "sample_ok": false
         },
         "RPS偏低": {
           "count": 1,
-          "weighted_count": 0.95,
+          "weighted_count": 0.93,
           "h1": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -2.11,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.11,
@@ -1726,20 +2342,28 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "周线偏弱": {
           "count": 2,
-          "weighted_count": 1.93,
+          "weighted_count": 1.91,
           "h1": {
             "n": 2,
-            "weighted_n": 1.93,
+            "weighted_n": 1.91,
             "avg_return_pct": -2.29,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -2.29,
@@ -1747,37 +2371,53 @@
           },
           "h3": {
             "n": 1,
-            "weighted_n": 0.95,
+            "weighted_n": 0.93,
             "avg_return_pct": -5.0,
             "positive_rate": 0.0,
             "weighted_avg_return_pct": -5.0,
+            "weighted_positive_rate": 0.0
+          },
+          "h5": {
+            "n": 1,
+            "weighted_n": 0.93,
+            "avg_return_pct": -5.53,
+            "positive_rate": 0.0,
+            "weighted_avg_return_pct": -5.53,
             "weighted_positive_rate": 0.0
           },
           "sample_ok": false
         },
         "评分快速下降": {
           "count": 6,
-          "weighted_count": 5.9,
+          "weighted_count": 5.82,
           "h1": {
-            "n": 5,
-            "weighted_n": 4.9,
-            "avg_return_pct": -2.6,
+            "n": 6,
+            "weighted_n": 5.82,
+            "avg_return_pct": -2.42,
             "positive_rate": 0.0,
-            "weighted_avg_return_pct": -2.6,
+            "weighted_avg_return_pct": -2.42,
             "weighted_positive_rate": 0.0
+          },
+          "h3": {
+            "n": 2,
+            "weighted_n": 1.92,
+            "avg_return_pct": -2.43,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -2.43,
+            "weighted_positive_rate": 0.5
           },
           "sample_ok": false
         },
         "周强日破": {
           "count": 2,
-          "weighted_count": 1.99,
+          "weighted_count": 1.96,
           "h1": {
-            "n": 1,
-            "weighted_n": 0.99,
-            "avg_return_pct": 1.16,
-            "positive_rate": 1.0,
-            "weighted_avg_return_pct": 1.16,
-            "weighted_positive_rate": 1.0
+            "n": 2,
+            "weighted_n": 1.96,
+            "avg_return_pct": -0.01,
+            "positive_rate": 0.5,
+            "weighted_avg_return_pct": -0.02,
+            "weighted_positive_rate": 0.497
           },
           "sample_ok": false
         }
@@ -1811,7 +2451,8 @@
     }
   },
   "recommendations": [
-    "observe_only: candidate samples 45/100, do not tune entry thresholds yet",
-    "observe_only: closed trades 12/30, do not tune stop/take-profit parameters yet"
+    "observe_only: candidate samples 51/100, do not tune entry thresholds yet",
+    "observe_only: closed trades 12/30, do not tune stop/take-profit parameters yet",
+    "review_ev_bucket: >=0.80 has weak 5/10d forward returns; consider raising EV_R filter after manual review"
   ]
 }

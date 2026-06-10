@@ -1,7 +1,44 @@
 {
   "initial_capital": 10000.0,
-  "cash": 10710.73484,
-  "holdings": [],
+  "cash": 7621.471519999999,
+  "holdings": [
+    {
+      "code": "515880",
+      "name": "国泰中证全指通信设备ETF",
+      "shares": 900,
+      "buy_price": 1.668,
+      "buy_date": "2026-06-10",
+      "stop_loss": 1.602,
+      "initial_stop_loss": 1.602,
+      "atr_multiplier": 2.0,
+      "highest_close": 1.668,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": null,
+      "extreme_protected": false
+    },
+    {
+      "code": "562950",
+      "name": "易方达中证消费电子主题ETF",
+      "shares": 900,
+      "buy_price": 1.764,
+      "buy_date": "2026-06-10",
+      "stop_loss": 1.724,
+      "initial_stop_loss": 1.724,
+      "atr_multiplier": 2.0,
+      "highest_close": 1.764,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": null,
+      "extreme_protected": false
+    }
+  ],
   "trade_history": [
     {
       "date": "2026-05-06",
@@ -318,19 +355,54 @@
       "pnl_pct": 4.1,
       "timestamp": "2026-06-08 09:45:20",
       "buy_date": "2026-06-03"
+    },
+    {
+      "date": "2026-06-10",
+      "code": "515880",
+      "name": "国泰中证全指通信设备ETF",
+      "action": "BUY",
+      "shares": 900,
+      "price": 1.668,
+      "amount": 1501.43,
+      "reason": "优选80.0｜RPS100｜EV_R1.22｜胜率64%｜R2.53｜止损1.602",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0484,
+      "ev_r": 1.2223,
+      "p_win": 0.6393,
+      "r_multiple": 2.527,
+      "risk_pct": 0.010538723520000003,
+      "signal_quality": 0.7,
+      "stop_loss": 1.602,
+      "timestamp": "2026-06-10 09:45:22"
+    },
+    {
+      "date": "2026-06-10",
+      "code": "562950",
+      "name": "易方达中证消费电子主题ETF",
+      "action": "BUY",
+      "shares": 900,
+      "price": 1.764,
+      "amount": 1587.84,
+      "reason": "优选75.3｜RPS97｜EV_R1.45｜胜率66%｜R4.41｜止损1.724",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0329,
+      "ev_r": 1.4507,
+      "p_win": 0.66,
+      "r_multiple": 4.41,
+      "risk_pct": 0.010089421056000001,
+      "signal_quality": 0.78,
+      "stop_loss": 1.724,
+      "timestamp": "2026-06-10 09:45:22"
     }
   ],
-  "cooldown_until": "2026-06-09",
-  "consecutive_stop_losses": 1,
+  "cooldown_until": "",
+  "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-09 14:57:21",
+  "last_update": "2026-06-10 09:45:22",
   "breadth_history": [
-    {
-      "date": "2026-05-27",
-      "bull_pct": 38.9,
-      "breadth_ewma": 38.9
-    },
     {
       "date": "2026-05-28",
       "bull_pct": 30.6,
@@ -375,6 +447,11 @@
       "date": "2026-06-09",
       "bull_pct": 30.6,
       "breadth_ewma": 30.92
+    },
+    {
+      "date": "2026-06-10",
+      "bull_pct": 33.3,
+      "breadth_ewma": 31.99
     }
   ],
   "stale_signal_count": 0,
