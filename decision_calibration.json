@@ -1,5 +1,5 @@
 {
-  "record_count": 25,
+  "record_count": 26,
   "trading_day_count": 7,
   "candidate_count": 51,
   "by_ev_bucket": {
@@ -242,8 +242,8 @@
   },
   "by_soft_penalty": {
     "no_soft_penalty": {
-      "count": 7,
-      "weighted_count": 7.0,
+      "count": 8,
+      "weighted_count": 8.0,
       "h1": {
         "n": 7,
         "weighted_n": 7.0,
@@ -479,7 +479,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-06-10 10:35:21",
+  "generated_at": "2026-06-10 13:45:19",
   "as_of_date": "2026-06-10",
   "schema_version": 2,
   "review_horizons": [
@@ -496,7 +496,7 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 25,
+      "record_count": 26,
       "trading_day_count": 7,
       "candidate_count": 51,
       "by_ev_bucket": {
@@ -739,8 +739,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 7,
-          "weighted_count": 6.58,
+          "count": 8,
+          "weighted_count": 7.58,
           "h1": {
             "n": 7,
             "weighted_n": 6.58,
@@ -978,7 +978,7 @@
       }
     },
     "d60": {
-      "record_count": 25,
+      "record_count": 26,
       "trading_day_count": 7,
       "candidate_count": 51,
       "by_ev_bucket": {
@@ -1221,8 +1221,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 7,
-          "weighted_count": 6.58,
+          "count": 8,
+          "weighted_count": 7.58,
           "h1": {
             "n": 7,
             "weighted_n": 6.58,
@@ -1460,7 +1460,7 @@
       }
     },
     "d120": {
-      "record_count": 25,
+      "record_count": 26,
       "trading_day_count": 7,
       "candidate_count": 51,
       "by_ev_bucket": {
@@ -1703,8 +1703,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 7,
-          "weighted_count": 6.58,
+          "count": 8,
+          "weighted_count": 7.58,
           "h1": {
             "n": 7,
             "weighted_n": 6.58,
@@ -1942,7 +1942,7 @@
       }
     },
     "d250": {
-      "record_count": 25,
+      "record_count": 26,
       "trading_day_count": 7,
       "candidate_count": 51,
       "by_ev_bucket": {
@@ -2185,8 +2185,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 7,
-          "weighted_count": 6.58,
+          "count": 8,
+          "weighted_count": 7.58,
           "h1": {
             "n": 7,
             "weighted_n": 6.58,
