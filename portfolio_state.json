@@ -14,7 +14,12 @@
       "highest_close": 1.668,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
-      "score_history": [],
+      "score_history": [
+        {
+          "date": "2026-06-10",
+          "score": 13.6
+        }
+      ],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -32,7 +37,12 @@
       "highest_close": 1.764,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
-      "score_history": [],
+      "score_history": [
+        {
+          "date": "2026-06-10",
+          "score": 13.2
+        }
+      ],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -401,61 +411,61 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-10 09:45:22",
+  "last_update": "2026-06-10 10:35:20",
   "breadth_history": [
     {
       "date": "2026-05-28",
       "bull_pct": 30.6,
-      "breadth_ewma": 35.16
+      "breadth_ewma": 30.6
     },
     {
       "date": "2026-05-29",
       "bull_pct": 38.9,
-      "breadth_ewma": 36.85
+      "breadth_ewma": 34.34
     },
     {
       "date": "2026-06-01",
       "bull_pct": 30.6,
-      "breadth_ewma": 34.04
+      "breadth_ewma": 32.65
     },
     {
       "date": "2026-06-02",
       "bull_pct": 30.6,
-      "breadth_ewma": 32.49
+      "breadth_ewma": 31.73
     },
     {
       "date": "2026-06-03",
       "bull_pct": 36.1,
-      "breadth_ewma": 34.11
+      "breadth_ewma": 33.7
     },
     {
       "date": "2026-06-04",
       "bull_pct": 30.6,
-      "breadth_ewma": 32.53
+      "breadth_ewma": 32.3
     },
     {
       "date": "2026-06-05",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.66
+      "breadth_ewma": 31.54
     },
     {
       "date": "2026-06-08",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.18
+      "breadth_ewma": 31.12
     },
     {
       "date": "2026-06-09",
       "bull_pct": 30.6,
-      "breadth_ewma": 30.92
+      "breadth_ewma": 30.88
     },
     {
       "date": "2026-06-10",
       "bull_pct": 33.3,
-      "breadth_ewma": 31.99
+      "breadth_ewma": 31.97
     }
   ],
   "stale_signal_count": 0,
   "extreme_market_count": 1,
   "last_extreme_date": "2026-06-09",
-  "max_drawdown": -0.019449399355013434
+  "max_drawdown": -0.021776256990539405
 }
