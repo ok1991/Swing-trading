@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "enabled": true,
-  "generated_at": "2026-06-10 14:57:20",
-  "calibration_as_of": "2026-06-10",
+  "generated_at": "2026-06-11 09:45:20",
+  "calibration_as_of": "2026-06-11",
   "source": {
     "primary_window": 60,
     "confirm_window": 120,
-    "primary_candidates": 51,
-    "confirm_candidates": 51,
-    "closed_trades": 12
+    "primary_candidates": 60,
+    "confirm_candidates": 60,
+    "closed_trades": 13
   },
   "overrides": {
     "EV_R_MIN": 0.12,
