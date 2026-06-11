@@ -1,35 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 9167.43959,
-  "holdings": [
-    {
-      "code": "515880",
-      "name": "国泰中证全指通信设备ETF",
-      "shares": 900,
-      "buy_price": 1.668,
-      "buy_date": "2026-06-10",
-      "stop_loss": 1.602,
-      "initial_stop_loss": 1.602,
-      "atr_multiplier": 2.0,
-      "highest_close": 1.668,
-      "profit_taken_tiers": [],
-      "profit_protected_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-06-10",
-          "score": 13.6
-        },
-        {
-          "date": "2026-06-11",
-          "score": 12.1
-        }
-      ],
-      "t1_locked": false,
-      "t1_locked_date": "",
-      "forward_rr": null,
-      "extreme_protected": false
-    }
-  ],
+  "cash": 10622.521295,
+  "holdings": [],
   "trade_history": [
     {
       "date": "2026-05-06",
@@ -400,63 +372,77 @@
       "pnl_pct": -2.62,
       "timestamp": "2026-06-11 09:45:20",
       "buy_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-11",
+      "code": "515880",
+      "name": "国泰中证全指通信设备ETF",
+      "action": "SELL",
+      "shares": 900,
+      "price": 1.617,
+      "amount": 1455.08,
+      "reason": "新仓闪崩止损(-3.1%)",
+      "pnl": -46.12,
+      "pnl_pct": -3.07,
+      "timestamp": "2026-06-11 10:35:20",
+      "buy_date": "2026-06-10"
     }
   ],
-  "cooldown_until": "2026-06-12",
-  "consecutive_stop_losses": 1,
+  "cooldown_until": "2026-06-13",
+  "consecutive_stop_losses": 2,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-11 09:45:20",
+  "last_update": "2026-06-11 10:35:20",
   "breadth_history": [
     {
       "date": "2026-05-29",
       "bull_pct": 38.9,
-      "breadth_ewma": 34.34
+      "breadth_ewma": 38.9
     },
     {
       "date": "2026-06-01",
       "bull_pct": 30.6,
-      "breadth_ewma": 32.65
+      "breadth_ewma": 35.16
     },
     {
       "date": "2026-06-02",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.73
+      "breadth_ewma": 33.11
     },
     {
       "date": "2026-06-03",
       "bull_pct": 36.1,
-      "breadth_ewma": 33.7
+      "breadth_ewma": 34.46
     },
     {
       "date": "2026-06-04",
       "bull_pct": 30.6,
-      "breadth_ewma": 32.3
+      "breadth_ewma": 32.72
     },
     {
       "date": "2026-06-05",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.54
+      "breadth_ewma": 31.77
     },
     {
       "date": "2026-06-08",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.12
+      "breadth_ewma": 31.24
     },
     {
       "date": "2026-06-09",
       "bull_pct": 30.6,
-      "breadth_ewma": 30.88
+      "breadth_ewma": 30.95
     },
     {
       "date": "2026-06-10",
       "bull_pct": 33.3,
-      "breadth_ewma": 31.97
+      "breadth_ewma": 32.01
     },
     {
       "date": "2026-06-11",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.35
+      "breadth_ewma": 31.37
     }
   ],
   "stale_signal_count": 0,

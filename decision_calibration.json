@@ -1,5 +1,5 @@
 {
-  "record_count": 28,
+  "record_count": 29,
   "trading_day_count": 8,
   "candidate_count": 60,
   "by_ev_bucket": {
@@ -242,8 +242,8 @@
   },
   "by_soft_penalty": {
     "no_soft_penalty": {
-      "count": 10,
-      "weighted_count": 10.0,
+      "count": 9,
+      "weighted_count": 9.0,
       "h1": {
         "n": 8,
         "weighted_n": 8.0,
@@ -329,8 +329,8 @@
       "sample_ok": true
     },
     "止损距低于健康门槛3.0%": {
-      "count": 22,
-      "weighted_count": 22.0,
+      "count": 24,
+      "weighted_count": 24.0,
       "h1": {
         "n": 18,
         "weighted_n": 18.0,
@@ -487,7 +487,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-06-11 09:45:20",
+  "generated_at": "2026-06-11 10:35:20",
   "as_of_date": "2026-06-11",
   "schema_version": 2,
   "review_horizons": [
@@ -504,7 +504,7 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 28,
+      "record_count": 29,
       "trading_day_count": 8,
       "candidate_count": 60,
       "by_ev_bucket": {
@@ -747,8 +747,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 10,
-          "weighted_count": 9.48,
+          "count": 9,
+          "weighted_count": 8.48,
           "h1": {
             "n": 8,
             "weighted_n": 7.48,
@@ -834,8 +834,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 22,
-          "weighted_count": 21.15,
+          "count": 24,
+          "weighted_count": 23.15,
           "h1": {
             "n": 18,
             "weighted_n": 17.15,
@@ -994,7 +994,7 @@
       }
     },
     "d60": {
-      "record_count": 28,
+      "record_count": 29,
       "trading_day_count": 8,
       "candidate_count": 60,
       "by_ev_bucket": {
@@ -1237,8 +1237,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 10,
-          "weighted_count": 9.48,
+          "count": 9,
+          "weighted_count": 8.48,
           "h1": {
             "n": 8,
             "weighted_n": 7.48,
@@ -1324,8 +1324,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 22,
-          "weighted_count": 21.15,
+          "count": 24,
+          "weighted_count": 23.15,
           "h1": {
             "n": 18,
             "weighted_n": 17.15,
@@ -1484,7 +1484,7 @@
       }
     },
     "d120": {
-      "record_count": 28,
+      "record_count": 29,
       "trading_day_count": 8,
       "candidate_count": 60,
       "by_ev_bucket": {
@@ -1727,8 +1727,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 10,
-          "weighted_count": 9.48,
+          "count": 9,
+          "weighted_count": 8.48,
           "h1": {
             "n": 8,
             "weighted_n": 7.48,
@@ -1814,8 +1814,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 22,
-          "weighted_count": 21.15,
+          "count": 24,
+          "weighted_count": 23.15,
           "h1": {
             "n": 18,
             "weighted_n": 17.15,
@@ -1974,7 +1974,7 @@
       }
     },
     "d250": {
-      "record_count": 28,
+      "record_count": 29,
       "trading_day_count": 8,
       "candidate_count": 60,
       "by_ev_bucket": {
@@ -2217,8 +2217,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 10,
-          "weighted_count": 9.48,
+          "count": 9,
+          "weighted_count": 8.48,
           "h1": {
             "n": 8,
             "weighted_n": 7.48,
@@ -2304,8 +2304,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 22,
-          "weighted_count": 21.15,
+          "count": 24,
+          "weighted_count": 23.15,
           "h1": {
             "n": 18,
             "weighted_n": 17.15,
@@ -2465,10 +2465,10 @@
     }
   },
   "trade_outcomes": {
-    "closed_trade_count": 13,
+    "closed_trade_count": 14,
     "sample_ok": false,
-    "avg_pnl_pct": 3.12,
-    "positive_rate": 0.538,
+    "avg_pnl_pct": 2.67,
+    "positive_rate": 0.5,
     "by_exit_reason": {
       "profit_tier_or_partial": {
         "count": 2,
@@ -2477,8 +2477,8 @@
         "sample_ok": false
       },
       "loss_or_stop": {
-        "count": 6,
-        "avg_pnl_pct": -2.89,
+        "count": 7,
+        "avg_pnl_pct": -2.92,
         "positive_rate": 0.0,
         "sample_ok": false
       },
@@ -2492,7 +2492,7 @@
   },
   "recommendations": [
     "observe_only: candidate samples 60/100, do not tune entry thresholds yet",
-    "observe_only: closed trades 13/30, do not tune stop/take-profit parameters yet",
+    "observe_only: closed trades 14/30, do not tune stop/take-profit parameters yet",
     "review_ev_bucket: 0.40~0.80 has weak 5/10d forward returns; consider raising EV_R filter after manual review",
     "review_ev_bucket: >=0.80 has weak 5/10d forward returns; consider raising EV_R filter after manual review"
   ]
