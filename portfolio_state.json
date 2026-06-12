@@ -392,13 +392,8 @@
   "consecutive_stop_losses": 2,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-11 14:57:21",
+  "last_update": "2026-06-12 09:45:18",
   "breadth_history": [
-    {
-      "date": "2026-05-29",
-      "bull_pct": 38.9,
-      "breadth_ewma": 38.9
-    },
     {
       "date": "2026-06-01",
       "bull_pct": 30.6,
@@ -443,6 +438,11 @@
       "date": "2026-06-11",
       "bull_pct": 30.6,
       "breadth_ewma": 31.37
+    },
+    {
+      "date": "2026-06-12",
+      "bull_pct": 33.3,
+      "breadth_ewma": 32.24
     }
   ],
   "stale_signal_count": 0,
