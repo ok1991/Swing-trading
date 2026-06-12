@@ -392,57 +392,57 @@
   "consecutive_stop_losses": 2,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-12 09:45:18",
+  "last_update": "2026-06-12 10:35:19",
   "breadth_history": [
     {
       "date": "2026-06-01",
       "bull_pct": 30.6,
-      "breadth_ewma": 35.16
+      "breadth_ewma": 30.6
     },
     {
       "date": "2026-06-02",
       "bull_pct": 30.6,
-      "breadth_ewma": 33.11
+      "breadth_ewma": 30.6
     },
     {
       "date": "2026-06-03",
       "bull_pct": 36.1,
-      "breadth_ewma": 34.46
+      "breadth_ewma": 33.08
     },
     {
       "date": "2026-06-04",
       "bull_pct": 30.6,
-      "breadth_ewma": 32.72
+      "breadth_ewma": 31.96
     },
     {
       "date": "2026-06-05",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.77
+      "breadth_ewma": 31.35
     },
     {
       "date": "2026-06-08",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.24
+      "breadth_ewma": 31.01
     },
     {
       "date": "2026-06-09",
       "bull_pct": 30.6,
-      "breadth_ewma": 30.95
+      "breadth_ewma": 30.83
     },
     {
       "date": "2026-06-10",
       "bull_pct": 33.3,
-      "breadth_ewma": 32.01
+      "breadth_ewma": 31.94
     },
     {
       "date": "2026-06-11",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.37
+      "breadth_ewma": 31.34
     },
     {
       "date": "2026-06-12",
       "bull_pct": 33.3,
-      "breadth_ewma": 32.24
+      "breadth_ewma": 32.22
     }
   ],
   "stale_signal_count": 0,
