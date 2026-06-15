@@ -14,7 +14,12 @@
       "highest_close": 1.124,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
-      "score_history": [],
+      "score_history": [
+        {
+          "date": "2026-06-15",
+          "score": 10.7
+        }
+      ],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -32,7 +37,12 @@
       "highest_close": 0.812,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
-      "score_history": [],
+      "score_history": [
+        {
+          "date": "2026-06-15",
+          "score": 14.6
+        }
+      ],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -469,7 +479,7 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-15 09:45:18",
+  "last_update": "2026-06-15 10:35:19",
   "breadth_history": [
     {
       "date": "2026-06-02",
@@ -525,5 +535,5 @@
   "stale_signal_count": 0,
   "extreme_market_count": 1,
   "last_extreme_date": "2026-06-09",
-  "max_drawdown": -0.024753275894488586
+  "max_drawdown": -0.02565535718578529
 }
