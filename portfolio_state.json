@@ -1,7 +1,44 @@
 {
   "initial_capital": 10000.0,
-  "cash": 10622.521295,
-  "holdings": [],
+  "cash": 7505.653835,
+  "holdings": [
+    {
+      "code": "562800",
+      "name": "嘉实中证稀有金属主题ETF",
+      "shares": 1400,
+      "buy_price": 1.124,
+      "buy_date": "2026-06-15",
+      "stop_loss": 1.051,
+      "initial_stop_loss": 1.051,
+      "atr_multiplier": 2.1,
+      "highest_close": 1.124,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": null,
+      "extreme_protected": false
+    },
+    {
+      "code": "512800",
+      "name": "华宝中证银行ETF",
+      "shares": 1900,
+      "buy_price": 0.812,
+      "buy_date": "2026-06-15",
+      "stop_loss": 0.788,
+      "initial_stop_loss": 0.788,
+      "atr_multiplier": 2.1,
+      "highest_close": 0.812,
+      "profit_taken_tiers": [],
+      "profit_protected_tiers": [],
+      "score_history": [],
+      "t1_locked": false,
+      "t1_locked_date": "",
+      "forward_rr": null,
+      "extreme_protected": false
+    }
+  ],
   "trade_history": [
     {
       "date": "2026-05-06",
@@ -386,19 +423,54 @@
       "pnl_pct": -3.07,
       "timestamp": "2026-06-11 10:35:20",
       "buy_date": "2026-06-10"
+    },
+    {
+      "date": "2026-06-15",
+      "code": "562800",
+      "name": "嘉实中证稀有金属主题ETF",
+      "action": "BUY",
+      "shares": 1400,
+      "price": 1.124,
+      "amount": 1573.84,
+      "reason": "优选79.5｜RPS74｜EV_R1.47｜胜率66%｜R2.77｜止损1.051",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0954,
+      "ev_r": 1.4692,
+      "p_win": 0.66,
+      "r_multiple": 2.772,
+      "risk_pct": 0.011458547099999999,
+      "signal_quality": 0.76,
+      "stop_loss": 1.051,
+      "timestamp": "2026-06-15 09:45:18"
+    },
+    {
+      "date": "2026-06-15",
+      "code": "512800",
+      "name": "华宝中证银行ETF",
+      "action": "BUY",
+      "shares": 1900,
+      "price": 0.812,
+      "amount": 1543.03,
+      "reason": "优选79.3｜RPS77｜EV_R1.46｜胜率66%｜R6.09｜止损0.788",
+      "pnl": 0,
+      "pnl_pct": 0,
+      "ev": 0.0433,
+      "ev_r": 1.464,
+      "p_win": 0.66,
+      "r_multiple": 6.09,
+      "risk_pct": 0.011040809715000002,
+      "signal_quality": 0.85,
+      "stop_loss": 0.788,
+      "timestamp": "2026-06-15 09:45:18"
     }
   ],
-  "cooldown_until": "2026-06-13",
-  "consecutive_stop_losses": 2,
+  "cooldown_until": "",
+  "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-12 14:57:22",
+  "last_update": "2026-06-15 09:45:18",
   "breadth_history": [
-    {
-      "date": "2026-06-01",
-      "bull_pct": 30.6,
-      "breadth_ewma": 30.6
-    },
     {
       "date": "2026-06-02",
       "bull_pct": 30.6,
@@ -443,6 +515,11 @@
       "date": "2026-06-12",
       "bull_pct": 33.3,
       "breadth_ewma": 32.22
+    },
+    {
+      "date": "2026-06-15",
+      "bull_pct": 38.9,
+      "breadth_ewma": 35.23
     }
   ],
   "stale_signal_count": 0,
