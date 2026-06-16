@@ -11,7 +11,7 @@
       "stop_loss": 1.051,
       "initial_stop_loss": 1.051,
       "atr_multiplier": 2.1,
-      "highest_close": 1.15,
+      "highest_close": 1.166,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
       "score_history": [
@@ -487,57 +487,57 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-16 09:45:23",
+  "last_update": "2026-06-16 10:35:20",
   "breadth_history": [
     {
       "date": "2026-06-03",
       "bull_pct": 36.1,
-      "breadth_ewma": 33.08
+      "breadth_ewma": 36.1
     },
     {
       "date": "2026-06-04",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.96
+      "breadth_ewma": 33.63
     },
     {
       "date": "2026-06-05",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.35
+      "breadth_ewma": 32.26
     },
     {
       "date": "2026-06-08",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.01
+      "breadth_ewma": 31.52
     },
     {
       "date": "2026-06-09",
       "bull_pct": 30.6,
-      "breadth_ewma": 30.83
+      "breadth_ewma": 31.1
     },
     {
       "date": "2026-06-10",
       "bull_pct": 33.3,
-      "breadth_ewma": 31.94
+      "breadth_ewma": 32.09
     },
     {
       "date": "2026-06-11",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.34
+      "breadth_ewma": 31.42
     },
     {
       "date": "2026-06-12",
       "bull_pct": 33.3,
-      "breadth_ewma": 32.22
+      "breadth_ewma": 32.27
     },
     {
       "date": "2026-06-15",
       "bull_pct": 38.9,
-      "breadth_ewma": 35.23
+      "breadth_ewma": 35.25
     },
     {
       "date": "2026-06-16",
       "bull_pct": 30.6,
-      "breadth_ewma": 33.14
+      "breadth_ewma": 33.16
     }
   ],
   "stale_signal_count": 0,
