@@ -11,13 +11,17 @@
       "stop_loss": 1.051,
       "initial_stop_loss": 1.051,
       "atr_multiplier": 2.1,
-      "highest_close": 1.147,
+      "highest_close": 1.15,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
       "score_history": [
         {
           "date": "2026-06-15",
           "score": 10.7
+        },
+        {
+          "date": "2026-06-16",
+          "score": 10.2
         }
       ],
       "t1_locked": false,
@@ -41,6 +45,10 @@
         {
           "date": "2026-06-15",
           "score": 14.6
+        },
+        {
+          "date": "2026-06-16",
+          "score": 7.7
         }
       ],
       "t1_locked": false,
@@ -479,13 +487,8 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-15 14:57:25",
+  "last_update": "2026-06-16 09:45:23",
   "breadth_history": [
-    {
-      "date": "2026-06-02",
-      "bull_pct": 30.6,
-      "breadth_ewma": 30.6
-    },
     {
       "date": "2026-06-03",
       "bull_pct": 36.1,
@@ -530,6 +533,11 @@
       "date": "2026-06-15",
       "bull_pct": 38.9,
       "breadth_ewma": 35.23
+    },
+    {
+      "date": "2026-06-16",
+      "bull_pct": 30.6,
+      "breadth_ewma": 33.14
     }
   ],
   "stale_signal_count": 0,
