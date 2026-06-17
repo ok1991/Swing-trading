@@ -1,5 +1,5 @@
 {
-  "record_count": 44,
+  "record_count": 45,
   "trading_day_count": 12,
   "candidate_count": 97,
   "by_ev_bucket": {
@@ -636,7 +636,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-06-17 09:45:23",
+  "generated_at": "2026-06-17 10:35:18",
   "as_of_date": "2026-06-17",
   "schema_version": 2,
   "review_horizons": [
@@ -653,7 +653,7 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 44,
+      "record_count": 45,
       "trading_day_count": 12,
       "candidate_count": 97,
       "by_ev_bucket": {
@@ -1292,7 +1292,7 @@
       }
     },
     "d60": {
-      "record_count": 44,
+      "record_count": 45,
       "trading_day_count": 12,
       "candidate_count": 97,
       "by_ev_bucket": {
@@ -1931,7 +1931,7 @@
       }
     },
     "d120": {
-      "record_count": 44,
+      "record_count": 45,
       "trading_day_count": 12,
       "candidate_count": 97,
       "by_ev_bucket": {
@@ -2570,7 +2570,7 @@
       }
     },
     "d250": {
-      "record_count": 44,
+      "record_count": 45,
       "trading_day_count": 12,
       "candidate_count": 97,
       "by_ev_bucket": {
@@ -3210,10 +3210,10 @@
     }
   },
   "trade_outcomes": {
-    "closed_trade_count": 14,
+    "closed_trade_count": 15,
     "sample_ok": false,
-    "avg_pnl_pct": 2.67,
-    "positive_rate": 0.5,
+    "avg_pnl_pct": 2.28,
+    "positive_rate": 0.467,
     "by_exit_reason": {
       "profit_tier_or_partial": {
         "count": 2,
@@ -3222,8 +3222,8 @@
         "sample_ok": false
       },
       "loss_or_stop": {
-        "count": 7,
-        "avg_pnl_pct": -2.92,
+        "count": 8,
+        "avg_pnl_pct": -2.96,
         "positive_rate": 0.0,
         "sample_ok": false
       },
@@ -3237,6 +3237,6 @@
   },
   "recommendations": [
     "observe_only: candidate samples 97/100, do not tune entry thresholds yet",
-    "observe_only: closed trades 14/30, do not tune stop/take-profit parameters yet"
+    "observe_only: closed trades 15/30, do not tune stop/take-profit parameters yet"
   ]
 }

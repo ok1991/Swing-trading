@@ -1,6 +1,6 @@
 {
   "initial_capital": 10000.0,
-  "cash": 7505.653835,
+  "cash": 8998.829825,
   "holdings": [
     {
       "code": "562800",
@@ -26,37 +26,6 @@
         {
           "date": "2026-06-17",
           "score": 9.8
-        }
-      ],
-      "t1_locked": false,
-      "t1_locked_date": "",
-      "forward_rr": null,
-      "extreme_protected": false
-    },
-    {
-      "code": "512800",
-      "name": "华宝中证银行ETF",
-      "shares": 1900,
-      "buy_price": 0.812,
-      "buy_date": "2026-06-15",
-      "stop_loss": 0.788,
-      "initial_stop_loss": 0.788,
-      "atr_multiplier": 2.1,
-      "highest_close": 0.812,
-      "profit_taken_tiers": [],
-      "profit_protected_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-06-15",
-          "score": 14.6
-        },
-        {
-          "date": "2026-06-16",
-          "score": 7.7
-        },
-        {
-          "date": "2026-06-17",
-          "score": 6.4
         }
       ],
       "t1_locked": false,
@@ -489,63 +458,77 @@
       "signal_quality": 0.85,
       "stop_loss": 0.788,
       "timestamp": "2026-06-15 09:45:18"
+    },
+    {
+      "date": "2026-06-17",
+      "code": "512800",
+      "name": "华宝中证银行ETF",
+      "action": "SELL",
+      "shares": 1900,
+      "price": 0.786,
+      "amount": 1493.18,
+      "reason": "破位绝对止损 0.786≤0.788",
+      "pnl": -49.62,
+      "pnl_pct": -3.22,
+      "timestamp": "2026-06-17 10:35:18",
+      "buy_date": "2026-06-15"
     }
   ],
-  "cooldown_until": "",
-  "consecutive_stop_losses": 0,
+  "cooldown_until": "2026-06-18",
+  "consecutive_stop_losses": 1,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-17 09:45:23",
+  "last_update": "2026-06-17 10:35:18",
   "breadth_history": [
     {
       "date": "2026-06-04",
       "bull_pct": 30.6,
-      "breadth_ewma": 33.63
+      "breadth_ewma": 30.6
     },
     {
       "date": "2026-06-05",
       "bull_pct": 30.6,
-      "breadth_ewma": 32.26
+      "breadth_ewma": 30.6
     },
     {
       "date": "2026-06-08",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.52
+      "breadth_ewma": 30.6
     },
     {
       "date": "2026-06-09",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.1
+      "breadth_ewma": 30.6
     },
     {
       "date": "2026-06-10",
       "bull_pct": 33.3,
-      "breadth_ewma": 32.09
+      "breadth_ewma": 31.82
     },
     {
       "date": "2026-06-11",
       "bull_pct": 30.6,
-      "breadth_ewma": 31.42
+      "breadth_ewma": 31.27
     },
     {
       "date": "2026-06-12",
       "bull_pct": 33.3,
-      "breadth_ewma": 32.27
+      "breadth_ewma": 32.18
     },
     {
       "date": "2026-06-15",
       "bull_pct": 38.9,
-      "breadth_ewma": 35.25
+      "breadth_ewma": 35.21
     },
     {
       "date": "2026-06-16",
       "bull_pct": 30.6,
-      "breadth_ewma": 33.16
+      "breadth_ewma": 33.13
     },
     {
       "date": "2026-06-17",
       "bull_pct": 30.6,
-      "breadth_ewma": 32.01
+      "breadth_ewma": 31.99
     }
   ],
   "stale_signal_count": 0,
