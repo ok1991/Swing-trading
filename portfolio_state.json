@@ -22,6 +22,10 @@
         {
           "date": "2026-06-16",
           "score": 10.2
+        },
+        {
+          "date": "2026-06-17",
+          "score": 9.8
         }
       ],
       "t1_locked": false,
@@ -49,6 +53,10 @@
         {
           "date": "2026-06-16",
           "score": 7.7
+        },
+        {
+          "date": "2026-06-17",
+          "score": 6.4
         }
       ],
       "t1_locked": false,
@@ -487,13 +495,8 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-16 14:57:19",
+  "last_update": "2026-06-17 09:45:23",
   "breadth_history": [
-    {
-      "date": "2026-06-03",
-      "bull_pct": 36.1,
-      "breadth_ewma": 36.1
-    },
     {
       "date": "2026-06-04",
       "bull_pct": 30.6,
@@ -538,6 +541,11 @@
       "date": "2026-06-16",
       "bull_pct": 30.6,
       "breadth_ewma": 33.16
+    },
+    {
+      "date": "2026-06-17",
+      "bull_pct": 30.6,
+      "breadth_ewma": 32.01
     }
   ],
   "stale_signal_count": 0,
