@@ -1,39 +1,7 @@
 {
   "initial_capital": 10000.0,
-  "cash": 8998.829825,
-  "holdings": [
-    {
-      "code": "562800",
-      "name": "嘉实中证稀有金属主题ETF",
-      "shares": 1400,
-      "buy_price": 1.124,
-      "buy_date": "2026-06-15",
-      "stop_loss": 1.051,
-      "initial_stop_loss": 1.051,
-      "atr_multiplier": 2.1,
-      "highest_close": 1.166,
-      "profit_taken_tiers": [],
-      "profit_protected_tiers": [],
-      "score_history": [
-        {
-          "date": "2026-06-15",
-          "score": 10.7
-        },
-        {
-          "date": "2026-06-16",
-          "score": 10.2
-        },
-        {
-          "date": "2026-06-17",
-          "score": 9.8
-        }
-      ],
-      "t1_locked": false,
-      "t1_locked_date": "",
-      "forward_rr": null,
-      "extreme_protected": false
-    }
-  ],
+  "cash": 10621.186435000001,
+  "holdings": [],
   "trade_history": [
     {
       "date": "2026-05-06",
@@ -472,19 +440,28 @@
       "pnl_pct": -3.22,
       "timestamp": "2026-06-17 10:35:18",
       "buy_date": "2026-06-15"
+    },
+    {
+      "date": "2026-06-18",
+      "code": "562800",
+      "name": "嘉实中证稀有金属主题ETF",
+      "action": "SELL",
+      "shares": 1400,
+      "price": 1.159,
+      "amount": 1622.36,
+      "reason": "R/R极差0.09<0.32(浮盈3.1%)",
+      "pnl": 48.76,
+      "pnl_pct": 3.1,
+      "timestamp": "2026-06-18 09:45:18",
+      "buy_date": "2026-06-15"
     }
   ],
-  "cooldown_until": "2026-06-18",
-  "consecutive_stop_losses": 1,
+  "cooldown_until": "",
+  "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-17 14:57:21",
+  "last_update": "2026-06-18 09:45:18",
   "breadth_history": [
-    {
-      "date": "2026-06-04",
-      "bull_pct": 30.6,
-      "breadth_ewma": 30.6
-    },
     {
       "date": "2026-06-05",
       "bull_pct": 30.6,
@@ -529,6 +506,11 @@
       "date": "2026-06-17",
       "bull_pct": 30.6,
       "breadth_ewma": 31.99
+    },
+    {
+      "date": "2026-06-18",
+      "bull_pct": 27.8,
+      "breadth_ewma": 30.11
     }
   ],
   "stale_signal_count": 0,
