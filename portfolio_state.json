@@ -11,10 +11,15 @@
       "stop_loss": 1.809,
       "initial_stop_loss": 1.809,
       "atr_multiplier": 2.5,
-      "highest_close": 1.974,
+      "highest_close": 1.996,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
-      "score_history": [],
+      "score_history": [
+        {
+          "date": "2026-06-23",
+          "score": 19.2
+        }
+      ],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -32,7 +37,12 @@
       "highest_close": 2.158,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
-      "score_history": [],
+      "score_history": [
+        {
+          "date": "2026-06-23",
+          "score": 21.9
+        }
+      ],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -50,7 +60,12 @@
       "highest_close": 1.196,
       "profit_taken_tiers": [],
       "profit_protected_tiers": [],
-      "score_history": [],
+      "score_history": [
+        {
+          "date": "2026-06-23",
+          "score": 14.7
+        }
+      ],
       "t1_locked": false,
       "t1_locked_date": "",
       "forward_rr": null,
@@ -575,7 +590,7 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-06-23 09:45:20",
+  "last_update": "2026-06-23 10:35:20",
   "breadth_history": [
     {
       "date": "2026-06-08",

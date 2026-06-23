@@ -1,7 +1,7 @@
 {
-  "record_count": 52,
+  "record_count": 53,
   "trading_day_count": 14,
-  "candidate_count": 112,
+  "candidate_count": 115,
   "by_ev_bucket": {
     "0.40~0.80": {
       "count": 39,
@@ -41,8 +41,8 @@
       "sample_ok": true
     },
     ">=0.80": {
-      "count": 61,
-      "weighted_count": 61.0,
+      "count": 63,
+      "weighted_count": 63.0,
       "h1": {
         "n": 56,
         "weighted_n": 56.0,
@@ -78,8 +78,8 @@
       "sample_ok": true
     },
     "0.12~0.40": {
-      "count": 11,
-      "weighted_count": 11.0,
+      "count": 12,
+      "weighted_count": 12.0,
       "h1": {
         "n": 11,
         "weighted_n": 11.0,
@@ -146,8 +146,8 @@
   },
   "by_rps_bucket": {
     ">=90": {
-      "count": 48,
-      "weighted_count": 48.0,
+      "count": 49,
+      "weighted_count": 49.0,
       "h1": {
         "n": 45,
         "weighted_n": 45.0,
@@ -183,8 +183,8 @@
       "sample_ok": true
     },
     "75~90": {
-      "count": 46,
-      "weighted_count": 46.0,
+      "count": 47,
+      "weighted_count": 47.0,
       "h1": {
         "n": 42,
         "weighted_n": 42.0,
@@ -220,8 +220,8 @@
       "sample_ok": true
     },
     "60~75": {
-      "count": 17,
-      "weighted_count": 17.0,
+      "count": 18,
+      "weighted_count": 18.0,
       "h1": {
         "n": 17,
         "weighted_n": 17.0,
@@ -296,8 +296,8 @@
   },
   "by_atr_bucket": {
     ">=85": {
-      "count": 112,
-      "weighted_count": 112.0,
+      "count": 115,
+      "weighted_count": 115.0,
       "h1": {
         "n": 105,
         "weighted_n": 105.0,
@@ -372,8 +372,8 @@
       "sample_ok": true
     },
     "顶背离": {
-      "count": 38,
-      "weighted_count": 38.0,
+      "count": 39,
+      "weighted_count": 39.0,
       "h1": {
         "n": 37,
         "weighted_n": 37.0,
@@ -409,8 +409,8 @@
       "sample_ok": true
     },
     "日线偏弱": {
-      "count": 59,
-      "weighted_count": 59.0,
+      "count": 61,
+      "weighted_count": 61.0,
       "h1": {
         "n": 58,
         "weighted_n": 58.0,
@@ -446,8 +446,8 @@
       "sample_ok": true
     },
     "止损距低于健康门槛3.0%": {
-      "count": 30,
-      "weighted_count": 30.0,
+      "count": 32,
+      "weighted_count": 32.0,
       "h1": {
         "n": 30,
         "weighted_n": 30.0,
@@ -594,8 +594,8 @@
       "sample_ok": false
     },
     "评分快速下降": {
-      "count": 9,
-      "weighted_count": 9.0,
+      "count": 10,
+      "weighted_count": 10.0,
       "h1": {
         "n": 9,
         "weighted_n": 9.0,
@@ -668,7 +668,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-06-23 09:45:20",
+  "generated_at": "2026-06-23 10:35:20",
   "as_of_date": "2026-06-23",
   "schema_version": 2,
   "review_horizons": [
@@ -685,9 +685,9 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 52,
+      "record_count": 53,
       "trading_day_count": 14,
-      "candidate_count": 112,
+      "candidate_count": 115,
       "by_ev_bucket": {
         "0.40~0.80": {
           "count": 39,
@@ -727,8 +727,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 61,
-          "weighted_count": 54.87,
+          "count": 63,
+          "weighted_count": 56.87,
           "h1": {
             "n": 56,
             "weighted_n": 49.87,
@@ -764,8 +764,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 11,
-          "weighted_count": 9.55,
+          "count": 12,
+          "weighted_count": 10.55,
           "h1": {
             "n": 11,
             "weighted_n": 9.55,
@@ -832,8 +832,8 @@
       },
       "by_rps_bucket": {
         ">=90": {
-          "count": 48,
-          "weighted_count": 43.01,
+          "count": 49,
+          "weighted_count": 44.01,
           "h1": {
             "n": 45,
             "weighted_n": 40.01,
@@ -869,8 +869,8 @@
           "sample_ok": true
         },
         "75~90": {
-          "count": 46,
-          "weighted_count": 41.39,
+          "count": 47,
+          "weighted_count": 42.39,
           "h1": {
             "n": 42,
             "weighted_n": 37.39,
@@ -906,8 +906,8 @@
           "sample_ok": true
         },
         "60~75": {
-          "count": 17,
-          "weighted_count": 15.01,
+          "count": 18,
+          "weighted_count": 16.01,
           "h1": {
             "n": 17,
             "weighted_n": 15.01,
@@ -982,8 +982,8 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 112,
-          "weighted_count": 100.24,
+          "count": 115,
+          "weighted_count": 103.24,
           "h1": {
             "n": 105,
             "weighted_n": 93.24,
@@ -1058,8 +1058,8 @@
           "sample_ok": true
         },
         "顶背离": {
-          "count": 38,
-          "weighted_count": 33.11,
+          "count": 39,
+          "weighted_count": 34.11,
           "h1": {
             "n": 37,
             "weighted_n": 32.11,
@@ -1095,8 +1095,8 @@
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 59,
-          "weighted_count": 52.17,
+          "count": 61,
+          "weighted_count": 54.17,
           "h1": {
             "n": 58,
             "weighted_n": 51.17,
@@ -1132,8 +1132,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 30,
-          "weighted_count": 26.26,
+          "count": 32,
+          "weighted_count": 28.26,
           "h1": {
             "n": 30,
             "weighted_n": 26.26,
@@ -1280,8 +1280,8 @@
           "sample_ok": false
         },
         "评分快速下降": {
-          "count": 9,
-          "weighted_count": 7.91,
+          "count": 10,
+          "weighted_count": 8.91,
           "h1": {
             "n": 9,
             "weighted_n": 7.91,
@@ -1356,9 +1356,9 @@
       }
     },
     "d60": {
-      "record_count": 52,
+      "record_count": 53,
       "trading_day_count": 14,
-      "candidate_count": 112,
+      "candidate_count": 115,
       "by_ev_bucket": {
         "0.40~0.80": {
           "count": 39,
@@ -1398,8 +1398,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 61,
-          "weighted_count": 54.87,
+          "count": 63,
+          "weighted_count": 56.87,
           "h1": {
             "n": 56,
             "weighted_n": 49.87,
@@ -1435,8 +1435,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 11,
-          "weighted_count": 9.55,
+          "count": 12,
+          "weighted_count": 10.55,
           "h1": {
             "n": 11,
             "weighted_n": 9.55,
@@ -1503,8 +1503,8 @@
       },
       "by_rps_bucket": {
         ">=90": {
-          "count": 48,
-          "weighted_count": 43.01,
+          "count": 49,
+          "weighted_count": 44.01,
           "h1": {
             "n": 45,
             "weighted_n": 40.01,
@@ -1540,8 +1540,8 @@
           "sample_ok": true
         },
         "75~90": {
-          "count": 46,
-          "weighted_count": 41.39,
+          "count": 47,
+          "weighted_count": 42.39,
           "h1": {
             "n": 42,
             "weighted_n": 37.39,
@@ -1577,8 +1577,8 @@
           "sample_ok": true
         },
         "60~75": {
-          "count": 17,
-          "weighted_count": 15.01,
+          "count": 18,
+          "weighted_count": 16.01,
           "h1": {
             "n": 17,
             "weighted_n": 15.01,
@@ -1653,8 +1653,8 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 112,
-          "weighted_count": 100.24,
+          "count": 115,
+          "weighted_count": 103.24,
           "h1": {
             "n": 105,
             "weighted_n": 93.24,
@@ -1729,8 +1729,8 @@
           "sample_ok": true
         },
         "顶背离": {
-          "count": 38,
-          "weighted_count": 33.11,
+          "count": 39,
+          "weighted_count": 34.11,
           "h1": {
             "n": 37,
             "weighted_n": 32.11,
@@ -1766,8 +1766,8 @@
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 59,
-          "weighted_count": 52.17,
+          "count": 61,
+          "weighted_count": 54.17,
           "h1": {
             "n": 58,
             "weighted_n": 51.17,
@@ -1803,8 +1803,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 30,
-          "weighted_count": 26.26,
+          "count": 32,
+          "weighted_count": 28.26,
           "h1": {
             "n": 30,
             "weighted_n": 26.26,
@@ -1951,8 +1951,8 @@
           "sample_ok": false
         },
         "评分快速下降": {
-          "count": 9,
-          "weighted_count": 7.91,
+          "count": 10,
+          "weighted_count": 8.91,
           "h1": {
             "n": 9,
             "weighted_n": 7.91,
@@ -2027,9 +2027,9 @@
       }
     },
     "d120": {
-      "record_count": 52,
+      "record_count": 53,
       "trading_day_count": 14,
-      "candidate_count": 112,
+      "candidate_count": 115,
       "by_ev_bucket": {
         "0.40~0.80": {
           "count": 39,
@@ -2069,8 +2069,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 61,
-          "weighted_count": 54.87,
+          "count": 63,
+          "weighted_count": 56.87,
           "h1": {
             "n": 56,
             "weighted_n": 49.87,
@@ -2106,8 +2106,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 11,
-          "weighted_count": 9.55,
+          "count": 12,
+          "weighted_count": 10.55,
           "h1": {
             "n": 11,
             "weighted_n": 9.55,
@@ -2174,8 +2174,8 @@
       },
       "by_rps_bucket": {
         ">=90": {
-          "count": 48,
-          "weighted_count": 43.01,
+          "count": 49,
+          "weighted_count": 44.01,
           "h1": {
             "n": 45,
             "weighted_n": 40.01,
@@ -2211,8 +2211,8 @@
           "sample_ok": true
         },
         "75~90": {
-          "count": 46,
-          "weighted_count": 41.39,
+          "count": 47,
+          "weighted_count": 42.39,
           "h1": {
             "n": 42,
             "weighted_n": 37.39,
@@ -2248,8 +2248,8 @@
           "sample_ok": true
         },
         "60~75": {
-          "count": 17,
-          "weighted_count": 15.01,
+          "count": 18,
+          "weighted_count": 16.01,
           "h1": {
             "n": 17,
             "weighted_n": 15.01,
@@ -2324,8 +2324,8 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 112,
-          "weighted_count": 100.24,
+          "count": 115,
+          "weighted_count": 103.24,
           "h1": {
             "n": 105,
             "weighted_n": 93.24,
@@ -2400,8 +2400,8 @@
           "sample_ok": true
         },
         "顶背离": {
-          "count": 38,
-          "weighted_count": 33.11,
+          "count": 39,
+          "weighted_count": 34.11,
           "h1": {
             "n": 37,
             "weighted_n": 32.11,
@@ -2437,8 +2437,8 @@
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 59,
-          "weighted_count": 52.17,
+          "count": 61,
+          "weighted_count": 54.17,
           "h1": {
             "n": 58,
             "weighted_n": 51.17,
@@ -2474,8 +2474,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 30,
-          "weighted_count": 26.26,
+          "count": 32,
+          "weighted_count": 28.26,
           "h1": {
             "n": 30,
             "weighted_n": 26.26,
@@ -2622,8 +2622,8 @@
           "sample_ok": false
         },
         "评分快速下降": {
-          "count": 9,
-          "weighted_count": 7.91,
+          "count": 10,
+          "weighted_count": 8.91,
           "h1": {
             "n": 9,
             "weighted_n": 7.91,
@@ -2698,9 +2698,9 @@
       }
     },
     "d250": {
-      "record_count": 52,
+      "record_count": 53,
       "trading_day_count": 14,
-      "candidate_count": 112,
+      "candidate_count": 115,
       "by_ev_bucket": {
         "0.40~0.80": {
           "count": 39,
@@ -2740,8 +2740,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 61,
-          "weighted_count": 54.87,
+          "count": 63,
+          "weighted_count": 56.87,
           "h1": {
             "n": 56,
             "weighted_n": 49.87,
@@ -2777,8 +2777,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 11,
-          "weighted_count": 9.55,
+          "count": 12,
+          "weighted_count": 10.55,
           "h1": {
             "n": 11,
             "weighted_n": 9.55,
@@ -2845,8 +2845,8 @@
       },
       "by_rps_bucket": {
         ">=90": {
-          "count": 48,
-          "weighted_count": 43.01,
+          "count": 49,
+          "weighted_count": 44.01,
           "h1": {
             "n": 45,
             "weighted_n": 40.01,
@@ -2882,8 +2882,8 @@
           "sample_ok": true
         },
         "75~90": {
-          "count": 46,
-          "weighted_count": 41.39,
+          "count": 47,
+          "weighted_count": 42.39,
           "h1": {
             "n": 42,
             "weighted_n": 37.39,
@@ -2919,8 +2919,8 @@
           "sample_ok": true
         },
         "60~75": {
-          "count": 17,
-          "weighted_count": 15.01,
+          "count": 18,
+          "weighted_count": 16.01,
           "h1": {
             "n": 17,
             "weighted_n": 15.01,
@@ -2995,8 +2995,8 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 112,
-          "weighted_count": 100.24,
+          "count": 115,
+          "weighted_count": 103.24,
           "h1": {
             "n": 105,
             "weighted_n": 93.24,
@@ -3071,8 +3071,8 @@
           "sample_ok": true
         },
         "顶背离": {
-          "count": 38,
-          "weighted_count": 33.11,
+          "count": 39,
+          "weighted_count": 34.11,
           "h1": {
             "n": 37,
             "weighted_n": 32.11,
@@ -3108,8 +3108,8 @@
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 59,
-          "weighted_count": 52.17,
+          "count": 61,
+          "weighted_count": 54.17,
           "h1": {
             "n": 58,
             "weighted_n": 51.17,
@@ -3145,8 +3145,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 30,
-          "weighted_count": 26.26,
+          "count": 32,
+          "weighted_count": 28.26,
           "h1": {
             "n": 30,
             "weighted_n": 26.26,
@@ -3293,8 +3293,8 @@
           "sample_ok": false
         },
         "评分快速下降": {
-          "count": 9,
-          "weighted_count": 7.91,
+          "count": 10,
+          "weighted_count": 8.91,
           "h1": {
             "n": 9,
             "weighted_n": 7.91,
