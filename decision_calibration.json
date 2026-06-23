@@ -1,11 +1,11 @@
 {
-  "record_count": 53,
+  "record_count": 54,
   "trading_day_count": 14,
   "candidate_count": 115,
   "by_ev_bucket": {
     "0.40~0.80": {
-      "count": 39,
-      "weighted_count": 39.0,
+      "count": 38,
+      "weighted_count": 38.0,
       "h1": {
         "n": 37,
         "weighted_n": 37.0,
@@ -41,8 +41,8 @@
       "sample_ok": true
     },
     ">=0.80": {
-      "count": 63,
-      "weighted_count": 63.0,
+      "count": 64,
+      "weighted_count": 64.0,
       "h1": {
         "n": 56,
         "weighted_n": 56.0,
@@ -668,7 +668,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-06-23 10:35:20",
+  "generated_at": "2026-06-23 13:45:22",
   "as_of_date": "2026-06-23",
   "schema_version": 2,
   "review_horizons": [
@@ -685,13 +685,13 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 53,
+      "record_count": 54,
       "trading_day_count": 14,
       "candidate_count": 115,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 39,
-          "weighted_count": 34.89,
+          "count": 38,
+          "weighted_count": 33.89,
           "h1": {
             "n": 37,
             "weighted_n": 32.89,
@@ -727,8 +727,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 63,
-          "weighted_count": 56.87,
+          "count": 64,
+          "weighted_count": 57.87,
           "h1": {
             "n": 56,
             "weighted_n": 49.87,
@@ -1356,13 +1356,13 @@
       }
     },
     "d60": {
-      "record_count": 53,
+      "record_count": 54,
       "trading_day_count": 14,
       "candidate_count": 115,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 39,
-          "weighted_count": 34.89,
+          "count": 38,
+          "weighted_count": 33.89,
           "h1": {
             "n": 37,
             "weighted_n": 32.89,
@@ -1398,8 +1398,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 63,
-          "weighted_count": 56.87,
+          "count": 64,
+          "weighted_count": 57.87,
           "h1": {
             "n": 56,
             "weighted_n": 49.87,
@@ -2027,13 +2027,13 @@
       }
     },
     "d120": {
-      "record_count": 53,
+      "record_count": 54,
       "trading_day_count": 14,
       "candidate_count": 115,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 39,
-          "weighted_count": 34.89,
+          "count": 38,
+          "weighted_count": 33.89,
           "h1": {
             "n": 37,
             "weighted_n": 32.89,
@@ -2069,8 +2069,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 63,
-          "weighted_count": 56.87,
+          "count": 64,
+          "weighted_count": 57.87,
           "h1": {
             "n": 56,
             "weighted_n": 49.87,
@@ -2698,13 +2698,13 @@
       }
     },
     "d250": {
-      "record_count": 53,
+      "record_count": 54,
       "trading_day_count": 14,
       "candidate_count": 115,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 39,
-          "weighted_count": 34.89,
+          "count": 38,
+          "weighted_count": 33.89,
           "h1": {
             "n": 37,
             "weighted_n": 32.89,
@@ -2740,8 +2740,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 63,
-          "weighted_count": 56.87,
+          "count": 64,
+          "weighted_count": 57.87,
           "h1": {
             "n": 56,
             "weighted_n": 49.87,
