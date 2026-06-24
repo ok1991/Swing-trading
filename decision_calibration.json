@@ -1,11 +1,11 @@
 {
-  "record_count": 56,
+  "record_count": 57,
   "trading_day_count": 15,
-  "candidate_count": 120,
+  "candidate_count": 121,
   "by_ev_bucket": {
     "0.40~0.80": {
-      "count": 41,
-      "weighted_count": 41.0,
+      "count": 42,
+      "weighted_count": 42.0,
       "h1": {
         "n": 38,
         "weighted_n": 38.0,
@@ -41,8 +41,8 @@
       "sample_ok": true
     },
     ">=0.80": {
-      "count": 65,
-      "weighted_count": 65.0,
+      "count": 64,
+      "weighted_count": 64.0,
       "h1": {
         "n": 64,
         "weighted_n": 64.0,
@@ -78,8 +78,8 @@
       "sample_ok": true
     },
     "0.12~0.40": {
-      "count": 13,
-      "weighted_count": 13.0,
+      "count": 14,
+      "weighted_count": 14.0,
       "h1": {
         "n": 12,
         "weighted_n": 12.0,
@@ -183,8 +183,8 @@
       "sample_ok": true
     },
     "75~90": {
-      "count": 49,
-      "weighted_count": 49.0,
+      "count": 50,
+      "weighted_count": 50.0,
       "h1": {
         "n": 47,
         "weighted_n": 47.0,
@@ -296,8 +296,8 @@
   },
   "by_atr_bucket": {
     ">=85": {
-      "count": 120,
-      "weighted_count": 120.0,
+      "count": 121,
+      "weighted_count": 121.0,
       "h1": {
         "n": 115,
         "weighted_n": 115.0,
@@ -409,8 +409,8 @@
       "sample_ok": true
     },
     "日线偏弱": {
-      "count": 62,
-      "weighted_count": 62.0,
+      "count": 63,
+      "weighted_count": 63.0,
       "h1": {
         "n": 61,
         "weighted_n": 61.0,
@@ -631,8 +631,8 @@
       "sample_ok": false
     },
     "周强日破": {
-      "count": 9,
-      "weighted_count": 9.0,
+      "count": 10,
+      "weighted_count": 10.0,
       "h1": {
         "n": 9,
         "weighted_n": 9.0,
@@ -668,7 +668,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-06-24 09:45:19",
+  "generated_at": "2026-06-24 10:35:22",
   "as_of_date": "2026-06-24",
   "schema_version": 2,
   "review_horizons": [
@@ -685,13 +685,13 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 56,
+      "record_count": 57,
       "trading_day_count": 15,
-      "candidate_count": 120,
+      "candidate_count": 121,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 41,
-          "weighted_count": 36.43,
+          "count": 42,
+          "weighted_count": 37.43,
           "h1": {
             "n": 38,
             "weighted_n": 33.43,
@@ -727,8 +727,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 65,
-          "weighted_count": 58.07,
+          "count": 64,
+          "weighted_count": 57.07,
           "h1": {
             "n": 64,
             "weighted_n": 57.07,
@@ -764,8 +764,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 13,
-          "weighted_count": 11.4,
+          "count": 14,
+          "weighted_count": 12.4,
           "h1": {
             "n": 12,
             "weighted_n": 10.4,
@@ -869,8 +869,8 @@
           "sample_ok": true
         },
         "75~90": {
-          "count": 49,
-          "weighted_count": 43.81,
+          "count": 50,
+          "weighted_count": 44.81,
           "h1": {
             "n": 47,
             "weighted_n": 41.81,
@@ -982,8 +982,8 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 120,
-          "weighted_count": 106.82,
+          "count": 121,
+          "weighted_count": 107.82,
           "h1": {
             "n": 115,
             "weighted_n": 101.82,
@@ -1095,8 +1095,8 @@
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 62,
-          "weighted_count": 54.43,
+          "count": 63,
+          "weighted_count": 55.43,
           "h1": {
             "n": 61,
             "weighted_n": 53.43,
@@ -1317,8 +1317,8 @@
           "sample_ok": false
         },
         "周强日破": {
-          "count": 9,
-          "weighted_count": 8.0,
+          "count": 10,
+          "weighted_count": 9.0,
           "h1": {
             "n": 9,
             "weighted_n": 8.0,
@@ -1356,13 +1356,13 @@
       }
     },
     "d60": {
-      "record_count": 56,
+      "record_count": 57,
       "trading_day_count": 15,
-      "candidate_count": 120,
+      "candidate_count": 121,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 41,
-          "weighted_count": 36.43,
+          "count": 42,
+          "weighted_count": 37.43,
           "h1": {
             "n": 38,
             "weighted_n": 33.43,
@@ -1398,8 +1398,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 65,
-          "weighted_count": 58.07,
+          "count": 64,
+          "weighted_count": 57.07,
           "h1": {
             "n": 64,
             "weighted_n": 57.07,
@@ -1435,8 +1435,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 13,
-          "weighted_count": 11.4,
+          "count": 14,
+          "weighted_count": 12.4,
           "h1": {
             "n": 12,
             "weighted_n": 10.4,
@@ -1540,8 +1540,8 @@
           "sample_ok": true
         },
         "75~90": {
-          "count": 49,
-          "weighted_count": 43.81,
+          "count": 50,
+          "weighted_count": 44.81,
           "h1": {
             "n": 47,
             "weighted_n": 41.81,
@@ -1653,8 +1653,8 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 120,
-          "weighted_count": 106.82,
+          "count": 121,
+          "weighted_count": 107.82,
           "h1": {
             "n": 115,
             "weighted_n": 101.82,
@@ -1766,8 +1766,8 @@
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 62,
-          "weighted_count": 54.43,
+          "count": 63,
+          "weighted_count": 55.43,
           "h1": {
             "n": 61,
             "weighted_n": 53.43,
@@ -1988,8 +1988,8 @@
           "sample_ok": false
         },
         "周强日破": {
-          "count": 9,
-          "weighted_count": 8.0,
+          "count": 10,
+          "weighted_count": 9.0,
           "h1": {
             "n": 9,
             "weighted_n": 8.0,
@@ -2027,13 +2027,13 @@
       }
     },
     "d120": {
-      "record_count": 56,
+      "record_count": 57,
       "trading_day_count": 15,
-      "candidate_count": 120,
+      "candidate_count": 121,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 41,
-          "weighted_count": 36.43,
+          "count": 42,
+          "weighted_count": 37.43,
           "h1": {
             "n": 38,
             "weighted_n": 33.43,
@@ -2069,8 +2069,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 65,
-          "weighted_count": 58.07,
+          "count": 64,
+          "weighted_count": 57.07,
           "h1": {
             "n": 64,
             "weighted_n": 57.07,
@@ -2106,8 +2106,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 13,
-          "weighted_count": 11.4,
+          "count": 14,
+          "weighted_count": 12.4,
           "h1": {
             "n": 12,
             "weighted_n": 10.4,
@@ -2211,8 +2211,8 @@
           "sample_ok": true
         },
         "75~90": {
-          "count": 49,
-          "weighted_count": 43.81,
+          "count": 50,
+          "weighted_count": 44.81,
           "h1": {
             "n": 47,
             "weighted_n": 41.81,
@@ -2324,8 +2324,8 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 120,
-          "weighted_count": 106.82,
+          "count": 121,
+          "weighted_count": 107.82,
           "h1": {
             "n": 115,
             "weighted_n": 101.82,
@@ -2437,8 +2437,8 @@
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 62,
-          "weighted_count": 54.43,
+          "count": 63,
+          "weighted_count": 55.43,
           "h1": {
             "n": 61,
             "weighted_n": 53.43,
@@ -2659,8 +2659,8 @@
           "sample_ok": false
         },
         "周强日破": {
-          "count": 9,
-          "weighted_count": 8.0,
+          "count": 10,
+          "weighted_count": 9.0,
           "h1": {
             "n": 9,
             "weighted_n": 8.0,
@@ -2698,13 +2698,13 @@
       }
     },
     "d250": {
-      "record_count": 56,
+      "record_count": 57,
       "trading_day_count": 15,
-      "candidate_count": 120,
+      "candidate_count": 121,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 41,
-          "weighted_count": 36.43,
+          "count": 42,
+          "weighted_count": 37.43,
           "h1": {
             "n": 38,
             "weighted_n": 33.43,
@@ -2740,8 +2740,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 65,
-          "weighted_count": 58.07,
+          "count": 64,
+          "weighted_count": 57.07,
           "h1": {
             "n": 64,
             "weighted_n": 57.07,
@@ -2777,8 +2777,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 13,
-          "weighted_count": 11.4,
+          "count": 14,
+          "weighted_count": 12.4,
           "h1": {
             "n": 12,
             "weighted_n": 10.4,
@@ -2882,8 +2882,8 @@
           "sample_ok": true
         },
         "75~90": {
-          "count": 49,
-          "weighted_count": 43.81,
+          "count": 50,
+          "weighted_count": 44.81,
           "h1": {
             "n": 47,
             "weighted_n": 41.81,
@@ -2995,8 +2995,8 @@
       },
       "by_atr_bucket": {
         ">=85": {
-          "count": 120,
-          "weighted_count": 106.82,
+          "count": 121,
+          "weighted_count": 107.82,
           "h1": {
             "n": 115,
             "weighted_n": 101.82,
@@ -3108,8 +3108,8 @@
           "sample_ok": true
         },
         "日线偏弱": {
-          "count": 62,
-          "weighted_count": 54.43,
+          "count": 63,
+          "weighted_count": 55.43,
           "h1": {
             "n": 61,
             "weighted_n": 53.43,
@@ -3330,8 +3330,8 @@
           "sample_ok": false
         },
         "周强日破": {
-          "count": 9,
-          "weighted_count": 8.0,
+          "count": 10,
+          "weighted_count": 9.0,
           "h1": {
             "n": 9,
             "weighted_n": 8.0,
