@@ -1,11 +1,11 @@
 {
-  "record_count": 77,
+  "record_count": 78,
   "trading_day_count": 20,
   "candidate_count": 155,
   "by_ev_bucket": {
     "0.40~0.80": {
-      "count": 52,
-      "weighted_count": 52.0,
+      "count": 51,
+      "weighted_count": 51.0,
       "h1": {
         "n": 49,
         "weighted_n": 49.0,
@@ -41,8 +41,8 @@
       "sample_ok": true
     },
     ">=0.80": {
-      "count": 88,
-      "weighted_count": 88.0,
+      "count": 89,
+      "weighted_count": 89.0,
       "h1": {
         "n": 83,
         "weighted_n": 83.0,
@@ -343,8 +343,8 @@
   },
   "by_soft_penalty": {
     "no_soft_penalty": {
-      "count": 47,
-      "weighted_count": 47.0,
+      "count": 46,
+      "weighted_count": 46.0,
       "h1": {
         "n": 42,
         "weighted_n": 42.0,
@@ -454,8 +454,8 @@
       "sample_ok": true
     },
     "止损距低于健康门槛3.0%": {
-      "count": 45,
-      "weighted_count": 45.0,
+      "count": 47,
+      "weighted_count": 47.0,
       "h1": {
         "n": 44,
         "weighted_n": 44.0,
@@ -676,7 +676,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-07-01 10:35:20",
+  "generated_at": "2026-07-01 13:45:21",
   "as_of_date": "2026-07-01",
   "schema_version": 2,
   "review_horizons": [
@@ -693,13 +693,13 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 73,
+      "record_count": 74,
       "trading_day_count": 19,
       "candidate_count": 155,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 52,
-          "weighted_count": 44.7,
+          "count": 51,
+          "weighted_count": 43.7,
           "h1": {
             "n": 49,
             "weighted_n": 41.7,
@@ -735,8 +735,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 88,
-          "weighted_count": 76.56,
+          "count": 89,
+          "weighted_count": 77.56,
           "h1": {
             "n": 83,
             "weighted_n": 71.56,
@@ -1037,8 +1037,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 47,
-          "weighted_count": 41.89,
+          "count": 46,
+          "weighted_count": 40.89,
           "h1": {
             "n": 42,
             "weighted_n": 36.89,
@@ -1148,8 +1148,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 45,
-          "weighted_count": 38.46,
+          "count": 47,
+          "weighted_count": 40.46,
           "h1": {
             "n": 44,
             "weighted_n": 37.46,
@@ -1372,13 +1372,13 @@
       }
     },
     "d60": {
-      "record_count": 77,
+      "record_count": 78,
       "trading_day_count": 20,
       "candidate_count": 155,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 52,
-          "weighted_count": 44.7,
+          "count": 51,
+          "weighted_count": 43.7,
           "h1": {
             "n": 49,
             "weighted_n": 41.7,
@@ -1414,8 +1414,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 88,
-          "weighted_count": 76.56,
+          "count": 89,
+          "weighted_count": 77.56,
           "h1": {
             "n": 83,
             "weighted_n": 71.56,
@@ -1716,8 +1716,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 47,
-          "weighted_count": 41.89,
+          "count": 46,
+          "weighted_count": 40.89,
           "h1": {
             "n": 42,
             "weighted_n": 36.89,
@@ -1827,8 +1827,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 45,
-          "weighted_count": 38.46,
+          "count": 47,
+          "weighted_count": 40.46,
           "h1": {
             "n": 44,
             "weighted_n": 37.46,
@@ -2051,13 +2051,13 @@
       }
     },
     "d120": {
-      "record_count": 77,
+      "record_count": 78,
       "trading_day_count": 20,
       "candidate_count": 155,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 52,
-          "weighted_count": 44.7,
+          "count": 51,
+          "weighted_count": 43.7,
           "h1": {
             "n": 49,
             "weighted_n": 41.7,
@@ -2093,8 +2093,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 88,
-          "weighted_count": 76.56,
+          "count": 89,
+          "weighted_count": 77.56,
           "h1": {
             "n": 83,
             "weighted_n": 71.56,
@@ -2395,8 +2395,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 47,
-          "weighted_count": 41.89,
+          "count": 46,
+          "weighted_count": 40.89,
           "h1": {
             "n": 42,
             "weighted_n": 36.89,
@@ -2506,8 +2506,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 45,
-          "weighted_count": 38.46,
+          "count": 47,
+          "weighted_count": 40.46,
           "h1": {
             "n": 44,
             "weighted_n": 37.46,
@@ -2730,13 +2730,13 @@
       }
     },
     "d250": {
-      "record_count": 77,
+      "record_count": 78,
       "trading_day_count": 20,
       "candidate_count": 155,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 52,
-          "weighted_count": 44.7,
+          "count": 51,
+          "weighted_count": 43.7,
           "h1": {
             "n": 49,
             "weighted_n": 41.7,
@@ -2772,8 +2772,8 @@
           "sample_ok": true
         },
         ">=0.80": {
-          "count": 88,
-          "weighted_count": 76.56,
+          "count": 89,
+          "weighted_count": 77.56,
           "h1": {
             "n": 83,
             "weighted_n": 71.56,
@@ -3074,8 +3074,8 @@
       },
       "by_soft_penalty": {
         "no_soft_penalty": {
-          "count": 47,
-          "weighted_count": 41.89,
+          "count": 46,
+          "weighted_count": 40.89,
           "h1": {
             "n": 42,
             "weighted_n": 36.89,
@@ -3185,8 +3185,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 45,
-          "weighted_count": 38.46,
+          "count": 47,
+          "weighted_count": 40.46,
           "h1": {
             "n": 44,
             "weighted_n": 37.46,
