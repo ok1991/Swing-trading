@@ -1,5 +1,5 @@
 {
-  "record_count": 84,
+  "record_count": 85,
   "trading_day_count": 22,
   "candidate_count": 164,
   "by_ev_bucket": {
@@ -78,8 +78,8 @@
       "sample_ok": true
     },
     "0.12~0.40": {
-      "count": 15,
-      "weighted_count": 15.0,
+      "count": 14,
+      "weighted_count": 14.0,
       "h1": {
         "n": 14,
         "weighted_n": 14.0,
@@ -115,8 +115,8 @@
       "sample_ok": false
     },
     "<0.12": {
-      "count": 1,
-      "weighted_count": 1.0,
+      "count": 2,
+      "weighted_count": 2.0,
       "h1": {
         "n": 1,
         "weighted_n": 1.0,
@@ -454,8 +454,8 @@
       "sample_ok": true
     },
     "止损距低于健康门槛3.0%": {
-      "count": 52,
-      "weighted_count": 52.0,
+      "count": 51,
+      "weighted_count": 51.0,
       "h1": {
         "n": 50,
         "weighted_n": 50.0,
@@ -676,7 +676,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-07-03 09:45:20",
+  "generated_at": "2026-07-03 10:35:21",
   "as_of_date": "2026-07-03",
   "schema_version": 2,
   "review_horizons": [
@@ -693,7 +693,7 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 72,
+      "record_count": 73,
       "trading_day_count": 19,
       "candidate_count": 142,
       "by_ev_bucket": {
@@ -772,8 +772,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 12,
-          "weighted_count": 10.03,
+          "count": 11,
+          "weighted_count": 9.03,
           "h1": {
             "n": 11,
             "weighted_n": 9.03,
@@ -809,8 +809,8 @@
           "sample_ok": false
         },
         "<0.12": {
-          "count": 1,
-          "weighted_count": 0.84,
+          "count": 2,
+          "weighted_count": 1.84,
           "h1": {
             "n": 1,
             "weighted_n": 0.84,
@@ -1037,8 +1037,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 48,
-          "weighted_count": 41.38,
+          "count": 47,
+          "weighted_count": 40.38,
           "h1": {
             "n": 46,
             "weighted_n": 39.38,
@@ -1261,7 +1261,7 @@
       }
     },
     "d60": {
-      "record_count": 84,
+      "record_count": 85,
       "trading_day_count": 22,
       "candidate_count": 164,
       "by_ev_bucket": {
@@ -1340,8 +1340,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 15,
-          "weighted_count": 12.25,
+          "count": 14,
+          "weighted_count": 11.25,
           "h1": {
             "n": 14,
             "weighted_n": 11.25,
@@ -1377,8 +1377,8 @@
           "sample_ok": false
         },
         "<0.12": {
-          "count": 1,
-          "weighted_count": 0.84,
+          "count": 2,
+          "weighted_count": 1.84,
           "h1": {
             "n": 1,
             "weighted_n": 0.84,
@@ -1716,8 +1716,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 52,
-          "weighted_count": 44.33,
+          "count": 51,
+          "weighted_count": 43.33,
           "h1": {
             "n": 50,
             "weighted_n": 42.33,
@@ -1940,7 +1940,7 @@
       }
     },
     "d120": {
-      "record_count": 84,
+      "record_count": 85,
       "trading_day_count": 22,
       "candidate_count": 164,
       "by_ev_bucket": {
@@ -2019,8 +2019,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 15,
-          "weighted_count": 12.25,
+          "count": 14,
+          "weighted_count": 11.25,
           "h1": {
             "n": 14,
             "weighted_n": 11.25,
@@ -2056,8 +2056,8 @@
           "sample_ok": false
         },
         "<0.12": {
-          "count": 1,
-          "weighted_count": 0.84,
+          "count": 2,
+          "weighted_count": 1.84,
           "h1": {
             "n": 1,
             "weighted_n": 0.84,
@@ -2395,8 +2395,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 52,
-          "weighted_count": 44.33,
+          "count": 51,
+          "weighted_count": 43.33,
           "h1": {
             "n": 50,
             "weighted_n": 42.33,
@@ -2619,7 +2619,7 @@
       }
     },
     "d250": {
-      "record_count": 84,
+      "record_count": 85,
       "trading_day_count": 22,
       "candidate_count": 164,
       "by_ev_bucket": {
@@ -2698,8 +2698,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 15,
-          "weighted_count": 12.25,
+          "count": 14,
+          "weighted_count": 11.25,
           "h1": {
             "n": 14,
             "weighted_n": 11.25,
@@ -2735,8 +2735,8 @@
           "sample_ok": false
         },
         "<0.12": {
-          "count": 1,
-          "weighted_count": 0.84,
+          "count": 2,
+          "weighted_count": 1.84,
           "h1": {
             "n": 1,
             "weighted_n": 0.84,
@@ -3074,8 +3074,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 52,
-          "weighted_count": 44.33,
+          "count": 51,
+          "weighted_count": 43.33,
           "h1": {
             "n": 50,
             "weighted_n": 42.33,
