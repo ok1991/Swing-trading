@@ -1,5 +1,5 @@
 {
-  "record_count": 90,
+  "record_count": 91,
   "trading_day_count": 23,
   "candidate_count": 170,
   "by_ev_bucket": {
@@ -454,8 +454,8 @@
       "sample_ok": true
     },
     "止损距低于健康门槛3.0%": {
-      "count": 55,
-      "weighted_count": 55.0,
+      "count": 57,
+      "weighted_count": 57.0,
       "h1": {
         "n": 51,
         "weighted_n": 51.0,
@@ -676,7 +676,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-07-06 13:45:19",
+  "generated_at": "2026-07-06 14:57:31",
   "as_of_date": "2026-07-06",
   "schema_version": 2,
   "review_horizons": [
@@ -693,7 +693,7 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 74,
+      "record_count": 75,
       "trading_day_count": 19,
       "candidate_count": 139,
       "by_ev_bucket": {
@@ -1037,8 +1037,8 @@
           "sample_ok": false
         },
         "止损距低于健康门槛3.0%": {
-          "count": 47,
-          "weighted_count": 40.83,
+          "count": 49,
+          "weighted_count": 42.83,
           "h1": {
             "n": 43,
             "weighted_n": 36.83,
@@ -1261,7 +1261,7 @@
       }
     },
     "d60": {
-      "record_count": 90,
+      "record_count": 91,
       "trading_day_count": 23,
       "candidate_count": 170,
       "by_ev_bucket": {
@@ -1716,8 +1716,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 55,
-          "weighted_count": 46.73,
+          "count": 57,
+          "weighted_count": 48.73,
           "h1": {
             "n": 51,
             "weighted_n": 42.73,
@@ -1940,7 +1940,7 @@
       }
     },
     "d120": {
-      "record_count": 90,
+      "record_count": 91,
       "trading_day_count": 23,
       "candidate_count": 170,
       "by_ev_bucket": {
@@ -2395,8 +2395,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 55,
-          "weighted_count": 46.73,
+          "count": 57,
+          "weighted_count": 48.73,
           "h1": {
             "n": 51,
             "weighted_n": 42.73,
@@ -2619,7 +2619,7 @@
       }
     },
     "d250": {
-      "record_count": 90,
+      "record_count": 91,
       "trading_day_count": 23,
       "candidate_count": 170,
       "by_ev_bucket": {
@@ -3074,8 +3074,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 55,
-          "weighted_count": 46.73,
+          "count": 57,
+          "weighted_count": 48.73,
           "h1": {
             "n": 51,
             "weighted_n": 42.73,
