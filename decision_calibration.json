@@ -1,11 +1,11 @@
 {
-  "record_count": 98,
+  "record_count": 99,
   "trading_day_count": 25,
   "candidate_count": 180,
   "by_ev_bucket": {
     "0.40~0.80": {
-      "count": 59,
-      "weighted_count": 59.0,
+      "count": 60,
+      "weighted_count": 60.0,
       "h1": {
         "n": 57,
         "weighted_n": 57.0,
@@ -78,8 +78,8 @@
       "sample_ok": true
     },
     "0.12~0.40": {
-      "count": 15,
-      "weighted_count": 15.0,
+      "count": 14,
+      "weighted_count": 14.0,
       "h1": {
         "n": 14,
         "weighted_n": 14.0,
@@ -676,7 +676,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-07-08 13:45:19",
+  "generated_at": "2026-07-08 14:57:21",
   "as_of_date": "2026-07-08",
   "schema_version": 2,
   "review_horizons": [
@@ -693,7 +693,7 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 75,
+      "record_count": 76,
       "trading_day_count": 19,
       "candidate_count": 135,
       "by_ev_bucket": {
@@ -735,8 +735,8 @@
           "sample_ok": true
         },
         "0.40~0.80": {
-          "count": 42,
-          "weighted_count": 36.26,
+          "count": 43,
+          "weighted_count": 37.26,
           "h1": {
             "n": 40,
             "weighted_n": 34.26,
@@ -772,8 +772,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 7,
-          "weighted_count": 5.96,
+          "count": 6,
+          "weighted_count": 4.96,
           "h1": {
             "n": 6,
             "weighted_n": 4.96,
@@ -1261,13 +1261,13 @@
       }
     },
     "d60": {
-      "record_count": 98,
+      "record_count": 99,
       "trading_day_count": 25,
       "candidate_count": 180,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 59,
-          "weighted_count": 48.54,
+          "count": 60,
+          "weighted_count": 49.54,
           "h1": {
             "n": 57,
             "weighted_n": 46.54,
@@ -1340,8 +1340,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 15,
-          "weighted_count": 11.8,
+          "count": 14,
+          "weighted_count": 10.8,
           "h1": {
             "n": 14,
             "weighted_n": 10.8,
@@ -1940,13 +1940,13 @@
       }
     },
     "d120": {
-      "record_count": 98,
+      "record_count": 99,
       "trading_day_count": 25,
       "candidate_count": 180,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 59,
-          "weighted_count": 48.54,
+          "count": 60,
+          "weighted_count": 49.54,
           "h1": {
             "n": 57,
             "weighted_n": 46.54,
@@ -2019,8 +2019,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 15,
-          "weighted_count": 11.8,
+          "count": 14,
+          "weighted_count": 10.8,
           "h1": {
             "n": 14,
             "weighted_n": 10.8,
@@ -2619,13 +2619,13 @@
       }
     },
     "d250": {
-      "record_count": 98,
+      "record_count": 99,
       "trading_day_count": 25,
       "candidate_count": 180,
       "by_ev_bucket": {
         "0.40~0.80": {
-          "count": 59,
-          "weighted_count": 48.54,
+          "count": 60,
+          "weighted_count": 49.54,
           "h1": {
             "n": 57,
             "weighted_n": 46.54,
@@ -2698,8 +2698,8 @@
           "sample_ok": true
         },
         "0.12~0.40": {
-          "count": 15,
-          "weighted_count": 11.8,
+          "count": 14,
+          "weighted_count": 10.8,
           "h1": {
             "n": 14,
             "weighted_n": 10.8,
