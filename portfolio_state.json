@@ -562,13 +562,8 @@
   "consecutive_stop_losses": 0,
   "peak_capital": 10883.370594999999,
   "pause_until": null,
-  "last_update": "2026-07-09 14:57:21",
+  "last_update": "2026-07-10 09:45:24",
   "breadth_history": [
-    {
-      "date": "2026-06-26",
-      "bull_pct": 27.8,
-      "breadth_ewma": 27.8
-    },
     {
       "date": "2026-06-29",
       "bull_pct": 25.0,
@@ -613,10 +608,15 @@
       "date": "2026-07-09",
       "bull_pct": 16.7,
       "breadth_ewma": 18.28
+    },
+    {
+      "date": "2026-07-10",
+      "bull_pct": 16.7,
+      "breadth_ewma": 17.57
     }
   ],
   "stale_signal_count": 0,
-  "extreme_market_count": 3,
-  "last_extreme_date": "2026-07-09",
+  "extreme_market_count": 4,
+  "last_extreme_date": "2026-07-10",
   "max_drawdown": -0.04484669576759893
 }
