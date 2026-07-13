@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "mode": "shadow_v3",
+  "updated_at": "2026-07-13 13:45:21",
+  "reason": "SHADOW_ACCEPTANCE_PENDING",
+  "metrics": {
+    "promote": false,
+    "trading_days": 17,
+    "candidate_count": 103,
+    "ready_count": 0,
+    "baseline_early_stop_rate": 0.0,
+    "ready_early_stop_rate": 0.0,
+    "early_stop_reduction": 0.0,
+    "baseline_return_10d_pct": -1.6728,
+    "ready_return_10d_pct": 0.0
+  }
+}
