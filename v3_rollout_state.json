@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
   "mode": "shadow_v3",
-  "updated_at": "2026-07-14 14:57:24",
+  "updated_at": "2026-07-15 09:45:23",
   "reason": "SHADOW_ACCEPTANCE_PENDING",
   "metrics": {
     "promote": false,
-    "trading_days": 18,
-    "candidate_count": 108,
+    "trading_days": 19,
+    "candidate_count": 114,
     "ready_count": 0,
     "baseline_early_stop_rate": 0.0,
     "ready_early_stop_rate": 0.0,
     "early_stop_reduction": 0.0,
-    "baseline_return_10d_pct": -2.4393,
+    "baseline_return_10d_pct": -2.9722,
     "ready_return_10d_pct": 0.0
   }
 }
