@@ -1,5 +1,5 @@
 {
-  "record_count": 121,
+  "record_count": 122,
   "trading_day_count": 31,
   "candidate_count": 210,
   "by_ev_bucket": {
@@ -454,8 +454,8 @@
       "sample_ok": true
     },
     "止损距低于健康门槛3.0%": {
-      "count": 74,
-      "weighted_count": 74.0,
+      "count": 77,
+      "weighted_count": 77.0,
       "h1": {
         "n": 64,
         "weighted_n": 64.0,
@@ -676,8 +676,8 @@
       "sample_ok": false
     },
     "v2入场时机弱": {
-      "count": 19,
-      "weighted_count": 19.0,
+      "count": 20,
+      "weighted_count": 20.0,
       "h1": {
         "n": 16,
         "weighted_n": 16.0,
@@ -694,7 +694,7 @@
         "weighted_avg_return_pct": -5.16,
         "weighted_positive_rate": 0.143
       },
-      "sample_ok": false
+      "sample_ok": true
     },
     "v2风险执行弱": {
       "count": 13,
@@ -838,8 +838,8 @@
       "sample_ok": true
     },
     "NORMAL": {
-      "count": 23,
-      "weighted_count": 23.0,
+      "count": 24,
+      "weighted_count": 24.0,
       "h1": {
         "n": 19,
         "weighted_n": 19.0,
@@ -859,8 +859,8 @@
       "sample_ok": true
     },
     "BREAKOUT": {
-      "count": 2,
-      "weighted_count": 2.0,
+      "count": 1,
+      "weighted_count": 1.0,
       "sample_ok": false
     }
   },
@@ -1039,8 +1039,8 @@
       "sample_ok": true
     },
     "<50": {
-      "count": 19,
-      "weighted_count": 19.0,
+      "count": 20,
+      "weighted_count": 20.0,
       "h1": {
         "n": 16,
         "weighted_n": 16.0,
@@ -1057,7 +1057,7 @@
         "weighted_avg_return_pct": -5.16,
         "weighted_positive_rate": 0.143
       },
-      "sample_ok": false
+      "sample_ok": true
     },
     "<60": {
       "count": 3,
@@ -1100,14 +1100,9 @@
         "weighted_positive_rate": 1.0
       },
       "sample_ok": false
-    },
-    "75~90": {
-      "count": 1,
-      "weighted_count": 1.0,
-      "sample_ok": false
     }
   },
-  "generated_at": "2026-07-16 10:35:21",
+  "generated_at": "2026-07-16 13:45:22",
   "as_of_date": "2026-07-16",
   "schema_version": 2,
   "review_horizons": [
@@ -1124,7 +1119,7 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 74,
+      "record_count": 75,
       "trading_day_count": 19,
       "candidate_count": 113,
       "by_ev_bucket": {
@@ -1534,8 +1529,8 @@
           "sample_ok": false
         },
         "止损距低于健康门槛3.0%": {
-          "count": 44,
-          "weighted_count": 39.07,
+          "count": 47,
+          "weighted_count": 42.07,
           "h1": {
             "n": 39,
             "weighted_n": 34.5,
@@ -1682,8 +1677,8 @@
           "sample_ok": false
         },
         "v2入场时机弱": {
-          "count": 19,
-          "weighted_count": 18.48,
+          "count": 20,
+          "weighted_count": 19.48,
           "h1": {
             "n": 16,
             "weighted_n": 15.48,
@@ -1700,7 +1695,7 @@
             "weighted_avg_return_pct": -5.16,
             "weighted_positive_rate": 0.144
           },
-          "sample_ok": false
+          "sample_ok": true
         },
         "v2风险执行弱": {
           "count": 13,
@@ -1844,8 +1839,8 @@
           "sample_ok": true
         },
         "NORMAL": {
-          "count": 23,
-          "weighted_count": 22.35,
+          "count": 24,
+          "weighted_count": 23.35,
           "h1": {
             "n": 19,
             "weighted_n": 18.35,
@@ -1865,8 +1860,8 @@
           "sample_ok": true
         },
         "BREAKOUT": {
-          "count": 2,
-          "weighted_count": 2.0,
+          "count": 1,
+          "weighted_count": 1.0,
           "sample_ok": false
         }
       },
@@ -2045,8 +2040,8 @@
           "sample_ok": true
         },
         "<50": {
-          "count": 19,
-          "weighted_count": 18.48,
+          "count": 20,
+          "weighted_count": 19.48,
           "h1": {
             "n": 16,
             "weighted_n": 15.48,
@@ -2063,7 +2058,7 @@
             "weighted_avg_return_pct": -5.16,
             "weighted_positive_rate": 0.144
           },
-          "sample_ok": false
+          "sample_ok": true
         },
         "<60": {
           "count": 3,
@@ -2105,17 +2100,12 @@
             "weighted_avg_return_pct": 0.95,
             "weighted_positive_rate": 1.0
           },
-          "sample_ok": false
-        },
-        "75~90": {
-          "count": 1,
-          "weighted_count": 1.0,
           "sample_ok": false
         }
       }
     },
     "d60": {
-      "record_count": 121,
+      "record_count": 122,
       "trading_day_count": 31,
       "candidate_count": 210,
       "by_ev_bucket": {
@@ -2570,8 +2560,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 74,
-          "weighted_count": 59.81,
+          "count": 77,
+          "weighted_count": 62.81,
           "h1": {
             "n": 64,
             "weighted_n": 51.82,
@@ -2792,8 +2782,8 @@
           "sample_ok": false
         },
         "v2入场时机弱": {
-          "count": 19,
-          "weighted_count": 18.48,
+          "count": 20,
+          "weighted_count": 19.48,
           "h1": {
             "n": 16,
             "weighted_n": 15.48,
@@ -2810,7 +2800,7 @@
             "weighted_avg_return_pct": -5.16,
             "weighted_positive_rate": 0.144
           },
-          "sample_ok": false
+          "sample_ok": true
         },
         "v2风险执行弱": {
           "count": 13,
@@ -2954,8 +2944,8 @@
           "sample_ok": true
         },
         "NORMAL": {
-          "count": 23,
-          "weighted_count": 22.35,
+          "count": 24,
+          "weighted_count": 23.35,
           "h1": {
             "n": 19,
             "weighted_n": 18.35,
@@ -2975,8 +2965,8 @@
           "sample_ok": true
         },
         "BREAKOUT": {
-          "count": 2,
-          "weighted_count": 2.0,
+          "count": 1,
+          "weighted_count": 1.0,
           "sample_ok": false
         }
       },
@@ -3155,8 +3145,8 @@
           "sample_ok": true
         },
         "<50": {
-          "count": 19,
-          "weighted_count": 18.48,
+          "count": 20,
+          "weighted_count": 19.48,
           "h1": {
             "n": 16,
             "weighted_n": 15.48,
@@ -3173,7 +3163,7 @@
             "weighted_avg_return_pct": -5.16,
             "weighted_positive_rate": 0.144
           },
-          "sample_ok": false
+          "sample_ok": true
         },
         "<60": {
           "count": 3,
@@ -3215,17 +3205,12 @@
             "weighted_avg_return_pct": 0.95,
             "weighted_positive_rate": 1.0
           },
-          "sample_ok": false
-        },
-        "75~90": {
-          "count": 1,
-          "weighted_count": 1.0,
           "sample_ok": false
         }
       }
     },
     "d120": {
-      "record_count": 121,
+      "record_count": 122,
       "trading_day_count": 31,
       "candidate_count": 210,
       "by_ev_bucket": {
@@ -3680,8 +3665,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 74,
-          "weighted_count": 59.81,
+          "count": 77,
+          "weighted_count": 62.81,
           "h1": {
             "n": 64,
             "weighted_n": 51.82,
@@ -3902,8 +3887,8 @@
           "sample_ok": false
         },
         "v2入场时机弱": {
-          "count": 19,
-          "weighted_count": 18.48,
+          "count": 20,
+          "weighted_count": 19.48,
           "h1": {
             "n": 16,
             "weighted_n": 15.48,
@@ -3920,7 +3905,7 @@
             "weighted_avg_return_pct": -5.16,
             "weighted_positive_rate": 0.144
           },
-          "sample_ok": false
+          "sample_ok": true
         },
         "v2风险执行弱": {
           "count": 13,
@@ -4064,8 +4049,8 @@
           "sample_ok": true
         },
         "NORMAL": {
-          "count": 23,
-          "weighted_count": 22.35,
+          "count": 24,
+          "weighted_count": 23.35,
           "h1": {
             "n": 19,
             "weighted_n": 18.35,
@@ -4085,8 +4070,8 @@
           "sample_ok": true
         },
         "BREAKOUT": {
-          "count": 2,
-          "weighted_count": 2.0,
+          "count": 1,
+          "weighted_count": 1.0,
           "sample_ok": false
         }
       },
@@ -4265,8 +4250,8 @@
           "sample_ok": true
         },
         "<50": {
-          "count": 19,
-          "weighted_count": 18.48,
+          "count": 20,
+          "weighted_count": 19.48,
           "h1": {
             "n": 16,
             "weighted_n": 15.48,
@@ -4283,7 +4268,7 @@
             "weighted_avg_return_pct": -5.16,
             "weighted_positive_rate": 0.144
           },
-          "sample_ok": false
+          "sample_ok": true
         },
         "<60": {
           "count": 3,
@@ -4325,17 +4310,12 @@
             "weighted_avg_return_pct": 0.95,
             "weighted_positive_rate": 1.0
           },
-          "sample_ok": false
-        },
-        "75~90": {
-          "count": 1,
-          "weighted_count": 1.0,
           "sample_ok": false
         }
       }
     },
     "d250": {
-      "record_count": 121,
+      "record_count": 122,
       "trading_day_count": 31,
       "candidate_count": 210,
       "by_ev_bucket": {
@@ -4790,8 +4770,8 @@
           "sample_ok": true
         },
         "止损距低于健康门槛3.0%": {
-          "count": 74,
-          "weighted_count": 59.81,
+          "count": 77,
+          "weighted_count": 62.81,
           "h1": {
             "n": 64,
             "weighted_n": 51.82,
@@ -5012,8 +4992,8 @@
           "sample_ok": false
         },
         "v2入场时机弱": {
-          "count": 19,
-          "weighted_count": 18.48,
+          "count": 20,
+          "weighted_count": 19.48,
           "h1": {
             "n": 16,
             "weighted_n": 15.48,
@@ -5030,7 +5010,7 @@
             "weighted_avg_return_pct": -5.16,
             "weighted_positive_rate": 0.144
           },
-          "sample_ok": false
+          "sample_ok": true
         },
         "v2风险执行弱": {
           "count": 13,
@@ -5174,8 +5154,8 @@
           "sample_ok": true
         },
         "NORMAL": {
-          "count": 23,
-          "weighted_count": 22.35,
+          "count": 24,
+          "weighted_count": 23.35,
           "h1": {
             "n": 19,
             "weighted_n": 18.35,
@@ -5195,8 +5175,8 @@
           "sample_ok": true
         },
         "BREAKOUT": {
-          "count": 2,
-          "weighted_count": 2.0,
+          "count": 1,
+          "weighted_count": 1.0,
           "sample_ok": false
         }
       },
@@ -5375,8 +5355,8 @@
           "sample_ok": true
         },
         "<50": {
-          "count": 19,
-          "weighted_count": 18.48,
+          "count": 20,
+          "weighted_count": 19.48,
           "h1": {
             "n": 16,
             "weighted_n": 15.48,
@@ -5393,7 +5373,7 @@
             "weighted_avg_return_pct": -5.16,
             "weighted_positive_rate": 0.144
           },
-          "sample_ok": false
+          "sample_ok": true
         },
         "<60": {
           "count": 3,
@@ -5435,11 +5415,6 @@
             "weighted_avg_return_pct": 0.95,
             "weighted_positive_rate": 1.0
           },
-          "sample_ok": false
-        },
-        "75~90": {
-          "count": 1,
-          "weighted_count": 1.0,
           "sample_ok": false
         }
       }
