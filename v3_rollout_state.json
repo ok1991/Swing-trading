@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mode": "shadow_v3",
-  "updated_at": "2026-07-17 13:45:20",
+  "updated_at": "2026-07-17 14:57:21",
   "reason": "CALIBRATION_NOT_APPROVED",
   "calibration": {
     "approved": false,

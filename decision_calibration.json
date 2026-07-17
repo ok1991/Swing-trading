@@ -1,5 +1,5 @@
 {
-  "record_count": 126,
+  "record_count": 127,
   "trading_day_count": 32,
   "candidate_count": 216,
   "by_ev_bucket": {
@@ -1200,7 +1200,7 @@
       "sample_ok": false
     }
   },
-  "generated_at": "2026-07-17 13:45:20",
+  "generated_at": "2026-07-17 14:57:21",
   "as_of_date": "2026-07-17",
   "schema_version": 2,
   "review_horizons": [
@@ -1217,7 +1217,7 @@
   },
   "rolling_windows": {
     "d20": {
-      "record_count": 75,
+      "record_count": 76,
       "trading_day_count": 19,
       "candidate_count": 111,
       "by_ev_bucket": {
@@ -2309,7 +2309,7 @@
       }
     },
     "d60": {
-      "record_count": 126,
+      "record_count": 127,
       "trading_day_count": 32,
       "candidate_count": 216,
       "by_ev_bucket": {
@@ -3512,7 +3512,7 @@
       }
     },
     "d120": {
-      "record_count": 126,
+      "record_count": 127,
       "trading_day_count": 32,
       "candidate_count": 216,
       "by_ev_bucket": {
@@ -4715,7 +4715,7 @@
       }
     },
     "d250": {
-      "record_count": 126,
+      "record_count": 127,
       "trading_day_count": 32,
       "candidate_count": 216,
       "by_ev_bucket": {
