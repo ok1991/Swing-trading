@@ -6,7 +6,7 @@ main{max-width:1180px;margin:auto;padding:28px}h1,h2,h3{margin-top:0}.hero{paddi
 .grid{display:grid;gap:16px;grid-template-columns:repeat(4,1fr)}.grid.two{grid-template-columns:1fr 1fr}.metric,.card{background:#101d2d;border:1px solid #23364c;border-radius:16px;padding:20px;margin-top:18px}
 .metric strong{display:block;font-size:28px;margin-top:8px}table{width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid #26384d;text-align:left}code{color:#62d9ca}ul{line-height:1.8}@media(max-width:760px){.grid,.grid.two{grid-template-columns:1fr}}
 </style></head><body><main>
-<section class="hero"><h1>已验收行业ETF轮动执行引擎</h1><p>唯一策略：双袖套行业轮动 · 生成于 2026-07-20 09:45:04</p></section>
+<section class="hero"><h1>已验收行业ETF轮动执行引擎</h1><p>唯一策略：双袖套行业轮动 · 生成于 2026-07-23 10:38:02</p></section>
 <section class="grid">
 <div class="metric">总资产<strong>10,000.00</strong></div>
 <div class="metric">现金<strong>10,000.00</strong></div>
@@ -15,7 +15,7 @@ main{max-width:1180px;margin:auto;padding:28px}h1,h2,h3{margin-top:0}.hero{paddi
 </section>
 <section class="card"><h2>手续费口径</h2>
 <p>佣金：<strong>0.0150%</strong>（万1.5） · 最低佣金：<strong>0.00元</strong>（免5）</p>
-<p>模型版本：<code></code> · 目标数据： · 指定执行日：</p></section>
+<p>模型版本：<code>risk-control-cash-v4</code> · 目标数据：2026-07-22 · 指定执行日：2026-07-23</p></section>
 
         <section class="card"><h2>订单</h2><table><thead><tr>
         <th>方向</th><th>名称</th><th>代码</th><th>份额</th><th>价格</th>
@@ -33,25 +33,25 @@ main{max-width:1180px;margin:auto;padding:28px}h1,h2,h3{margin-top:0}.hero{paddi
         
 
         <section class="card"><h2>轮动目标来源</h2><div class="grid two"><div>
-        <p>来源：<strong>blocked</strong></p>
+        <p>来源：<strong>remote</strong></p>
         <p>地址：<code>https://etf.imlam.com/etf_rotation_latest.json</code></p>
-        <p>数据日期：</p>
-        <p>指定执行日：</p>
-        <p>模型：<code></code></p>
-        <p>执行状态：<strong>保持持仓</strong></p></div>
-        <div><h3>获取诊断</h3><ul><li>No module named &#x27;jsonschema&#x27;</li><li>No module named &#x27;jsonschema&#x27;</li></ul></div></div>
+        <p>数据日期：2026-07-22</p>
+        <p>指定执行日：2026-07-23</p>
+        <p>模型：<code>risk-control-cash-v4</code></p>
+        <p>执行状态：<strong>允许调仓</strong></p></div>
+        <div><h3>获取诊断</h3><ul><li>无</li></ul></div></div>
         <h3>新浪实时行情审计</h3>
-        <p>验证时间：<code>2026-07-20 09:45:04+0800</code> · 状态：<strong>已阻断</strong></p>
+        <p>验证时间：<code>2026-07-23 10:38:02+0800</code> · 状态：<strong>可执行</strong></p>
         <p>最大报价年龄：120秒 · 最大横截面时差：30秒</p>
-        <ul><li><code>QUOTE_DATE_MISMATCH:expected=,actual=2026-07-20</code></li><li><code>RUN_DATE_NOT_EXECUTION_DATE:run=2026-07-20,execution=</code></li><li><code>CLOCK_DATE_NOT_EXECUTION_DATE:clock=2026-07-20,execution=</code></li></ul>
-        <table><thead><tr><th>代码</th><th>报价日期</th><th>报价时间</th></tr></thead><tbody><tr><td>510300</td><td>2026-07-20</td><td>09:45:01</td></tr></tbody></table>
+        <ul><li>无</li></ul>
+        <table><thead><tr><th>代码</th><th>报价日期</th><th>报价时间</th></tr></thead><tbody><tr><td>510300</td><td>2026-07-23</td><td>10:38:00</td></tr></tbody></table>
         </section>
         
 
         <section class="card"><h2>执行诊断</h2>
         <p>模式：<strong>APPROVED_ROTATION_ONLY</strong></p>
         <p>需要调仓：<strong>否</strong></p>
-        <p>计划ID：<code>:c4201b35d6557336</code></p>
+        <p>计划ID：<code>risk-control-cash-v4:3c7c3df8afc11130</code></p>
         <ul><li><code>SOURCE_BLOCKED</code> 轮动目标不可用于调仓，保持现有持仓</li></ul></section>
         
 
