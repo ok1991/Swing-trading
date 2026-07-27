@@ -73,7 +73,7 @@
   @media(max-width:760px){.shell{width:min(100% - 16px,1440px);padding:12px 0 48px}.bridge{position:sticky;top:8px;z-index:20;grid-template-columns:1fr;gap:10px}.bridge-tabs{display:grid;grid-template-columns:1fr 1fr}.bridge-tab{justify-content:center}.hero,.metric-grid,.split-grid{grid-template-columns:1fr}.hero{padding:16px}.orb{display:none}.panel{padding:16px}.panel-head{display:block}} /* priority mobile scan */
   </style>
 </head>
-<body data-trust="distrust">
+<body data-trust="follow">
   <div class="shell">
     <nav class="bridge" aria-label="双端导航">
       <div class="bridge-brand">
@@ -92,16 +92,16 @@
         </a>
       </div>
       <div class="bridge-meta">
-        <i data-lucide="clock-3"></i><span>2026-07-27 08:51:52</span>
+        <i data-lucide="clock-3"></i><span>2026-07-27 09:45:04</span>
       </div>
     </nav>
 
-    <header class="hero decision-distrust">
+    <header class="hero decision-follow">
       <div>
         <p class="eyebrow">执行落地结论</p>
-        <div class="hero-kicker">不可信</div>
-        <h1>估值受阻</h1>
-        <p class="hero-summary">组合暂时不可估值，先核对行情与持仓状态。</p>
+        <div class="hero-kicker">可跟随</div>
+        <h1>执行链路就绪</h1>
+        <p class="hero-summary">生产目标与执行摘要已对齐，可继续核对订单、容量与持仓。</p>
         <div class="hero-reasons">
           <span class="chip"><i data-lucide="box"></i>风控现金保护 v4</span>
           <span class="chip"><i data-lucide="calendar-range"></i>数据 2026-07-24 · 执行 2026-07-27</span>
@@ -111,14 +111,14 @@
       <div class="orb">
         <div class="orb-core">
           <span>总资产</span>
-          <strong>不可估值</strong>
+          <strong>10,000.00</strong>
           <small>现金 10,000.00</small>
         </div>
       </div>
       <div class="metric-grid" style="grid-column:1/-1">
-        <article><span>总资产</span><strong>不可估值</strong></article>
+        <article><span>总资产</span><strong>10,000.00</strong></article>
         <article><span>现金</span><strong>10,000.00</strong></article>
-        <article><span>累计收益</span><strong>不可计算</strong></article>
+        <article><span>累计收益</span><strong>+0.00%</strong></article>
         <article><span>本次执行成本</span><strong>0.00</strong></article>
       </div>
     </header>
@@ -218,15 +218,15 @@
                 <p class="eyebrow">实时行情审计</p>
                 <h3>新浪实时行情审计</h3>
               </div>
-              <span class="chip bad"><i data-lucide="radio-tower"></i>已阻断</span>
+              <span class="chip ok"><i data-lucide="radio-tower"></i>可执行</span>
             </div>
-            <p>验证时间：<code>2026-07-27 08:51:52+0800</code></p>
+            <p>验证时间：<code>2026-07-27 09:45:04+0800</code></p>
             <p>最大报价年龄：120秒 · 最大横截面时差：30秒</p>
-            <ul class="reason-list"><li>报价日期不一致：expected=2026-07-27,actual=2026-07-24</li><li>报价不在交易时段：510300</li><li>当前时间不在交易时段：08:51:52</li><li>报价过期：510300</li></ul>
+            <ul class="reason-list"><li>无</li></ul>
             <div class="table-wrap">
               <table>
                 <thead><tr><th>代码</th><th>报价日期</th><th>报价时间</th></tr></thead>
-                <tbody><tr><td>510300</td><td>2026-07-24</td><td>15:34:59</td></tr></tbody>
+                <tbody><tr><td>510300</td><td>2026-07-27</td><td>09:45:00</td></tr></tbody>
               </table>
             </div>
           </div>
@@ -245,7 +245,7 @@
             <article><span>需要调仓</span><strong>否</strong></article>
             <article><span>计划 ID</span><strong class="mono">risk-control-cash-v4:3c7c3df8afc11130</strong></article>
           </div>
-          <ul class="reason-list"><li><strong>目标来源已被阻断，先不要按新目标加仓</strong> 轮动目标不可用于调仓，保持现有持仓</li><li><strong>估值已阻断</strong> 持仓缺少实时行情，资产与回撤不更新</li></ul>
+          <ul class="reason-list"><li><strong>目标来源已被阻断，先不要按新目标加仓</strong> 轮动目标不可用于调仓，保持现有持仓</li></ul>
         </section>
         
     
