@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>V4 执行端 · 落地结果</title>
+  <title>V4 执行端 · 投资者收益</title>
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
   <style>
   :root {
@@ -70,6 +70,27 @@
   .empty{color:var(--muted);line-height:1.7}
   code,.mono{color:#8fd8ff;font-family:Consolas,monospace}
   @media(max-width:1100px){.bridge,.hero,.metric-grid,.split-grid{grid-template-columns:1fr 1fr}.bridge{grid-template-columns:1fr}.bridge-meta{justify-content:flex-start}}
+  .performance-grid{grid-template-columns:repeat(3,1fr)}
+  .fold{border:0}
+  .fold > summary{list-style:none;cursor:pointer}
+  .fold > summary::-webkit-details-marker{display:none}
+  .fold-hint{color:var(--muted)}
+  .fold[open] .fold-hint{color:var(--accent);border-color:rgba(103,240,212,0.28)}
+  .chart-wrap{margin-top:16px;padding:12px;border:1px solid var(--line);border-radius:var(--radius);background:rgba(7,12,22,.45)}
+  .chart-wrap svg{width:100%;height:auto;display:block}
+  .chart-grid{stroke:rgba(140,170,210,.18);stroke-width:1}
+  .chart-zero{stroke:rgba(140,170,210,.28);stroke-dasharray:4 4;stroke-width:1}
+  .chart-line{stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+  .chart-line.strategy{stroke:var(--accent)}
+  .chart-line.benchmark{stroke:var(--accent-2);stroke-dasharray:6 4}
+  .chart-legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px;color:var(--muted);font-size:12px}
+  .legend.strategy{color:var(--accent)}
+  .legend.benchmark{color:var(--accent-2)}
+  .chart-empty{margin-top:16px;padding:18px;color:#d7e4f6;border:1px solid var(--line);border-radius:var(--radius);background:rgba(7,12,22,.45)}
+  .chart-empty strong{display:block;margin-bottom:8px;color:var(--warn)}
+  .chart-empty p{margin:0;color:var(--muted);line-height:1.7}
+  @media(max-width:1100px){.performance-grid{grid-template-columns:1fr 1fr}}
+  @media(max-width:760px){.performance-grid{grid-template-columns:1fr}}
   @media(max-width:760px){.shell{width:min(100% - 16px,1440px);padding:12px 0 48px}.bridge{position:sticky;top:8px;z-index:20;grid-template-columns:1fr;gap:10px}.bridge-tabs{display:grid;grid-template-columns:1fr 1fr}.bridge-tab{justify-content:center}.hero,.metric-grid,.split-grid{grid-template-columns:1fr}.hero{padding:16px}.orb{display:none}.panel{padding:16px}.panel-head{display:block}} /* priority mobile scan */
   </style>
 </head>
@@ -88,11 +109,11 @@
           <i data-lucide="cpu"></i><span>生产端 · 权威结论</span>
         </a>
         <a class="bridge-tab is-active" href="https://swing.imlam.com/">
-          <i data-lucide="zap"></i><span>执行端 · 落地结果</span>
+          <i data-lucide="zap"></i><span>执行端 · 投资者收益</span>
         </a>
       </div>
       <div class="bridge-meta">
-        <i data-lucide="clock-3"></i><span>2026-07-28 14:55:07</span>
+        <i data-lucide="clock-3"></i><span>2026-07-29 09:50:56</span>
       </div>
     </nav>
 
@@ -101,10 +122,10 @@
         <p class="eyebrow">执行落地结论</p>
         <div class="hero-kicker">可跟随</div>
         <h1>执行链路就绪</h1>
-        <p class="hero-summary">生产目标与执行摘要已对齐，可继续核对订单、容量与持仓。</p>
+        <p class="hero-summary">生产目标与执行摘要已对齐。下方优先展示投资者收益，运维细节默认折叠。</p>
         <div class="hero-reasons">
-          <span class="chip"><i data-lucide="box"></i>风控现金保护 v4</span>
-          <span class="chip"><i data-lucide="calendar-range"></i>数据 2026-07-27 · 执行 2026-07-28</span>
+          <span class="chip"><i data-lucide="box"></i>rotation-v2-20260726-887dfb45-3be697f4</span>
+          <span class="chip"><i data-lucide="calendar-range"></i>数据 2026-07-28 · 执行 2026-07-29</span>
           <span class="chip warn"><i data-lucide="badge-check"></i>验收未提供</span>
         </div>
       </div>
@@ -112,142 +133,18 @@
         <div class="orb-core">
           <span>总资产</span>
           <strong>10,000.00</strong>
-          <small>现金 10,000.00</small>
+          <small>现金 10,000.00 · 累计 +0.00%</small>
         </div>
       </div>
       <div class="metric-grid" style="grid-column:1/-1">
         <article><span>总资产</span><strong>10,000.00</strong></article>
         <article><span>现金</span><strong>10,000.00</strong></article>
         <article><span>累计收益</span><strong>+0.00%</strong></article>
-        <article><span>本次执行成本</span><strong>0.00</strong></article>
+        <article><span>说明</span><strong>见下方收益总览</strong></article>
       </div>
     </header>
 
-    
-        <section class="panel">
-          <div class="panel-head">
-            <div>
-              <p class="eyebrow">运行摘要</p>
-              <h2>执行端同步了什么</h2>
-            </div>
-            <div class="chip-row">
-              <span class="chip warn"><i data-lucide="badge-check"></i>未提供</span>
-              <span class="chip"><i data-lucide="wallet"></i>仅风控现金：否</span>
-            </div>
-          </div>
-          <div class="metric-grid two">
-            <article>
-              <span>模型</span>
-              <strong>风控现金保护 v4</strong>
-            </article>
-            <article>
-              <span>日期</span>
-              <strong>2026-07-27</strong>
-              <small>指定执行日 2026-07-28</small>
-            </article>
-          </div>
-        </section>
-        
-    
-        <section class="panel">
-          <div class="panel-head">
-            <div>
-              <p class="eyebrow">订单</p>
-              <h2>本轮交易动作</h2>
-            </div>
-          </div>
-          <div class="table-wrap">
-            <table>
-              <thead><tr>
-                <th>方向</th><th>名称</th><th>份额</th><th>价格</th>
-                <th>20日ADV</th><th>参与率</th><th>冲击bps</th><th>容量</th><th>剩余容量金额</th>
-                <th>全部执行成本</th><th>依据</th>
-              </tr></thead>
-              <tbody><tr><td colspan="11" class="empty">本轮无交易</td></tr></tbody>
-            </table>
-          </div>
-        </section>
-        
-    
-        <section class="panel">
-          <div class="panel-head">
-            <div>
-              <p class="eyebrow">容量</p>
-              <h2>实时容量审计</h2>
-            </div>
-          </div>
-          <div class="metric-grid two">
-            <article>
-              <span>已发布新增风险容量</span>
-              <strong>0</strong>
-              <small>本次请求 / 执行 0 / 0</small>
-            </article>
-            <article>
-              <span>剩余容量余量</span>
-              <strong>0</strong>
-              <small>未成交 0 · 利用率 0.00%</small>
-            </article>
-          </div>
-        </section>
-        
-    
-        <section class="panel">
-          <div class="panel-head">
-            <div>
-              <p class="eyebrow">目标来源</p>
-              <h2>轮动目标从哪来</h2>
-            </div>
-            <span class="chip"><i data-lucide="folder-input"></i>远程发布</span>
-          </div>
-          <div class="split-grid">
-            <div class="stack">
-              <p>地址：<code>https://etf.imlam.com/etf_rotation_latest.json</code></p>
-              <p>数据日期：2026-07-27</p>
-              <p>指定执行日：2026-07-28</p>
-              <p>模型：<strong>风控现金保护 v4</strong></p>
-              <p>执行状态：<strong>允许调仓</strong></p>
-            </div>
-            <div class="stack">
-              <h3>获取诊断</h3>
-              <ul class="reason-list"><li>无</li></ul>
-            </div>
-          </div>
-          <div class="subpanel">
-            <div class="panel-head compact">
-              <div>
-                <p class="eyebrow">实时行情审计</p>
-                <h3>新浪实时行情审计</h3>
-              </div>
-              <span class="chip ok"><i data-lucide="radio-tower"></i>可执行</span>
-            </div>
-            <p>验证时间：<code>2026-07-28 14:55:07+0800</code></p>
-            <p>最大报价年龄：120秒 · 最大横截面时差：30秒</p>
-            <ul class="reason-list"><li>无</li></ul>
-            <div class="table-wrap">
-              <table>
-                <thead><tr><th>代码</th><th>报价日期</th><th>报价时间</th></tr></thead>
-                <tbody><tr><td>510300</td><td>2026-07-28</td><td>14:55:05</td></tr></tbody>
-              </table>
-            </div>
-          </div>
-        </section>
-        
-    
-        <section class="panel">
-          <div class="panel-head">
-            <div>
-              <p class="eyebrow">执行诊断</p>
-              <h2>为什么这样落地</h2>
-            </div>
-            <span class="chip"><i data-lucide="route"></i>仅执行已验收轮动</span>
-          </div>
-          <div class="metric-grid two">
-            <article><span>需要调仓</span><strong>否</strong></article>
-            <article><span>计划 ID</span><strong class="mono">risk-control-cash-v4:3c7c3df8afc11130</strong></article>
-          </div>
-          <ul class="reason-list"><li><strong>目标来源已被阻断，先不要按新目标加仓</strong> 轮动目标不可用于调仓，保持现有持仓</li></ul>
-        </section>
-        
+    <section class="panel performance-panel"><div class="panel-head"><div><p class="eyebrow">收益总览</p><h2>投资者绩效</h2></div><div class="chip-row"><span class="chip"><i data-lucide="line-chart"></i>沪深300ETF(510300)</span><span class="chip"><i data-lucide="calendar-range"></i>绩效截至 2026-07-29</span><span class="chip warn"><i data-lucide="info"></i>样本过少</span></div></div><div class="metric-grid performance-grid"><article><span>累计收益</span><strong>+0.00%</strong><small>相对账户起点</small></article><article><span>最大收益</span><strong>+0.00%</strong><small>历史峰值累计收益</small></article><article><span>最大回撤</span><strong>+0.00%</strong><small>策略净值回撤</small></article><article><span>超额收益</span><strong>+0.11%</strong><small>相对沪深300ETF</small></article><article><span>盈亏比</span><strong>—</strong><small>总盈利 / 总亏损</small></article><article><span>胜率</span><strong>—</strong><small>暂无足够交易样本</small></article></div><div class="chart-empty"><strong>样本过少，暂不绘完整曲线</strong><p>当前仅有 2026-07-29 一个观测点：策略 +0.00%，沪深300ETF -0.11%。</p></div></section>
     
         <section class="panel">
           <div class="panel-head">
@@ -267,6 +164,107 @@
           </div>
         </section>
         
+    <section class="panel fold-panel"><details class="fold"><summary class="fold-summary"><div class="panel-head compact"><div><p class="eyebrow">运行摘要 · 默认折叠</p><h2>执行端同步了什么</h2></div><span class="chip fold-hint"><i data-lucide="chevrons-up-down"></i>展开 / 收起</span></div></summary><div class="panel-head">
+            <div>
+              <p class="eyebrow">运行摘要</p>
+              <h2>执行端同步了什么</h2>
+            </div>
+            <div class="chip-row">
+              <span class="chip warn"><i data-lucide="badge-check"></i>未提供</span>
+              <span class="chip"><i data-lucide="wallet"></i>仅风控现金：否</span>
+            </div>
+          </div>
+          <div class="metric-grid two">
+            <article>
+              <span>模型</span>
+              <strong>rotation-v2-20260726-887dfb45-3be697f4</strong>
+            </article>
+            <article>
+              <span>日期</span>
+              <strong>2026-07-28</strong>
+              <small>指定执行日 2026-07-29</small>
+            </article>
+          </div></details></section><section class="panel fold-panel"><details class="fold"><summary class="fold-summary"><div class="panel-head compact"><div><p class="eyebrow">订单 · 默认折叠</p><h2>本轮交易动作</h2></div><span class="chip fold-hint"><i data-lucide="chevrons-up-down"></i>展开 / 收起</span></div></summary><div class="panel-head">
+            <div>
+              <p class="eyebrow">订单</p>
+              <h2>本轮交易动作</h2>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr>
+                <th>方向</th><th>名称</th><th>份额</th><th>价格</th>
+                <th>20日ADV</th><th>参与率</th><th>冲击bps</th><th>容量</th><th>剩余容量金额</th>
+                <th>全部执行成本</th><th>依据</th>
+              </tr></thead>
+              <tbody><tr><td colspan="11" class="empty">本轮无交易</td></tr></tbody>
+            </table>
+          </div></details></section><section class="panel fold-panel"><details class="fold"><summary class="fold-summary"><div class="panel-head compact"><div><p class="eyebrow">容量 · 默认折叠</p><h2>实时容量审计</h2></div><span class="chip fold-hint"><i data-lucide="chevrons-up-down"></i>展开 / 收起</span></div></summary><div class="panel-head">
+            <div>
+              <p class="eyebrow">容量</p>
+              <h2>实时容量审计</h2>
+            </div>
+          </div>
+          <div class="metric-grid two">
+            <article>
+              <span>已发布新增风险容量</span>
+              <strong>7,896,850</strong>
+              <small>本次请求 / 执行 0 / 0</small>
+            </article>
+            <article>
+              <span>剩余容量余量</span>
+              <strong>7,896,850</strong>
+              <small>未成交 0 · 利用率 0.00%</small>
+            </article>
+          </div></details></section><section class="panel fold-panel"><details class="fold"><summary class="fold-summary"><div class="panel-head compact"><div><p class="eyebrow">目标来源 · 默认折叠</p><h2>轮动目标从哪来</h2></div><span class="chip fold-hint"><i data-lucide="chevrons-up-down"></i>展开 / 收起</span></div></summary><div class="panel-head">
+            <div>
+              <p class="eyebrow">目标来源</p>
+              <h2>轮动目标从哪来</h2>
+            </div>
+            <span class="chip"><i data-lucide="folder-input"></i>远程发布</span>
+          </div>
+          <div class="split-grid">
+            <div class="stack">
+              <p>地址：<code>https://etf.imlam.com/etf_rotation_latest.json</code></p>
+              <p>数据日期：2026-07-28</p>
+              <p>指定执行日：2026-07-29</p>
+              <p>模型：<strong>rotation-v2-20260726-887dfb45-3be697f4</strong></p>
+              <p>执行状态：<strong>允许调仓</strong></p>
+            </div>
+            <div class="stack">
+              <h3>获取诊断</h3>
+              <ul class="reason-list"><li>无</li></ul>
+            </div>
+          </div>
+          <div class="subpanel">
+            <div class="panel-head compact">
+              <div>
+                <p class="eyebrow">实时行情审计</p>
+                <h3>新浪实时行情审计</h3>
+              </div>
+              <span class="chip ok"><i data-lucide="radio-tower"></i>可执行</span>
+            </div>
+            <p>验证时间：<code>2026-07-29 09:50:56+0800</code></p>
+            <p>最大报价年龄：120秒 · 最大横截面时差：30秒</p>
+            <ul class="reason-list"><li>无</li></ul>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>代码</th><th>报价日期</th><th>报价时间</th></tr></thead>
+                <tbody><tr><td>159930</td><td>2026-07-29</td><td>09:50:54</td></tr><tr><td>510300</td><td>2026-07-29</td><td>09:50:54</td></tr><tr><td>512800</td><td>2026-07-29</td><td>09:50:54</td></tr><tr><td>588170</td><td>2026-07-29</td><td>09:50:53</td></tr></tbody>
+              </table>
+            </div>
+          </div></details></section><section class="panel fold-panel"><details class="fold"><summary class="fold-summary"><div class="panel-head compact"><div><p class="eyebrow">执行诊断 · 默认折叠</p><h2>为什么这样落地</h2></div><span class="chip fold-hint"><i data-lucide="chevrons-up-down"></i>展开 / 收起</span></div></summary><div class="panel-head">
+            <div>
+              <p class="eyebrow">执行诊断</p>
+              <h2>为什么这样落地</h2>
+            </div>
+            <span class="chip"><i data-lucide="route"></i>仅执行已验收轮动</span>
+          </div>
+          <div class="metric-grid two">
+            <article><span>需要调仓</span><strong>否</strong></article>
+            <article><span>计划 ID</span><strong class="mono">rotation-v2-20260726-887dfb45-3be697f4:ce0ce1a873b4658f</strong></article>
+          </div>
+          <ul class="reason-list"><li><strong>目标来源已被阻断，先不要按新目标加仓</strong> 轮动目标不可用于调仓，保持现有持仓</li></ul></details></section>
   </div>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
