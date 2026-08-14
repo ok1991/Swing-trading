@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-13T14:55:06+08:00",
+  "generated_at": "2026-08-14T09:45:04+08:00",
   "evidence_level": "NO_ORDERS",
   "broker_confirmed": false,
   "plan_id": "risk-control-cash-v4:3c7c3df8afc11130",
@@ -12,9 +12,9 @@
   "execution_policy_version": "",
   "acceptance_policy_version": "",
   "strategy_specification_fingerprint": "",
-  "data_date": "2026-08-12",
-  "execution_date": "2026-08-13",
-  "run_date": "2026-08-13",
+  "data_date": "2026-08-13",
+  "execution_date": "2026-08-14",
+  "run_date": "2026-08-14",
   "quote_tradeable": true,
   "state_write_allowed": true,
   "orders": [],
@@ -48,5 +48,5 @@
   "broker_fill_completion_status": "NOT_APPLICABLE",
   "state_reconciliation_applied": false,
   "state_reconciliation": {},
-  "feedback_id": "7b14f7b68981da66a7be32f1aa9f4325c937c8f7e5fd86091d7e40e5d55e770a"
+  "feedback_id": "b7698c6ece3829f90161942a10e21c3ac4c85890a61ae5a3e5d8ec5bb124d463"
 }
