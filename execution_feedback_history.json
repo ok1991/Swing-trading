@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T15:00:02+08:00",
-  "event_count": 5,
+  "generated_at": "2026-08-18T18:31:57+08:00",
+  "event_count": 6,
   "events": [
     {
       "schema_version": 1,
@@ -338,6 +338,59 @@
       "state_reconciliation_applied": false,
       "state_reconciliation": {},
       "feedback_id": "3eec3bcb1955ef87634c260f47f061e5b1c7980c5806b06d826bb48b8b513c3f"
+    },
+    {
+      "schema_version": 1,
+      "generated_at": "2026-08-18T18:31:57+08:00",
+      "evidence_level": "NO_ORDERS",
+      "broker_confirmed": false,
+      "plan_id": "risk-control-cash-v4:3c7c3df8afc11130",
+      "rebalance_required": false,
+      "decision_reason_codes": [
+        "SOURCE_BLOCKED",
+        "VALUATION_BLOCKED"
+      ],
+      "model_version": "risk-control-cash-v4",
+      "execution_policy_version": "",
+      "acceptance_policy_version": "",
+      "strategy_specification_fingerprint": "",
+      "data_date": "2026-08-18",
+      "execution_date": "2026-08-19",
+      "run_date": "2026-08-18",
+      "quote_tradeable": false,
+      "state_write_allowed": false,
+      "orders": [],
+      "estimated_execution_cost": 0.0,
+      "execution_cost_model": {
+        "commission_rate": 0.00015,
+        "minimum_commission": 0.0,
+        "exchange_handling_rate": 4e-05,
+        "bid_ask_half_spread_bps": 2.0,
+        "base_slippage_bps": 3.0,
+        "impact_bps_at_full_adv": 18.0,
+        "max_participation_rate": 0.1,
+        "lot_size": 100,
+        "transfer_fee_rate": 0.0,
+        "stamp_duty_sell_rate": 0.0
+      },
+      "capacity_summary": {
+        "published_new_risk_capacity_amount": 0,
+        "requested_new_risk_amount": 0,
+        "executed_new_risk_amount": 0,
+        "unfilled_new_risk_amount": 0,
+        "remaining_capacity_headroom_amount": 0,
+        "capacity_utilization_rate": 0.0,
+        "buy_fill_ratio": 1.0,
+        "capacity_truncation_count": 0
+      },
+      "unfilled_order_count": 0,
+      "rejection_reasons": [],
+      "broker_evidence_file_sha256": "",
+      "broker_evidence": {},
+      "broker_fill_completion_status": "NOT_APPLICABLE",
+      "state_reconciliation_applied": false,
+      "state_reconciliation": {},
+      "feedback_id": "efd2671de80994a892ebd9f00cf8c2a14de27ca6f06d616a20583df6c9cac362"
     }
   ]
 }
