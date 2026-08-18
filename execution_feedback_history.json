@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-18T13:22:26+08:00",
-  "event_count": 3,
+  "generated_at": "2026-08-18T14:55:04+08:00",
+  "event_count": 4,
   "events": [
     {
       "schema_version": 1,
@@ -233,6 +233,58 @@
       "state_reconciliation_applied": false,
       "state_reconciliation": {},
       "feedback_id": "2eefa2e46e65109c808c29d9998887e56fe33b6f789949fef9c7e923f1d5d69b"
+    },
+    {
+      "schema_version": 1,
+      "generated_at": "2026-08-18T14:55:04+08:00",
+      "evidence_level": "NO_ORDERS",
+      "broker_confirmed": false,
+      "plan_id": "rotation-v2-20260816-d3a2f7d5-3be697f4:1e6d03dfca10272e",
+      "rebalance_required": false,
+      "decision_reason_codes": [
+        "PLAN_AWAITING_BROKER_CONFIRMATION"
+      ],
+      "model_version": "rotation-v2-20260816-d3a2f7d5-3be697f4",
+      "execution_policy_version": "",
+      "acceptance_policy_version": "",
+      "strategy_specification_fingerprint": "",
+      "data_date": "2026-08-17",
+      "execution_date": "2026-08-18",
+      "run_date": "2026-08-18",
+      "quote_tradeable": true,
+      "state_write_allowed": true,
+      "orders": [],
+      "estimated_execution_cost": 0.0,
+      "execution_cost_model": {
+        "commission_rate": 0.00015,
+        "minimum_commission": 0.0,
+        "exchange_handling_rate": 4e-05,
+        "bid_ask_half_spread_bps": 2.0,
+        "base_slippage_bps": 3.0,
+        "impact_bps_at_full_adv": 18.0,
+        "max_participation_rate": 0.1,
+        "lot_size": 100,
+        "transfer_fee_rate": 0.0,
+        "stamp_duty_sell_rate": 0.0
+      },
+      "capacity_summary": {
+        "published_new_risk_capacity_amount": 1792379923.87,
+        "requested_new_risk_amount": 0,
+        "executed_new_risk_amount": 0,
+        "unfilled_new_risk_amount": 0,
+        "remaining_capacity_headroom_amount": 1792379923.87,
+        "capacity_utilization_rate": 0.0,
+        "buy_fill_ratio": 1.0,
+        "capacity_truncation_count": 0
+      },
+      "unfilled_order_count": 0,
+      "rejection_reasons": [],
+      "broker_evidence_file_sha256": "",
+      "broker_evidence": {},
+      "broker_fill_completion_status": "NOT_APPLICABLE",
+      "state_reconciliation_applied": false,
+      "state_reconciliation": {},
+      "feedback_id": "65a78c7274a12a326340d4f8be003b200f8f902712faa8ac1801f2bdebf4bb1c"
     }
   ]
 }
