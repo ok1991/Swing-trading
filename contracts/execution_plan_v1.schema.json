@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://imlam.com/contracts/execution_plan_v1.schema.json",
+  "title": "Immutable Swing Execution Plan V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "generated_at",
+    "plan_id",
+    "model_version",
+    "execution_date",
+    "order_count",
+    "payload_sha256",
+    "orders"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "generated_at": {"type": "string", "minLength": 10},
+    "plan_id": {"type": "string", "minLength": 1},
+    "model_version": {"type": "string", "minLength": 1},
+    "execution_date": {"type": "string", "minLength": 10},
+    "order_count": {"type": "integer", "minimum": 1},
+    "payload_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "orders": {"type": "object"}
+  }
+}

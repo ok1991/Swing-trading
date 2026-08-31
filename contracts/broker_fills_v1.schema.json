@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://imlam.com/contracts/broker_fills_v1.schema.json",
+  "title": "Broker Fills Evidence V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "broker_confirmed",
+    "broker",
+    "plan_id",
+    "execution_date",
+    "fills"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "broker_confirmed": {"const": true},
+    "broker": {"type": "string", "minLength": 1},
+    "account_reference_hash": {"type": "string"},
+    "exported_at": {"type": "string"},
+    "plan_id": {"type": "string", "minLength": 1},
+    "execution_date": {"type": "string", "minLength": 10},
+    "fills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "side",
+          "shares",
+          "price",
+          "commission",
+          "other_fees",
+          "trade_date"
+        ],
+        "properties": {
+          "code": {"type": "string", "minLength": 1},
+          "side": {"enum": ["BUY", "SELL"]},
+          "shares": {"type": "integer", "minimum": 1},
+          "price": {"type": "number", "exclusiveMinimum": 0},
+          "commission": {"type": "number", "minimum": 0},
+          "other_fees": {"type": "number", "minimum": 0},
+          "trade_date": {"type": "string", "minLength": 10}
+        }
+      }
+    },
+    "order_outcomes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["code", "side", "status", "filled_shares", "unfilled_shares"],
+        "properties": {
+          "code": {"type": "string", "minLength": 1},
+          "side": {"enum": ["BUY", "SELL"]},
+          "status": {"enum": ["FILLED", "PARTIALLY_FILLED", "UNFILLED"]},
+          "filled_shares": {"type": "integer", "minimum": 0},
+          "unfilled_shares": {"type": "integer", "minimum": 0}
+        }
+      }
+    }
+  }
+}
