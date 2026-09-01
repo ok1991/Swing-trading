@@ -280,7 +280,7 @@ class CliSafetyTests(unittest.TestCase):
         self.assertIn("REALTIME_QUOTES_DISABLED", orders["rotation_source"]["quotes"]["errors"])
         save.assert_not_called()
         publish.assert_not_called()
-        self.assertTrue(str(report.call_args.kwargs["output_path"]).endswith("reports\\dry_run.html"))
+        self.assertTrue(str(report.call_args.kwargs["output_path"]).replace("\\", "/").endswith("reports/dry_run.html"))
 
     def test_invalid_realtime_quotes_never_overwrite_state_or_update_drawdown(self):
         payload = rotation()
