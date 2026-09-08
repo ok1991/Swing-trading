@@ -1,22 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-07T14:55:04+08:00",
+  "generated_at": "2026-09-08T09:45:04+08:00",
   "evidence_level": "NO_ORDERS",
   "broker_confirmed": false,
-  "plan_id": "rotation-v2-20260821-bd76f481-3be697f4:a293c5320a2c130d",
+  "plan_id": "rotation-v2-20260821-bd76f481-3be697f4:a213b1c9ab49548e",
   "rebalance_required": false,
   "decision_reason_codes": [
-    "PRIOR_PLAN_AWAITING_BROKER_CONFIRMATION"
+    "SOURCE_BLOCKED",
+    "VALUATION_BLOCKED"
   ],
   "model_version": "rotation-v2-20260821-bd76f481-3be697f4",
   "execution_policy_version": "single-exposure-authority-v4",
   "acceptance_policy_version": "rolling-excess-stability-v1",
   "strategy_specification_fingerprint": "3be697f4bbd16f697e69bff186821b181bbb5937b560a5705d3cb3ab2f69979c",
-  "data_date": "2026-09-04",
-  "execution_date": "2026-09-07",
-  "run_date": "2026-09-07",
-  "quote_tradeable": true,
-  "state_write_allowed": true,
+  "data_date": "2026-09-07",
+  "execution_date": "2026-09-08",
+  "run_date": "2026-09-08",
+  "quote_tradeable": false,
+  "state_write_allowed": false,
   "orders": [],
   "estimated_execution_cost": 0.0,
   "execution_cost_model": {
@@ -32,11 +33,11 @@
     "stamp_duty_sell_rate": 0.0
   },
   "capacity_summary": {
-    "published_new_risk_capacity_amount": 6111558454.04,
+    "published_new_risk_capacity_amount": 1675446610.4,
     "requested_new_risk_amount": 0,
     "executed_new_risk_amount": 0,
     "unfilled_new_risk_amount": 0,
-    "remaining_capacity_headroom_amount": 6111558454.04,
+    "remaining_capacity_headroom_amount": 1675446610.4,
     "capacity_utilization_rate": 0.0,
     "buy_fill_ratio": 1.0,
     "capacity_truncation_count": 0
@@ -48,5 +49,5 @@
   "broker_fill_completion_status": "NOT_APPLICABLE",
   "state_reconciliation_applied": false,
   "state_reconciliation": {},
-  "feedback_id": "060eee4ed598613afa58d81d0d16da8a1846364f873ef4f8af64fa2c371fd32a"
+  "feedback_id": "987b4a2861f6243319a779b13e09a289541052eaf1f080dc7be7877f0ba6aaed"
 }
